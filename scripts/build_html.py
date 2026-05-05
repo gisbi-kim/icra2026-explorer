@@ -662,7 +662,7 @@ HTML = r"""<!doctype html>
 
     <section id="trends">
       <h2>Hot topics<span class="info-tip" data-tip="Each paper title is matched against 32 hand-curated regex patterns (keywords + their plurals / variants). The taxonomy is NOT learned from the data.&#10;&#10;Multi-label: a paper can match several topics simultaneously, so percentages can sum above 100%.">i</span></h2>
-      <div class="section-sub"><b>Auto-tagged</b> from paper titles only via 32 hand-curated regex patterns — a coarse view of the broad themes at the conference. Multi-label: a paper can match several topics, so percentages can sum above 100%. <b>~22% of papers (~641) match no topic at all</b> (niche subjects the taxonomy doesn't cover — e.g. formal methods, KAN, novel sensors). For granular and accurate tagging use the <a href="#kw-trends">author-declared keywords above</a>.</div>
+      <div class="section-sub"><b>Auto-tagged</b> from paper titles only via 32 hand-curated regex patterns — a coarse view of the broad themes at the conference. Multi-label: a paper can match several topics, so percentages can sum above 100%. ~22% of papers (~641) match no topic at all — partly niche subjects the taxonomy doesn't cover (e.g. formal methods, KAN, novel sensors), but also papers whose title phrasing the naive regex simply failed to catch. For granular and accurate tagging use the <a href="#kw-trends">author-declared keywords above</a>.</div>
       <div class="card" style="margin-top:8px"><div class="chart-box xtall"><canvas id="topicBar"></canvas></div></div>
     </section>
 
