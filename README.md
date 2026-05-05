@@ -1,10 +1,13 @@
 # ICRA 2026 Paper Explorer
 
+> 🌐 **Live demo:** <https://gisbi-kim.github.io/icra2026-explorer/>
+
 ICRA 2026 프로그램(2026-06-02 ~ 06-04, 2,964개 논문)을 파싱해서 단일 HTML 파일로
 탐색·필터링·시각화할 수 있게 만든 파이프라인입니다.
 
-최종 산출물은 [`output/icra2026_explorer.html`](output/icra2026_explorer.html) — JS/CSS/데이터까지 모두
-인라인된 self-contained 파일이므로 그냥 더블클릭해서 브라우저로 열면 됩니다.
+브라우저에서 바로 보기는 위 라이브 링크, 오프라인으로 보고 싶으면
+[`output/icra2026_explorer.html`](output/icra2026_explorer.html) — JS/CSS/데이터까지 전부
+인라인된 self-contained 파일이라 더블클릭해서 열면 됩니다.
 
 ## What's inside
 
