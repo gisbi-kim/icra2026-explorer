@@ -1,0 +1,539 @@
+1	Csic - Upc
+1	UCL
+1	Beijing Univeristy of Technology
+1	Chongqing Vocational Institute of Engineering,Big Data and Internet of Things School,Chongqing
+1	the Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ)
+1	the Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ), Shenzhen, 518107, China
+1	Technical University of Munich, TUM School of Medicine, Klinikum rechts der Isar
+1	Autodesk Research
+1	Autodesk Inc
+1	Seoul National University, Holiday Robotics
+1	State Key Laboratory of General Artificial Inteligence, Peking University, Shenzhen Graduate School
+1	Meiji University
+1	AGH University of Krakow
+1	Carnege Mellon University
+1	Osnabrück University
+1	Udeer
+1	Udeer AI
+1	Tu Delft
+1	Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI)
+1	Massachusettes Institute of Technology
+1	Bonn University
+1	University of California -- Berkeley
+1	Xdof.ai
+1	MBZUAI - Mohamed Bin Zayed University of AI
+1	Innopolis University
+1	Hong Kong University of Science and Technology(HKUST)
+1	DFKI GmbH
+1	NAVER LABS
+1	Toyota Research Institute; University of Southern California
+1	Beijing Academy of Agriculture and Forestry Sciences, Shanxi Agricultural University
+1	China Agriculture University
+1	Beijing Academy of Agriculture and Forestry Sciences
+1	Northwestern Polytechnical University; Shanghai Artificial Intelligence Laboratory
+1	China Telecom
+1	Prince of Wales Hospital
+1	Institut Pascal, UMR 6602 CNRS, Université Clermont Auvergne
+1	Centre Borelli, ENS Paris-Saclay, UMR 9010 CNRS, University Paris-Saclay
+1	Clermont-Ferrand University
+1	Institut Pascal - UMR 6602 CNRS
+1	Chongqing Changan Automobile CO., Ltd
+1	Diden Robotics Co., Ltd
+1	University of Illinois-Urbana Champaign
+1	Academy of Military Sciences
+1	State Key Laboratory of High Performance Computing (HPCL), School of Computer, National University of Defense Technology
+1	NestAI
+1	EIVA
+1	Peking Univesity
+1	HKUST Shanghai Center
+1	School of Advanced Studies Sant'Anna
+1	Fondazione Istituto Italiano Di Tecnologia
+1	JAKA Robotics Co., Ltd
+1	HKUST (Guangzhou)
+1	Orebro Universitet
+1	Nanyang Technological University, Singapore
+1	Robotics Research Center, IIIT Hyderabad, India
+1	Shanghai Qizhi Institute
+1	KAIST(Korea Advanced Institute of Science and Technology)
+1	AIT Austrian Institute of Technology GmbH - Tufts University
+1	Beijing Institute of Petrochemical Technology
+1	Nihon University
+1	HUST
+1	Huazhong university of science and technology
+1	Professor, School of Mechanical Scienceand Engineering,Huazhong University of Science &Technology,China
+1	NAVER LABS Corp
+1	Institute for AI Industry Research(AIR), Tsinghua University
+1	Fortiss GmbH
+1	BMW AG
+1	University of Siegen
+1	Fortiss
+1	Epfl
+1	Amazon Lab126
+1	Belmont University
+1	CIIRC, Czech Technical University in Prague
+1	Technology Innovation Institute
+1	Czech Technical University in Prague, CIIRC
+1	Czech Technical University
+1	The University Fo Manchester
+1	China University of Petroleum (East China)
+1	First Institute of Oceanography, Ministry of Natural Resources
+1	Universitat De Girona ESQ6750002E
+1	Hyundai Motors
+1	International Institute of Information Technology
+1	Sungkyunkwan, Mechanical Engineering, Robottory
+1	Ajou Unversity
+1	Miguel Hernández University
+1	Miguel Hernandez University
+1	Universidad Miguel Hernandez De Elche
+1	Unversity of Bologna
+1	China University of Geosciences Beijing
+1	Brigham and Women's Hospital
+1	Nanjing University of Aeronautics and Astronaut
+1	Shanghai Aerospace Electronic Technology Research Institute
+1	, Tianjin Hospital of ITCWM/Tianjin Nankai Hospital
+1	Fudan University & University of Turku
+1	Uni Bonn | Lamarr Institute
+1	The University of Tennessee
+1	Royal Institute of Technology
+1	Tokyo Women's Medical University
+1	The University of Tokyo Hospital
+1	KTH Royal Institute of Technology Stockholm, Traton, SCANIA CV AB
+1	KTH Royal Institute of Technology & Scania AB
+1	Scania
+1	Marshall University
+1	University of Sherbrooke
+1	Not Disclosed
+1	Draper Laboratory
+1	Beijing Key Laboratory of Metro Fire and Passenger Transportation Safety, China Academy of Safety Science and Technology
+1	Beijing Institute of Technology school
+1	Unity Embodied Intelligence Robotics Technology Co., Ltd.
+1	Nvidia Corp
+1	Eagleprojects S.p.A
+1	Kermanshah University of Medical Sciences, Kermanshah
+1	Kermanshah Univeristy of Medical Sciences
+1	Universität Freiburg
+1	Universität of Freiburg
+1	Freiburg University
+1	Univesità Degli Studi Della Campania "Luigi Vanvitelli"
+1	POSTECH (Pohang University of Science and Technology)
+1	University of Science and Technology (Korea Research Institute of Ships and Ocean Engineering)
+1	Korea Research Institute of Ships & Ocean Engineering
+1	KRISO (Korea Research Institute of Ships & Ocean Engineering)
+1	HEROLab (in Univ. POSTECH)
+1	POSTECH(Pohang University of Science and Technology)
+1	Hansung University
+1	Artificial Intelligence Research Institute IIIA-CSIC
+1	Electronics and Telecommunications Research Institute (ETRI)
+1	University of Science and Technology, Deajeon, Republic of Korea
+1	ENS, PSL University
+1	The Chinese University of Hongkong
+1	Mercedes-Benz AG, University of Stuttgart
+1	Daimler
+1	Loughborough University London
+1	Northwestern Univ
+1	Technion--Israel Institute of Technology
+1	Hexagon Robotics
+1	Noah's Ark Lab, Huawei Technologies Canada Inc
+1	CyberAgent, Inc
+1	Konica Minolta
+1	The University of Danang–University of Science and Technology
+1	Desay SV
+1	University of Science and Technology (UST)
+1	Korea Institute of Industrial Technology (KITECH)
+1	SUNGKYUNKWAN UNIVERSITY
+1	Korea Institute of Industrial Technology(KITECH)
+1	University of the Bundeswehr, München
+1	Bundeswehr University Munich
+1	Beijing Research Center of Intelligent Equipment for Agriculture
+1	Samsung Electronics Co., Ltd
+1	Korea Institute of Machinery & Materials (kimm)
+1	BIT
+1	Free University of Bozen Bolzano
+1	National Research Council
+1	University College London; the Hong Kong Polytechnic University
+1	THE HONG KONG UNIVERSITY OF SCIENCE AND TECHNOLOGY, HONG KONG CENTER FOR CONSTRUCTION ROBOTICS
+1	Hainan University
+1	School of Artificial Intelligence and Automation, Huazhong University of Science and Technology
+1	Peking Universitiy
+1	Hangzhou Dianzi University
+1	Skyfend
+1	Shanghai Li Auto Co., Ltd
+1	Univeristy of Zagreb, Faculty of Electrical Engineering and Computing
+1	University of Information Technology
+1	RMIT University
+1	Intelligent Autonomous Systems Group, Technical University Darmstadt
+1	Technische Universitaet Darmstadt
+1	Ben-Gurion University of the Negev
+1	Soutern University of Science and Technology
+1	Hohai University; Nanjing Institute of Software Technology; University of Chinese Academy of Sciences, Nanjing
+1	US. Army Research Laboratory
+1	US Army Research Laboratory
+1	Turku University of Applied Sciences
+1	Leonardo Labs
+1	Department of Neurosurgery, Kings College Hospital NHS Trust, London, UK
+1	Research Department of Surgical & Interventional Engineering, School of Biomedical Engineering & Imaging Sciences, King's Coll
+1	The University of Texas at Arlington
+1	University of California - Riverside
+1	HAL Robotics Ltd
+1	School of Software Engineering, Xi’an Jiaotong University
+1	Tencnet
+1	FH Technikum Wien
+1	UAS Technikum Wien, University of Natural Resources and Life Sciences Vienna
+1	Lulea Technical University
+1	University of Tuebingen
+1	TU Berlin, Robotics Institute Germany
+1	Queen's University at Kingston
+1	UC Davis
+1	University of North Florida
+1	Guangzhou Fuwei Intelligent Technology Co., Ltd
+1	ISIR, Sorbonne Université
+1	Institut Des Systèmes Intelligents Et De Robotique
+1	College of Integrated Circuits, Taiyuan University of Technology
+1	Peking Union Medical College Hospital
+1	AgiBot
+1	Agibot
+1	Bstar Robotics Co., Ltd
+1	AIR
+1	The Hong Kong University of Science and Technology (GuangZhou)
+1	The HongKong University of Science and Technology (Guangzhou)
+1	WuHan University
+1	Istituto Dalle Molle di Studi sull'Intelligenza Artificiale (IDSIA), USI-SUPSI
+1	Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau (RPTU)
+1	DFKI kaiserslautern
+1	DFKI Kaiserslautern
+1	University of Colorado Denver
+1	Kennesaw State University
+1	Birla Institute of Technology and Science Pilani, Hyderabad
+1	DiDi KargoBot
+1	Kargobot.AI
+1	Bridgewater Raritan High School
+1	INSA Centre Val De Loire - Univ. Orléans
+1	INSA-CVL, Univ. Orléans, PRISME, EA 4229, Bourges, France
+1	CY Cergy Paris University / Vrije Universiteit Brussel/Esiee-It
+1	CY Cergy Paris Université
+1	VUB
+1	CY Cergy Paris University
+1	The Ludwig Maximilian University of Munich
+1	Honda Research Institute (HRI)
+1	Indian Institute of Technology Roorkee
+1	KAIST, LG Electronics
+1	FZI - Forschungszentrum Informatik
+1	FZI Research Center for Information Technology, Karlsruhe Institute for Technology (KIT)
+1	Institute of Control Systems, Karlsruhe Institute of Technology
+1	The Unversity of Tokyo
+1	RIKEN
+1	Carnegie Mellon Univeristy
+1	Osaka Electro-Communication University
+1	Imam Mohammad Ibn Saud Islamic University, Durham University
+1	Durham University, King Saud University
+1	Marmara University
+1	King Mongkut’s University of Technology Thonburi
+1	Hangzhou Public Library
+1	Oakland University
+1	MIT, Woods Hole Oceanographic Institution
+1	California State University, Northridge
+1	‌University of Science and Technology Beijing
+1	SHANGHAITECH UNIVERSITY
+1	Kyutech, Space Robotics Laboratory
+1	Kyushu Institute of Technology, Space Robotics Laboratory
+1	Western University
+1	The University of Western Ontario
+1	ETH Zurich, Stanford
+1	Sun-Yat Sun University
+1	University of Colorado, Boulder
+1	Honda Research Institute Japan, Co., Ltd
+1	Xi’an Jiaotong University
+1	USC Viterbi School of Engineering
+1	Jinan University
+1	Skolkovo Institute of Science and Technology (Skoltech), Moscow, Russia
+1	Competence Industry Manufacturing 4.0 (CIM4.0)
+1	Nanyang Technology University
+1	UC San Diego (UCSD)
+1	Renmin Univeristy of China
+1	UCLouvain
+1	The Hong Kong University of Science and Technology (GZ)
+1	The Hong Kong University
+1	University of California at Santa Cruz
+1	Agency for Science Technology and Research
+1	I2R
+1	Universite De Technologie Belfort Montbeliard
+1	Université De Technologie De Belfort-Montbéliard
+1	Université De Technologie De Belfort Montbéliard
+1	University of Technology of Belfort-Montbeliard - France
+1	Ufa University of Science and Technology
+1	Beijing University of Posts and Telecommunications / Tsinghua University
+1	FPT Software AI Center
+1	University of Stuttgart, Max Planck Research School for Intelligent Systems
+1	Harbin Institute of Technology (Shen Zhen)
+1	Harbin Institute of Technology(Shen Zhen)
+1	University of Victoria
+1	The AI Institute
+1	IMT Atlantique
+1	Deeproute
+1	Georgia Institute of Technology, Amazon
+1	Seoul National University, Biorobotics Laboratory
+1	University of Würzburg
+1	Technische Hochschule Nürnberg Georg-Simon-Ohm
+1	University of Bonn & CARIAD SE
+1	Nuremberg Institute of Technology Georg Simon Ohm
+1	Julius-Maximilians-Universität Würzburg
+1	The University of Hong Kong (HKU)
+1	National Universtiy of Singapore
+1	XiaoMi
+1	Northeastern University - China
+1	Shenyang Institute of Automation, Chinese Academy OfSciences
+1	Johnson & Johnson
+1	The University of Leeds
+1	ISIR
+1	INESC TEC and Universidade Do Minho
+1	Utrecht University
+1	Universidad De León
+1	Lots Design
+1	Responsible Technology Institute, University of Oxford
+1	Ca’ Foscari University
+1	University of Bergen
+1	Fujian Agriculture and Forestry University
+1	Finger Vision Inc
+1	Kaohsiung Veterans General Hospital
+1	Playsure Technology Company
+1	Chinese Culture University
+1	Samsung Research
+1	Zhejiang University, Robotics Institute
+1	HNU University
+1	URobotics Corp
+1	Shantou University
+1	Hasselt University - Flanders Make - Digital Future Lab
+1	Hasselt Univeristy
+1	Cybernetics Laboratory (CynLr SA)
+1	CNRS-LIRMM
+1	Algoryx Simulation
+1	Eindhoven University of Technology - TU/e
+1	Shenzhen Institute of Advanced Technology, ChineseAcademyof Sciences
+1	Shenzhen University General Hospital
+1	DFKI GmbH Robotics Innovation Center
+1	Università Degli Studi Di Padova
+1	Università Di Padova
+1	Korea Univeristy
+1	Robotics Innovation Center, DFKI GmbH
+1	German Research Center for Artificial Intelligence - DFKI
+1	Ohio State University
+1	University of California: Berkeley
+1	Hefei Institutes of Physical Science, Chinese Academy of Sciences.
+1	Auburn University
+1	University OfTartu
+1	The Chinese Univeristy of Hong Kong, Shenzhen
+1	Korea Institute of Robotics & Technology Convergence (KIRO)
+1	Minnesota Robotics Institute (MnRI), University of Minnesota, Twin Cities
+1	Korea Military Academy
+1	Institute of Automation, Chinese Academy of Scienses
+1	Harbin Institute of Technology, Weihai
+1	Chinese Academy of Sciences University
+1	Alma Mater Studiorum Università Di Bologna
+1	San Raffaele University of Rome
+1	IIT - Fondazione Istituto Italiano Di Tecnologia
+1	Istituito Italiano Di Tecnologia
+1	Fondazione Istituto Italiano Di Tecnologia (IIT)
+1	University of Applied Sciences Karlsruhe
+1	Apple Inc
+1	Fraunhofer Institute for Production Systems and DesignTechnology (IPK)
+1	Fraunhofer IPK
+1	Simon fraser university
+1	Kyungpook National University, School of Electronics Engineering
+1	Instituto Tecnológico De Informática
+1	Fraunhofer Institute for Manufacturing Engineering and Automation
+1	Comenius University
+1	CINVESTAV
+1	Cinvestav
+1	Research Center for Advanced Studies (CINVESTAV)
+1	Chung-Ang Univ
+1	Beijing Academy of Artificial Intelligence，BAAI
+1	School of Computer Science and Technology, University of Xinjiang
+1	The Boston Dynamics AI Institute
+1	National University of Singapore, Shanghai Qi Zhi Institute
+1	TECHNION
+1	The National University of Singapore
+1	National Chung Hsing University
+1	Wuhan Union Hospital
+1	LIRMM University of Montpellier CNRS
+1	Montpellier University - CNRS UMR 5506
+1	University of Burgundy Europe
+1	Marie and Louis Pasteur University
+1	Saint Louis University
+1	Tongji University, Shanghai MicroPort MedBot
+1	Esslingen University
+1	School of Pedagogical and Technological Education
+1	Huazhong University of Scienceand Technology
+1	Huazhong University of Science AndTechnology
+1	Mcgill
+1	KBR, Inc.
+1	NASA Ames Research Center (KBR Inc.)
+1	Redwire Space
+1	NASA Ames Research Center (ARC)
+1	KBR Inc, NASA Ames
+1	Google Inc.
+1	Instituto Superior Técnico, Lisbon University
+1	Aerodyne Industries
+1	n/a
+1	Stinger Ghaffarian Technologies
+1	SGT, Inc.
+1	Sony AI
+1	Coventry University
+1	Sony Research Inc
+1	Concordia University
+1	Osaka University / Ozyegin University
+1	Institute of Spacecraft System Engineering
+1	School of Natural and Mathematical Sciences, King's College London, University of London
+1	UTS
+1	De La Salle University - Manila
+1	Mindanao State University - Iligan Insitute of Technology
+1	De La Salle University
+1	Universiti Tun Hussein Onn Malaysia
+1	University of Miyazaki
+1	Korean Institute of Medical Microrobotics
+1	Korea Institute of Medical Microrobotics
+1	Guangxi Normal University
+1	Korea Institute of Science and Technology, Korea University
+1	Asan Medical Center
+1	Waseda Univeristy
+1	Sony Group Corporation
+1	UK Centre for Ecology & Hydrology
+1	Maxon Motor Ag
+1	Huazhong University of Science and Technologe
+1	Huazhong University of Science & Technology
+1	Spatialtemporal AI, China
+1	NanJing University
+1	University of Electronic and Science Technology of China
+1	UC,Berkeley
+1	NCEPU
+1	Smart Innovation Norway
+1	Denmark Technical University (DTU)
+1	The Hong Kong University of Science and Technology in Guangzhou
+1	University of Innsbruck
+1	KBR Wyle Services, LLC
+1	The Chinese University of Hong Kong, Shenzhen, Shenzhen 518172, China
+1	Institute of Infocomm Research, A-Star
+1	UC, Berkeley
+1	SylphAI
+1	University of Chinese Academy of Sciences; Shenyang Institute of Automation, Chinese Academy of Sciences
+1	Shandong Jianzhu University
+1	Leibniz University Hannover, Institute of Cartography and Geoinformatics
+1	Gwangju Institution of Science and Technology
+1	Yantai University
+1	GoerTek Inc
+1	China University of Mining & Technology, Beijing
+1	OPPO AI Center
+1	OPPO
+1	Iscas
+1	Zhejiang Univerisity
+1	Beijing Soft Robot Tech Co., Ltd
+1	Kuban State University
+1	International School - Vietnam National University
+1	Actibot Intelligence
+1	Johns Hopkins Medical Institute
+1	The Johns Hopkins University
+1	University of Massachusetts, Amherst
+1	Singapore University of Social Sciences
+1	ABB Robotics LLC
+1	MOBINN
+1	Mobinn
+1	Kyushu Institure of Technology
+1	Sun Yat-sen University
+1	Centre for Artificial Intelligence and Robotics (CAIR) Hong Kong Institute of Science & Innovation Chinese Academy of Sciences
+1	Aumovio & TU Berlin
+1	FBK
+1	Guangdong Laboratory of Artificial Intelligence and Digital Economy(SZ)
+1	Qiyuan Laboratory
+1	Université Paris-Saclay, CEA, Leti
+1	SOKENDAI
+1	Shenzhen Research Institute of Big Data, The Chinese University of Hong Kong (Shenzhen)
+1	Czech Institute of Informatics, Robotics and Cybernetics, Czech Technical University in Prague
+1	CTU in Prague
+1	Politecnic University of Catalunia
+1	Institut De Ciencies Del Mar - CSIC
+1	Universidad Politecnica De Catalunya
+1	Chukyo University
+1	The Technological and Higher Education Institute of Hong Kong
+1	Université Paris-Saclay, CEA, List, F-91120, Palaiseau, France
+1	Université Paris-Saclay, CEA, LIST, F-91120 Palaiseau
+1	Southern University of Science and Technology, Spatialtemporal AI
+1	Dexmal
+1	Harbin Institute of Technology (shenzhen)
+1	Harbin Institue of Techonlogy
+1	Hyundai Motor Group
+1	Luleå Tekniska Universitet
+1	Harbin Institute of Harbin, Shenzhen
+1	Reichman University
+1	Agile Robots
+1	Carnegie Mellon
+1	University of Leicester
+1	IDSIA
+1	University D'Évry
+1	Paris Saclay
+1	IBISC Laboratory, University of Paris Saclay
+1	Paris-Saclay Universit -Evry University
+1	California State University San Marcos
+1	College of the Atlantic
+1	Gwangju Institute of Science and Technology(GIST)
+1	Gwangju Institutue of Science and Technology
+1	Beijing Tsingsribe Medical Co., Ltd
+1	Department of Priority Oral Care, Peking University School and Hospital of Stomatology
+1	Peking University School of Stomatology
+1	Singapore-MIT Alliance for Research & Technology
+1	University of Washington, MACS Lab
+1	Rehabilitation Institute of Chicago
+1	Shang Hai Jiao Tong University
+1	National Univorsity of Defence Technology
+1	Phytium Technology Co., Ltd
+1	Zhejiang Guoli Xin'an Technology Co., Ltd
+1	Ucas
+1	Space Robotics Research Group, SnT, University of Luxembourg
+1	École Polytechnique Fédérale De Lausanne (EPFL), Switzerland
+1	Intel
+1	University of Illinois at Chicago (UIC), Chicago, USA
+1	University of Sydney, Australian Centre for Field Robotics
+1	JPL
+1	Jet Propulsion Lab
+1	Techincal University of Denmark
+1	NASA JPL
+1	Nasa's Jet Propulsion Laboratory, Caltech
+1	Department of Information Engineering, The Chinese University of Hong Kong
+1	University of Texas Dell Medical School
+1	Robert Bosch GmbH Corporate Research
+1	The Chinese University of Hong Kong(Shenzhen)
+1	The Hong Kong University of Science and Technology （Guangzhou）
+1	Astar
+1	Princeton University, Microsoft Research Asia
+1	Dongfang Electric (Hangzhou) Innovation Institute Co., Ltd
+1	Georgia Tech Research Institute
+1	FrodoBots
+1	Università Degli Studi Di Milano-Bicocca
+1	The Australian Institute for Machine Learning (AIML) -- The University of Adelaide
+1	The Australian Institute for Machine Learning
+1	Wayve
+1	Northwest Polytechnical University
+1	Université Sorbonne Paris Nord
+1	University of Macau State Key Laboratory of Internet of Things for Smart City
+1	Shang hai jiao tong university
+1	Eastern Institute for Advanced Study
+1	The Univeristy of Texas at Austin
+1	UC Riverside
+1	Gallo
+1	Shanghai JiaoTong University, Shanghai Innovation Institute
+1	University of Pennslyvania
+1	Beijing Information Science & Technology University
+1	ATeam
+1	China Academy of Sciences, Institute of Automation
+1	Institut Supérieur De l'Aéronautique Et De L'Espace
+1	ATR
+1	QiluHospitalofShandongUniversity
+1	Chang'an University, A*STAR
+1	City College of New York
+1	Indian Institute of Science, Bengaluru
+1	Stockholm International Peace Research Institute
+1	Huawei Noah’s Ark Lab
+1	Huawei Technologies Research & Development
+1	Huawei Technologies Co., Ltd
+1	Huawei Research (Noah's Ark Labs)
+1	Huawei Technologies Company
+1	Noah's Ark Lab
+1	Beijing institude of technology

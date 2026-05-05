@@ -1,0 +1,3732 @@
+[
+ {
+  "aff": "Pennsylvania State University",
+  "country": "USA",
+  "evidence": "Penn State, located in Pennsylvania"
+ },
+ {
+  "aff": "South China Normal University",
+  "country": "China",
+  "evidence": "Guangzhou, China"
+ },
+ {
+  "aff": "Washington University in St. Louis",
+  "country": "USA",
+  "evidence": "St. Louis, Missouri, USA"
+ },
+ {
+  "aff": "Valeo.ai",
+  "country": "France",
+  "evidence": "Valeo HQ in Paris, France"
+ },
+ {
+  "aff": "University of North Texas",
+  "country": "USA",
+  "evidence": "Denton, Texas, USA"
+ },
+ {
+  "aff": "Virginia Tech",
+  "country": "USA",
+  "evidence": "Blacksburg, Virginia, USA"
+ },
+ {
+  "aff": "Inventec Corporation",
+  "country": "Taiwan",
+  "evidence": "Taiwanese electronics company, HQ Taipei"
+ },
+ {
+  "aff": "General Robotics",
+  "country": "Israel",
+  "evidence": "Israeli defense robotics company"
+ },
+ {
+  "aff": "National Oceanography Centre",
+  "country": "UK",
+  "evidence": "Southampton, UK"
+ },
+ {
+  "aff": "Florida International University",
+  "country": "USA",
+  "evidence": "Miami, Florida, USA"
+ },
+ {
+  "aff": "Sirius University of Science and Technology",
+  "country": "Russia",
+  "evidence": "Sochi, Russia"
+ },
+ {
+  "aff": "FZI Forschungszentrum Informatik",
+  "country": "Germany",
+  "evidence": "Karlsruhe, Germany research center"
+ },
+ {
+  "aff": "Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ)",
+  "country": "China",
+  "evidence": "Shenzhen, Guangdong, China"
+ },
+ {
+  "aff": "University of Alabama",
+  "country": "USA",
+  "evidence": "Tuscaloosa, Alabama, USA"
+ },
+ {
+  "aff": "Qiyuan Lab",
+  "country": "China",
+  "evidence": "Beijing-based AI research lab"
+ },
+ {
+  "aff": "University of Haifa",
+  "country": "Israel",
+  "evidence": "Haifa, Israel"
+ },
+ {
+  "aff": "AIOZ",
+  "country": "Vietnam",
+  "evidence": "AIOZ AI is based in Singapore/Vietnam (HQ Singapore, R&D Vietnam)"
+ },
+ {
+  "aff": "Aston University",
+  "country": "UK",
+  "evidence": "Birmingham, UK"
+ },
+ {
+  "aff": "D-Robotics",
+  "country": "China",
+  "evidence": "Beijing-based robotics chip company"
+ },
+ {
+  "aff": "Gac R&d Center",
+  "country": "China",
+  "evidence": "GAC Group (Guangzhou Automobile Group), Guangzhou"
+ },
+ {
+  "aff": "Henan University of Science and Technology",
+  "country": "China",
+  "evidence": "Luoyang, Henan, China"
+ },
+ {
+  "aff": "Fka GmbH",
+  "country": "Germany",
+  "evidence": "Aachen, Germany automotive engineering"
+ },
+ {
+  "aff": "Robotics Center",
+  "country": "Unknown",
+  "evidence": "Generic name without country indicator"
+ },
+ {
+  "aff": "Shanxi University",
+  "country": "China",
+  "evidence": "Taiyuan, Shanxi, China"
+ },
+ {
+  "aff": "Swinburne University of Technology",
+  "country": "Australia",
+  "evidence": "Melbourne, Australia"
+ },
+ {
+  "aff": "Jozef Stefan Institute",
+  "country": "Slovenia",
+  "evidence": "Ljubljana, Slovenia"
+ },
+ {
+  "aff": "Royal Military Academy",
+  "country": "Belgium",
+  "evidence": "Brussels, Belgium (Belgian Royal Military Academy)"
+ },
+ {
+  "aff": "National Institute of Informatics",
+  "country": "Japan",
+  "evidence": "Tokyo, Japan"
+ },
+ {
+  "aff": "Tiangong University",
+  "country": "China",
+  "evidence": "Tianjin, China"
+ },
+ {
+  "aff": "University of Miami",
+  "country": "USA",
+  "evidence": "Coral Gables, Florida, USA"
+ },
+ {
+  "aff": "LIRMM",
+  "country": "France",
+  "evidence": "Montpellier laboratory, France"
+ },
+ {
+  "aff": "King Mongkut's University of Technology Thonburi",
+  "country": "Thailand",
+  "evidence": "Bangkok, Thailand"
+ },
+ {
+  "aff": "Instituto Superior Técnico",
+  "country": "Portugal",
+  "evidence": "Lisbon, Portugal"
+ },
+ {
+  "aff": "Civil Aviation University of China",
+  "country": "China",
+  "evidence": "Tianjin, China"
+ },
+ {
+  "aff": "University of New Orleans",
+  "country": "USA",
+  "evidence": "New Orleans, Louisiana, USA"
+ },
+ {
+  "aff": "Hebei University of Technology",
+  "country": "China",
+  "evidence": "Tianjin, China"
+ },
+ {
+  "aff": "Cleveland State University",
+  "country": "USA",
+  "evidence": "Cleveland, Ohio, USA"
+ },
+ {
+  "aff": "University of South Florida",
+  "country": "USA",
+  "evidence": "Tampa, Florida, USA"
+ },
+ {
+  "aff": "Addverb Technologies",
+  "country": "India",
+  "evidence": "Noida, India warehouse robotics"
+ },
+ {
+  "aff": "Symbotic",
+  "country": "USA",
+  "evidence": "Wilmington, Massachusetts, USA"
+ },
+ {
+  "aff": "Institute of Semiconductors",
+  "country": "China",
+  "evidence": "Chinese Academy of Sciences, Beijing"
+ },
+ {
+  "aff": "Miraikan",
+  "country": "Japan",
+  "evidence": "National Museum of Emerging Science, Tokyo"
+ },
+ {
+  "aff": "Université Libre De Bruxelles",
+  "country": "Belgium",
+  "evidence": "Brussels, Belgium"
+ },
+ {
+  "aff": "IDSIA USI-SUPSI",
+  "country": "Switzerland",
+  "evidence": "Lugano, Switzerland AI lab"
+ },
+ {
+  "aff": "Oklahoma State University",
+  "country": "USA",
+  "evidence": "Stillwater, Oklahoma, USA"
+ },
+ {
+  "aff": "INSAIT, Sofia University \"St. Kliment Ohridski\"",
+  "country": "Unknown",
+  "evidence": "Sofia, Bulgaria - not in allowed list"
+ },
+ {
+  "aff": "University of Kaiserslautern-Landau",
+  "country": "Germany",
+  "evidence": "Rheinland-Pfalz, Germany (RPTU)"
+ },
+ {
+  "aff": "Donghua University",
+  "country": "China",
+  "evidence": "Shanghai, China"
+ },
+ {
+  "aff": "Qualcomm AI Research",
+  "country": "USA",
+  "evidence": "Qualcomm HQ San Diego, USA"
+ },
+ {
+  "aff": "Clemson University",
+  "country": "USA",
+  "evidence": "Clemson, South Carolina, USA"
+ },
+ {
+  "aff": "University of South China",
+  "country": "China",
+  "evidence": "Hengyang, Hunan, China"
+ },
+ {
+  "aff": "Path Robotics",
+  "country": "USA",
+  "evidence": "Columbus, Ohio welding robotics"
+ },
+ {
+  "aff": "Chinese Academy of Military Science",
+  "country": "China",
+  "evidence": "Beijing, China"
+ },
+ {
+  "aff": "Lightwheel",
+  "country": "China",
+  "evidence": "Lightwheel AI is a Beijing-based robotics simulation company"
+ },
+ {
+  "aff": "Free University of Bolzano",
+  "country": "Italy",
+  "evidence": "Bolzano, Italy"
+ },
+ {
+  "aff": "Korea Electronics Technology Institute",
+  "country": "South Korea",
+  "evidence": "KETI, Seongnam, South Korea"
+ },
+ {
+  "aff": "MSU",
+  "country": "Russia",
+  "evidence": "Moscow State University (commonly abbreviated MSU)"
+ },
+ {
+  "aff": "Zenseact",
+  "country": "Sweden",
+  "evidence": "Gothenburg, Sweden autonomous driving (Volvo)"
+ },
+ {
+  "aff": "Zhejiang Sci-Tech University",
+  "country": "China",
+  "evidence": "Hangzhou, Zhejiang, China"
+ },
+ {
+  "aff": "Ariel University",
+  "country": "Israel",
+  "evidence": "Ariel, Israel"
+ },
+ {
+  "aff": "Mälardalen University",
+  "country": "Sweden",
+  "evidence": "Västerås, Sweden"
+ },
+ {
+  "aff": "Louisiana State University",
+  "country": "USA",
+  "evidence": "Baton Rouge, Louisiana, USA"
+ },
+ {
+  "aff": "KRAFTON",
+  "country": "South Korea",
+  "evidence": "Seoul, South Korea (PUBG game company)"
+ },
+ {
+  "aff": "JiangSu University",
+  "country": "China",
+  "evidence": "Zhenjiang, Jiangsu, China"
+ },
+ {
+  "aff": "KargoBot",
+  "country": "China",
+  "evidence": "Beijing autonomous trucking (DiDi spinoff)"
+ },
+ {
+  "aff": "Shinshu University",
+  "country": "Japan",
+  "evidence": "Matsumoto, Nagano, Japan"
+ },
+ {
+  "aff": "Meijo University",
+  "country": "Japan",
+  "evidence": "Nagoya, Japan"
+ },
+ {
+  "aff": "The Chinese University of HongKong",
+  "country": "China",
+  "evidence": "Hong Kong (per rules, treated as China)"
+ },
+ {
+  "aff": "United States Naval Academy",
+  "country": "USA",
+  "evidence": "Annapolis, Maryland, USA"
+ },
+ {
+  "aff": "PIT in Corp",
+  "country": "South Korea",
+  "evidence": "PIT IN Corp, Korean robotics/automotive company"
+ },
+ {
+  "aff": "China Academy of Space Technology",
+  "country": "China",
+  "evidence": "Beijing, China (CAST)"
+ },
+ {
+  "aff": "AICIA. G41099946",
+  "country": "Spain",
+  "evidence": "Asociación de Investigación y Cooperación Industrial de Andalucía, Seville (G41099946 is Spanish CIF)"
+ },
+ {
+  "aff": "University of Applied Sciences Aschaffenburg",
+  "country": "Germany",
+  "evidence": "Aschaffenburg, Bavaria, Germany"
+ },
+ {
+  "aff": "Capgemini Engineering",
+  "country": "France",
+  "evidence": "Capgemini HQ Paris, France"
+ },
+ {
+  "aff": "Capgemini",
+  "country": "France",
+  "evidence": "Capgemini HQ Paris, France"
+ },
+ {
+  "aff": "School of Information Engineering, Chang 'an University",
+  "country": "China",
+  "evidence": "Xi'an, Shaanxi, China"
+ },
+ {
+  "aff": "University of Ulsan",
+  "country": "South Korea",
+  "evidence": "Ulsan, South Korea"
+ },
+ {
+  "aff": "Leonardo, Innovation Hub",
+  "country": "Italy",
+  "evidence": "Leonardo S.p.A., Rome, Italy"
+ },
+ {
+  "aff": "University",
+  "country": "Unknown",
+  "evidence": "Generic name, no country indicator"
+ },
+ {
+  "aff": "China Agricultural University",
+  "country": "China",
+  "evidence": "Beijing, China"
+ },
+ {
+  "aff": "German Research Center for Artificial Intelligence",
+  "country": "Germany",
+  "evidence": "DFKI, Germany"
+ },
+ {
+  "aff": "Ontario Tech University",
+  "country": "Canada",
+  "evidence": "Oshawa, Ontario, Canada"
+ },
+ {
+  "aff": "Computer Vision Center",
+  "country": "Spain",
+  "evidence": "CVC Barcelona, Spain"
+ },
+ {
+  "aff": "Nippon Telegraph and Telephone Corporation",
+  "country": "Japan",
+  "evidence": "NTT, Tokyo, Japan"
+ },
+ {
+  "aff": "Pengcheng Laboratory",
+  "country": "China",
+  "evidence": "Shenzhen, China"
+ },
+ {
+  "aff": "The Pennsylvania State University",
+  "country": "USA",
+  "evidence": "Penn State, Pennsylvania, USA"
+ },
+ {
+  "aff": "Agency for Defense Development",
+  "country": "South Korea",
+  "evidence": "ADD, Daejeon, South Korea"
+ },
+ {
+  "aff": "University of Central Florida",
+  "country": "USA",
+  "evidence": "Orlando, Florida, USA"
+ },
+ {
+  "aff": "Naval Aviation University",
+  "country": "China",
+  "evidence": "Yantai, Shandong, China (PLA Navy)"
+ },
+ {
+  "aff": "Frontier Robotics",
+  "country": "Japan",
+  "evidence": "Honda Frontier Robotics, Tokyo"
+ },
+ {
+  "aff": "CARIAD SE",
+  "country": "Germany",
+  "evidence": "VW Group software subsidiary, Wolfsburg, Germany"
+ },
+ {
+  "aff": "INSA Centre Val De Loire",
+  "country": "France",
+  "evidence": "Bourges/Blois, France"
+ },
+ {
+  "aff": "Kwangwoon University",
+  "country": "South Korea",
+  "evidence": "Seoul, South Korea"
+ },
+ {
+  "aff": "Nakakita Seisakusho Co., Ltd",
+  "country": "Japan",
+  "evidence": "Osaka, Japan industrial valves"
+ },
+ {
+  "aff": "Lingnan University",
+  "country": "China",
+  "evidence": "Hong Kong (per rules, treated as China)"
+ },
+ {
+  "aff": "Ben Gurion University of the Negev",
+  "country": "Israel",
+  "evidence": "Beer Sheva, Israel"
+ },
+ {
+  "aff": "Bluepath Robotics",
+  "country": "China",
+  "evidence": "Shenzhen, China robotics startup"
+ },
+ {
+  "aff": "IIIA-CSIC",
+  "country": "Spain",
+  "evidence": "Artificial Intelligence Research Institute, Barcelona"
+ },
+ {
+  "aff": "CU-ICAR",
+  "country": "USA",
+  "evidence": "Clemson University - International Center for Automotive Research"
+ },
+ {
+  "aff": "Andreas Stihl Ag",
+  "country": "Germany",
+  "evidence": "Waiblingen, Germany power tools"
+ },
+ {
+  "aff": "William & Mary",
+  "country": "USA",
+  "evidence": "Williamsburg, Virginia, USA"
+ },
+ {
+  "aff": "Peng Cheng Laboratory",
+  "country": "China",
+  "evidence": "Shenzhen, China"
+ },
+ {
+  "aff": "UIUC",
+  "country": "USA",
+  "evidence": "University of Illinois Urbana-Champaign"
+ },
+ {
+  "aff": "I2CAT Foundation",
+  "country": "Spain",
+  "evidence": "Barcelona, Spain"
+ },
+ {
+  "aff": "MCI the Entrepreneurial School",
+  "country": "Austria",
+  "evidence": "Innsbruck, Austria"
+ },
+ {
+  "aff": "GM R&D",
+  "country": "USA",
+  "evidence": "General Motors R&D, Warren, Michigan"
+ },
+ {
+  "aff": "Hunan Readore Technology Co., Ltd",
+  "country": "China",
+  "evidence": "Hunan, China"
+ },
+ {
+  "aff": "The Fourth Military Medical University",
+  "country": "China",
+  "evidence": "Xi'an, China (Air Force Medical University)"
+ },
+ {
+  "aff": "China Three Gorges University",
+  "country": "China",
+  "evidence": "Yichang, Hubei, China"
+ },
+ {
+  "aff": "MIRAI",
+  "country": "Japan",
+  "evidence": "Likely MIRAI Japan automotive/robotics initiative"
+ },
+ {
+  "aff": "ArenaX Labs",
+  "country": "Canada",
+  "evidence": "Toronto, Canada AI training company"
+ },
+ {
+  "aff": "SGIT AI Lab, SGCC",
+  "country": "China",
+  "evidence": "State Grid Corporation of China AI Lab"
+ },
+ {
+  "aff": "University of Basilicata",
+  "country": "Italy",
+  "evidence": "Potenza, Italy"
+ },
+ {
+  "aff": "Kubota Corporation",
+  "country": "Japan",
+  "evidence": "Osaka, Japan (agricultural machinery)"
+ },
+ {
+  "aff": "Independent Researcher",
+  "country": "Unknown",
+  "evidence": "No affiliation"
+ },
+ {
+  "aff": "Duke Kunshan University",
+  "country": "China",
+  "evidence": "Kunshan, Jiangsu, China"
+ },
+ {
+  "aff": "SKKU",
+  "country": "South Korea",
+  "evidence": "Sungkyunkwan University, Seoul"
+ },
+ {
+  "aff": "Jianghan University",
+  "country": "China",
+  "evidence": "Wuhan, Hubei, China"
+ },
+ {
+  "aff": "BoE",
+  "country": "China",
+  "evidence": "BOE Technology Group, Beijing display manufacturer"
+ },
+ {
+  "aff": "Xinjiang University",
+  "country": "China",
+  "evidence": "Urumqi, Xinjiang, China"
+ },
+ {
+  "aff": "Eötvös Loránd University",
+  "country": "Hungary",
+  "evidence": "Budapest, Hungary"
+ },
+ {
+  "aff": "American University of Beirut",
+  "country": "Unknown",
+  "evidence": "Beirut, Lebanon - not in allowed list"
+ },
+ {
+  "aff": "Bot Auto",
+  "country": "USA",
+  "evidence": "Houston, Texas autonomous trucking"
+ },
+ {
+  "aff": "New Jersey Institute of Technology",
+  "country": "USA",
+  "evidence": "Newark, NJ, USA"
+ },
+ {
+  "aff": "Seadronix Corp",
+  "country": "South Korea",
+  "evidence": "Daejeon, South Korea autonomous shipping"
+ },
+ {
+  "aff": "Wuhua University",
+  "country": "China",
+  "evidence": "Wuhan, China (likely Jianghan/Wuhua area)"
+ },
+ {
+  "aff": "Tech University of Korea",
+  "country": "South Korea",
+  "evidence": "Siheung, South Korea (formerly KOREATECH)"
+ },
+ {
+  "aff": "CTU, CIIRC",
+  "country": "Czech",
+  "evidence": "Czech Technical University, Czech Institute of Informatics, Robotics and Cybernetics, Prague"
+ },
+ {
+  "aff": "Changchun University of Science and Technology",
+  "country": "China",
+  "evidence": "Changchun, Jilin, China"
+ },
+ {
+  "aff": "CAS",
+  "country": "China",
+  "evidence": "Chinese Academy of Sciences"
+ },
+ {
+  "aff": "Eastern Institute of Technology, Ningbo",
+  "country": "China",
+  "evidence": "Ningbo, Zhejiang, China"
+ },
+ {
+  "aff": "East China Norm University",
+  "country": "China",
+  "evidence": "East China Normal University, Shanghai"
+ },
+ {
+  "aff": "Department of Urology, Fondazione Policlinico Universitario Campus Bio-Medico",
+  "country": "Italy",
+  "evidence": "Rome, Italy"
+ },
+ {
+  "aff": "Technische Universitaet Muenchen",
+  "country": "Germany",
+  "evidence": "Munich, Germany (TUM)"
+ },
+ {
+  "aff": "University of Portsmouth",
+  "country": "UK",
+  "evidence": "Portsmouth, England, UK"
+ },
+ {
+  "aff": "Field AI, Inc",
+  "country": "USA",
+  "evidence": "Mission Viejo, California, USA"
+ },
+ {
+  "aff": "Zenseact AB",
+  "country": "Sweden",
+  "evidence": "Gothenburg, Sweden"
+ },
+ {
+  "aff": "The University of HongKong",
+  "country": "China",
+  "evidence": "Hong Kong (per rules, treated as China)"
+ },
+ {
+  "aff": "ENPC",
+  "country": "France",
+  "evidence": "Ecole Nationale des Ponts et Chaussées, Paris"
+ },
+ {
+  "aff": "Agile Robots SE",
+  "country": "Germany",
+  "evidence": "Munich, Germany robotics"
+ },
+ {
+  "aff": "AI Robot Association",
+  "country": "South Korea",
+  "evidence": "Korea AI Robot Association"
+ },
+ {
+  "aff": "Hospital for Sick Children",
+  "country": "Canada",
+  "evidence": "SickKids, Toronto, Canada"
+ },
+ {
+  "aff": "National University of Sinagpore",
+  "country": "Singapore",
+  "evidence": "NUS, typo of Singapore"
+ },
+ {
+  "aff": "DePaul University",
+  "country": "USA",
+  "evidence": "Chicago, Illinois, USA"
+ },
+ {
+  "aff": "Institute of Computing Technology, Chinese Academy",
+  "country": "China",
+  "evidence": "ICT-CAS, Beijing"
+ },
+ {
+  "aff": "KUKA Laboratories GmbH",
+  "country": "Germany",
+  "evidence": "Augsburg, Germany robotics"
+ },
+ {
+  "aff": "KUKA",
+  "country": "Germany",
+  "evidence": "Augsburg, Germany robotics"
+ },
+ {
+  "aff": "GM",
+  "country": "USA",
+  "evidence": "General Motors, Detroit, USA"
+ },
+ {
+  "aff": "Yuyao Robot Research Center",
+  "country": "China",
+  "evidence": "Yuyao, Zhejiang, China"
+ },
+ {
+  "aff": "Boston Children's Hospital",
+  "country": "USA",
+  "evidence": "Boston, Massachusetts, USA"
+ },
+ {
+  "aff": "Galaxy General Robot Co., Ltd",
+  "country": "China",
+  "evidence": "Chinese robotics company (Galbot)"
+ },
+ {
+  "aff": "University of Chinese Academy of Science",
+  "country": "China",
+  "evidence": "UCAS, Beijing"
+ },
+ {
+  "aff": "Sharpa",
+  "country": "China",
+  "evidence": "Chinese robotics startup"
+ },
+ {
+  "aff": "Universitat Politècnica De Cataluyna",
+  "country": "Spain",
+  "evidence": "UPC in Barcelona, Catalonia"
+ },
+ {
+  "aff": "FORMHAND Automation GmbH",
+  "country": "Germany",
+  "evidence": "GmbH suffix, German automation company"
+ },
+ {
+  "aff": "Providence College",
+  "country": "USA",
+  "evidence": "Liberal arts college in Rhode Island"
+ },
+ {
+  "aff": "Michigan Technological University",
+  "country": "USA",
+  "evidence": "Public university in Michigan"
+ },
+ {
+  "aff": "CSE, UMN",
+  "country": "USA",
+  "evidence": "University of Minnesota College of Science and Engineering"
+ },
+ {
+  "aff": "Chang 'an University",
+  "country": "China",
+  "evidence": "University in Xi'an, China"
+ },
+ {
+  "aff": "Fuwai Hospital",
+  "country": "China",
+  "evidence": "Cardiovascular hospital in Beijing"
+ },
+ {
+  "aff": "Katholieke Universiteit Leuven",
+  "country": "Belgium",
+  "evidence": "KU Leuven, Belgium"
+ },
+ {
+  "aff": "Ben Gurion University",
+  "country": "Israel",
+  "evidence": "Ben-Gurion University of the Negev"
+ },
+ {
+  "aff": "Megvii Inc",
+  "country": "China",
+  "evidence": "Chinese AI/computer vision company"
+ },
+ {
+  "aff": "Waabi",
+  "country": "Canada",
+  "evidence": "Self-driving startup based in Toronto"
+ },
+ {
+  "aff": "FZI Research Center for Information Technology",
+  "country": "Germany",
+  "evidence": "Karlsruhe-based research institute"
+ },
+ {
+  "aff": "X-Humanoid",
+  "country": "China",
+  "evidence": "Beijing humanoid robotics innovation center"
+ },
+ {
+  "aff": "Sabancı University",
+  "country": "Turkey",
+  "evidence": "Private university in Istanbul"
+ },
+ {
+  "aff": "Guangming Laboratory, Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ)",
+  "country": "China",
+  "evidence": "Shenzhen-based laboratory"
+ },
+ {
+  "aff": "The Unversity of Texas at Austin",
+  "country": "USA",
+  "evidence": "UT Austin (typo)"
+ },
+ {
+  "aff": "Independent",
+  "country": "Unknown",
+  "evidence": "Independent researcher, no affiliation"
+ },
+ {
+  "aff": "QiYuan Lab",
+  "country": "China",
+  "evidence": "Beijing-based AI laboratory"
+ },
+ {
+  "aff": "University of Science of Technology of China",
+  "country": "China",
+  "evidence": "USTC in Hefei"
+ },
+ {
+  "aff": "Institute for Infocomm Research",
+  "country": "Singapore",
+  "evidence": "I2R, A*STAR Singapore"
+ },
+ {
+  "aff": "UCAS",
+  "country": "China",
+  "evidence": "University of Chinese Academy of Sciences"
+ },
+ {
+  "aff": "Amrita Vishwa Vidyapeetham",
+  "country": "India",
+  "evidence": "Indian deemed university"
+ },
+ {
+  "aff": "ETH",
+  "country": "Switzerland",
+  "evidence": "ETH Zurich"
+ },
+ {
+  "aff": "University of Science and Technology",
+  "country": "China",
+  "evidence": "Likely USTC China"
+ },
+ {
+  "aff": "Khnp",
+  "country": "South Korea",
+  "evidence": "Korea Hydro & Nuclear Power"
+ },
+ {
+  "aff": "Korea Hydro & Nuclear Power Co., Ltd",
+  "country": "South Korea",
+  "evidence": "South Korean utility"
+ },
+ {
+  "aff": "PAL Robotics",
+  "country": "Spain",
+  "evidence": "Robotics company in Barcelona"
+ },
+ {
+  "aff": "Vin University",
+  "country": "Vietnam",
+  "evidence": "VinUniversity in Hanoi"
+ },
+ {
+  "aff": "Swansea University",
+  "country": "UK",
+  "evidence": "University in Wales, UK"
+ },
+ {
+  "aff": "Fusion AI Labs S.r.l",
+  "country": "Italy",
+  "evidence": "S.r.l. is Italian company designation"
+ },
+ {
+  "aff": "Heriot Watt University",
+  "country": "UK",
+  "evidence": "University in Edinburgh, Scotland"
+ },
+ {
+  "aff": "German Aerospace Center",
+  "country": "Germany",
+  "evidence": "DLR, Germany"
+ },
+ {
+  "aff": "China Ship Development &design Center",
+  "country": "China",
+  "evidence": "Chinese ship design institute"
+ },
+ {
+  "aff": "German Research Center for Artificial Intelligence (DFKI)",
+  "country": "Germany",
+  "evidence": "DFKI, Germany"
+ },
+ {
+  "aff": "Cariad SE",
+  "country": "Germany",
+  "evidence": "Volkswagen Group software company"
+ },
+ {
+  "aff": "John Hopkins",
+  "country": "USA",
+  "evidence": "Johns Hopkins University in Baltimore"
+ },
+ {
+  "aff": "IE University",
+  "country": "Spain",
+  "evidence": "Private university in Madrid/Segovia"
+ },
+ {
+  "aff": "Univ. of North Carolina at Chapel Hill",
+  "country": "USA",
+  "evidence": "UNC Chapel Hill"
+ },
+ {
+  "aff": "Skoltech",
+  "country": "Russia",
+  "evidence": "Skolkovo Institute of Science and Technology"
+ },
+ {
+  "aff": "DIdi Inc",
+  "country": "China",
+  "evidence": "Didi Chuxing, Chinese ride-hailing"
+ },
+ {
+  "aff": "Southwest Jiaotong University",
+  "country": "China",
+  "evidence": "University in Chengdu"
+ },
+ {
+  "aff": "Cognitive AI Systems Lab",
+  "country": "Unknown",
+  "evidence": "Generic lab name without country indicator"
+ },
+ {
+  "aff": "MIRIAI",
+  "country": "Unknown",
+  "evidence": "Unidentifiable acronym"
+ },
+ {
+  "aff": "FPT Software",
+  "country": "Vietnam",
+  "evidence": "Vietnamese IT company"
+ },
+ {
+  "aff": "Nangyang Technological Univercity",
+  "country": "Singapore",
+  "evidence": "Nanyang Technological University, NTU (typo)"
+ },
+ {
+  "aff": "Shenyang University of Technology",
+  "country": "China",
+  "evidence": "University in Shenyang"
+ },
+ {
+  "aff": "H.U. Research Institute",
+  "country": "Unknown",
+  "evidence": "Ambiguous abbreviation"
+ },
+ {
+  "aff": "Blue Origin",
+  "country": "USA",
+  "evidence": "Bezos space company in Washington state"
+ },
+ {
+  "aff": "State Key Laboratory of General Artificial Intelligence",
+  "country": "China",
+  "evidence": "BIGAI, Beijing"
+ },
+ {
+  "aff": "Human in Motion",
+  "country": "Canada",
+  "evidence": "Human in Motion Robotics, exoskeleton company in BC"
+ },
+ {
+  "aff": "University of Rostock",
+  "country": "Germany",
+  "evidence": "German university"
+ },
+ {
+  "aff": "Korea Atomic Energy Research Institute",
+  "country": "South Korea",
+  "evidence": "KAERI in Daejeon"
+ },
+ {
+  "aff": "Microport MedBot(Group) Company",
+  "country": "China",
+  "evidence": "Shanghai-based medical robotics"
+ },
+ {
+  "aff": "Esslingen University of Applied Sciences",
+  "country": "Germany",
+  "evidence": "Hochschule Esslingen"
+ },
+ {
+  "aff": "Zhuoyu Technology",
+  "country": "China",
+  "evidence": "Chinese tech company (DJI auto driving subsidiary)"
+ },
+ {
+  "aff": "Harbin Instititute of Technology",
+  "country": "China",
+  "evidence": "HIT (typo)"
+ },
+ {
+  "aff": "China Academy of Launch Vehicle Technology",
+  "country": "China",
+  "evidence": "CALT, Chinese aerospace"
+ },
+ {
+  "aff": "MEGVII Technology",
+  "country": "China",
+  "evidence": "Chinese AI company"
+ },
+ {
+  "aff": "Ceske vysoke uceni technicke v Praze, FEL",
+  "country": "Czech",
+  "evidence": "Czech Technical University in Prague, FEE"
+ },
+ {
+  "aff": "SETLabs Research GmbH",
+  "country": "Germany",
+  "evidence": "GmbH suffix"
+ },
+ {
+  "aff": "Hebei University",
+  "country": "China",
+  "evidence": "University in Baoding, Hebei"
+ },
+ {
+  "aff": "Koc University",
+  "country": "Turkey",
+  "evidence": "Private university in Istanbul"
+ },
+ {
+  "aff": "N/A",
+  "country": "Unknown",
+  "evidence": "No affiliation given"
+ },
+ {
+  "aff": "Guangming Lab",
+  "country": "China",
+  "evidence": "Shenzhen-based laboratory"
+ },
+ {
+  "aff": "Fondazione Bruno Kessler",
+  "country": "Italy",
+  "evidence": "FBK in Trento"
+ },
+ {
+  "aff": "SNU",
+  "country": "South Korea",
+  "evidence": "Seoul National University"
+ },
+ {
+  "aff": "LTU",
+  "country": "Sweden",
+  "evidence": "Luleå University of Technology"
+ },
+ {
+  "aff": "USI and SUPSI",
+  "country": "Switzerland",
+  "evidence": "Università della Svizzera italiana"
+ },
+ {
+  "aff": "The Hospital for Sick Children",
+  "country": "Canada",
+  "evidence": "SickKids in Toronto"
+ },
+ {
+  "aff": "Max-Planck Institute for Intelligent Systems",
+  "country": "Germany",
+  "evidence": "MPI-IS in Tübingen/Stuttgart"
+ },
+ {
+  "aff": "Shirley Ryan Ability Lab",
+  "country": "USA",
+  "evidence": "Rehabilitation hospital in Chicago"
+ },
+ {
+  "aff": "Shirley Ryan AbilityLab",
+  "country": "USA",
+  "evidence": "Rehabilitation hospital in Chicago"
+ },
+ {
+  "aff": "Defense Innovation Institute, AMS",
+  "country": "China",
+  "evidence": "Academy of Military Sciences, China"
+ },
+ {
+  "aff": "National University of Defence Technology",
+  "country": "China",
+  "evidence": "NUDT in Changsha"
+ },
+ {
+  "aff": "Chevron Corporation",
+  "country": "USA",
+  "evidence": "American oil company"
+ },
+ {
+  "aff": "University of Chicago",
+  "country": "USA",
+  "evidence": "Private university in Illinois"
+ },
+ {
+  "aff": "Midea",
+  "country": "China",
+  "evidence": "Chinese appliance manufacturer"
+ },
+ {
+  "aff": "UPC-CSIC",
+  "country": "Spain",
+  "evidence": "UPC and CSIC joint, Spain"
+ },
+ {
+  "aff": "AIDIN ROBOTICS",
+  "country": "South Korea",
+  "evidence": "Korean robotics company"
+ },
+ {
+  "aff": "ZHAW",
+  "country": "Switzerland",
+  "evidence": "Zurich University of Applied Sciences"
+ },
+ {
+  "aff": "SimplexDNA AG",
+  "country": "Switzerland",
+  "evidence": "AG suffix is Swiss/German; SimplexDNA is Swiss"
+ },
+ {
+  "aff": "DFKI",
+  "country": "Germany",
+  "evidence": "German Research Center for AI"
+ },
+ {
+  "aff": "University of Udine",
+  "country": "Italy",
+  "evidence": "Università degli Studi di Udine"
+ },
+ {
+  "aff": "Brown",
+  "country": "USA",
+  "evidence": "Brown University in Rhode Island"
+ },
+ {
+  "aff": "SJTU",
+  "country": "China",
+  "evidence": "Shanghai Jiao Tong University"
+ },
+ {
+  "aff": "Scuola Superiore Meridionale",
+  "country": "Italy",
+  "evidence": "Graduate school in Naples"
+ },
+ {
+  "aff": "University of Hildesheim",
+  "country": "Germany",
+  "evidence": "Universität Hildesheim"
+ },
+ {
+  "aff": "University of Cassino and Southern Lazio",
+  "country": "Italy",
+  "evidence": "Università di Cassino"
+ },
+ {
+  "aff": "IDSIA, USI-SUPSI",
+  "country": "Switzerland",
+  "evidence": "Dalle Molle Institute in Lugano"
+ },
+ {
+  "aff": "Institute of Artificial Intelligence (TeleAI), China Telecom",
+  "country": "China",
+  "evidence": "China Telecom AI institute"
+ },
+ {
+  "aff": "Institut Pascal",
+  "country": "France",
+  "evidence": "Research institute in Clermont-Ferrand"
+ },
+ {
+  "aff": "Washington University in Saint Louis",
+  "country": "USA",
+  "evidence": "WashU, Missouri"
+ },
+ {
+  "aff": "Universidade Federal De Minas Gerais",
+  "country": "Brazil",
+  "evidence": "UFMG, Brazil"
+ },
+ {
+  "aff": "Sookmyung Woman's University",
+  "country": "South Korea",
+  "evidence": "Women's university in Seoul"
+ },
+ {
+  "aff": "Centre De Technologies Avancées",
+  "country": "France",
+  "evidence": "French research center (CTA)"
+ },
+ {
+  "aff": "Path Robotics Inc",
+  "country": "USA",
+  "evidence": "Welding robotics company in Columbus, Ohio"
+ },
+ {
+  "aff": "KNAPP Industry Solutions GmbH",
+  "country": "Austria",
+  "evidence": "KNAPP AG, Austrian logistics"
+ },
+ {
+  "aff": "NEC Corporation",
+  "country": "Japan",
+  "evidence": "Japanese multinational"
+ },
+ {
+  "aff": "None",
+  "country": "Unknown",
+  "evidence": "No affiliation"
+ },
+ {
+  "aff": "Defense Innovation Institute",
+  "country": "China",
+  "evidence": "Likely Chinese AMS Defense Innovation Institute"
+ },
+ {
+  "aff": "CNR",
+  "country": "Italy",
+  "evidence": "Consiglio Nazionale delle Ricerche, Italy"
+ },
+ {
+  "aff": "Consiglio Nazionale Delle Ricerche (CNR)",
+  "country": "Italy",
+  "evidence": "Italian National Research Council"
+ },
+ {
+  "aff": "Analog Devices Inc",
+  "country": "USA",
+  "evidence": "Semiconductor company in Massachusetts"
+ },
+ {
+  "aff": "University of Toulon",
+  "country": "France",
+  "evidence": "Université de Toulon"
+ },
+ {
+  "aff": "Fukushima University",
+  "country": "Japan",
+  "evidence": "Public university in Fukushima"
+ },
+ {
+  "aff": "The University of Alabama",
+  "country": "USA",
+  "evidence": "Public university in Tuscaloosa"
+ },
+ {
+  "aff": "Montclair State University",
+  "country": "USA",
+  "evidence": "Public university in New Jersey"
+ },
+ {
+  "aff": "SceniX",
+  "country": "Unknown",
+  "evidence": "Ambiguous company name"
+ },
+ {
+  "aff": "Central China Normal University",
+  "country": "China",
+  "evidence": "CCNU in Wuhan"
+ },
+ {
+  "aff": "Profactor Gmbh",
+  "country": "Austria",
+  "evidence": "Austrian R&D company in Steyr"
+ },
+ {
+  "aff": "Zhejiang Dexterous Intelligent Technology Co., Ltd",
+  "country": "China",
+  "evidence": "Chinese robotics company"
+ },
+ {
+  "aff": "STC Engineering",
+  "country": "Unknown",
+  "evidence": "Generic name without clear country"
+ },
+ {
+  "aff": "Dolby Laboratories",
+  "country": "USA",
+  "evidence": "American audio/imaging company in San Francisco"
+ },
+ {
+  "aff": "KUKA Deutschland GmbH",
+  "country": "Germany",
+  "evidence": "KUKA, Augsburg, Germany"
+ },
+ {
+  "aff": "MyWay Srl",
+  "country": "Italy",
+  "evidence": "Srl is Italian company designation"
+ },
+ {
+  "aff": "Saxion University of Applied Sciences",
+  "country": "Netherlands",
+  "evidence": "Dutch university in Enschede"
+ },
+ {
+  "aff": "Xi'an Automatic Flight Control Research Institute",
+  "country": "China",
+  "evidence": "AVIC subsidiary in Xi'an"
+ },
+ {
+  "aff": "Information Technology and Human Factors",
+  "country": "Unknown",
+  "evidence": "Generic department name"
+ },
+ {
+  "aff": "Rolls-Royce Plc",
+  "country": "UK",
+  "evidence": "British aerospace/engineering"
+ },
+ {
+  "aff": "Libera Universita Di Bolzano",
+  "country": "Italy",
+  "evidence": "Free University of Bozen-Bolzano"
+ },
+ {
+  "aff": "Hohai University",
+  "country": "China",
+  "evidence": "University in Nanjing"
+ },
+ {
+  "aff": "Unity Drive Innovation Technology",
+  "country": "China",
+  "evidence": "Chinese autonomous driving startup"
+ },
+ {
+  "aff": "University of Bimingham",
+  "country": "UK",
+  "evidence": "University of Birmingham (typo)"
+ },
+ {
+  "aff": "AIMS",
+  "country": "Unknown",
+  "evidence": "Ambiguous acronym"
+ },
+ {
+  "aff": "Wayne State University",
+  "country": "USA",
+  "evidence": "Public university in Detroit"
+ },
+ {
+  "aff": "Fuzhou University",
+  "country": "China",
+  "evidence": "University in Fuzhou, Fujian"
+ },
+ {
+  "aff": "NSK.Ltd",
+  "country": "Japan",
+  "evidence": "Japanese bearing manufacturer"
+ },
+ {
+  "aff": "The Hongkong University of Science and Technology (gz)",
+  "country": "China",
+  "evidence": "HKUST Guangzhou campus"
+ },
+ {
+  "aff": "Zhejiang Normal University",
+  "country": "China",
+  "evidence": "University in Jinhua, Zhejiang"
+ },
+ {
+  "aff": "Hypershell Tech",
+  "country": "China",
+  "evidence": "Chinese exoskeleton startup"
+ },
+ {
+  "aff": "GeorgiaTech Lorraine",
+  "country": "France",
+  "evidence": "Georgia Tech European campus in Metz"
+ },
+ {
+  "aff": "Perciv AI",
+  "country": "USA",
+  "evidence": "AI startup based in California"
+ },
+ {
+  "aff": "TNG Technology Consulting GmbH",
+  "country": "Germany",
+  "evidence": "Munich-based consulting firm"
+ },
+ {
+  "aff": "Italian Institute of Artificial Intelligence for Industry",
+  "country": "Italy",
+  "evidence": "AI4I in Turin, Italy"
+ },
+ {
+  "aff": "Institute of Mechanics, Armenia",
+  "country": "Unknown",
+  "evidence": "Armenia not in country list"
+ },
+ {
+  "aff": "Tiangong University，China",
+  "country": "China",
+  "evidence": "Tianjin Polytechnic University"
+ },
+ {
+  "aff": "Huahzong University of Science and Technology",
+  "country": "China",
+  "evidence": "HUST in Wuhan (typo)"
+ },
+ {
+  "aff": "AMAP",
+  "country": "China",
+  "evidence": "Alibaba's AutoNavi mapping company"
+ },
+ {
+  "aff": "University Paul Sabatier",
+  "country": "France",
+  "evidence": "Toulouse III, France"
+ },
+ {
+  "aff": "SCAILAB AB, Mälardalen University",
+  "country": "Sweden",
+  "evidence": "Mälardalen University, Sweden"
+ },
+ {
+  "aff": "IO Intelligence",
+  "country": "Unknown",
+  "evidence": "Ambiguous startup name"
+ },
+ {
+  "aff": "IO-AI.tech",
+  "country": "Unknown",
+  "evidence": "Ambiguous startup name"
+ },
+ {
+  "aff": "Xspark AI",
+  "country": "Unknown",
+  "evidence": "Ambiguous startup name"
+ },
+ {
+  "aff": "Colorado School of Mines",
+  "country": "USA",
+  "evidence": "Public research university in Golden, CO"
+ },
+ {
+  "aff": "UTN",
+  "country": "Germany",
+  "evidence": "University of Technology Nuremberg"
+ },
+ {
+  "aff": "Postdoctoral Research Fellow at the Hospital for Sick Children (SickKids)",
+  "country": "Canada",
+  "evidence": "SickKids hospital in Toronto"
+ },
+ {
+  "aff": "Weinberg Medical Physics, Inc",
+  "country": "USA",
+  "evidence": "Medical physics company in Maryland"
+ },
+ {
+  "aff": "No.1 Middle School of Weifang",
+  "country": "China",
+  "evidence": "Weifang is a city in Shandong, China"
+ },
+ {
+  "aff": "Guangzhou Zaofu Intelligent Technology Co., Ltd",
+  "country": "China",
+  "evidence": "Guangzhou-based company in China"
+ },
+ {
+  "aff": "Caizhenwen482@hellobike.com",
+  "country": "China",
+  "evidence": "Hellobike is a Chinese bike-sharing company"
+ },
+ {
+  "aff": "Lingjie376@hellobike.com",
+  "country": "China",
+  "evidence": "Hellobike is a Chinese bike-sharing company"
+ },
+ {
+  "aff": "Yuqiankun172@hellobike.com",
+  "country": "China",
+  "evidence": "Hellobike is a Chinese bike-sharing company"
+ },
+ {
+  "aff": "Massachusetts Institute of Tech",
+  "country": "USA",
+  "evidence": "MIT is in Cambridge, Massachusetts, USA"
+ },
+ {
+  "aff": "Field AI",
+  "country": "USA",
+  "evidence": "Field AI is a US-based robotics company"
+ },
+ {
+  "aff": "Seoun National University",
+  "country": "South Korea",
+  "evidence": "Misspelling of Seoul National University in South Korea"
+ },
+ {
+  "aff": "Guilin University of Electronic Technology, School of Computer and Information Security",
+  "country": "China",
+  "evidence": "Guilin is a city in Guangxi, China"
+ },
+ {
+  "aff": "Kargobot",
+  "country": "China",
+  "evidence": "Kargobot is a Chinese autonomous trucking company"
+ },
+ {
+  "aff": "Zhongguancun Academy",
+  "country": "China",
+  "evidence": "Zhongguancun is a tech hub in Beijing, China"
+ },
+ {
+  "aff": "NC State University",
+  "country": "USA",
+  "evidence": "North Carolina State University in USA"
+ },
+ {
+  "aff": "Institute of Field Robotics, King Mongkut's University of Technology Thonburi",
+  "country": "Thailand",
+  "evidence": "KMUTT is a university in Bangkok, Thailand"
+ },
+ {
+  "aff": "Centro De Investigaciones En óptica",
+  "country": "Mexico",
+  "evidence": "CIO is a Mexican research center in León"
+ },
+ {
+  "aff": "Center for Research in Optics",
+  "country": "Mexico",
+  "evidence": "English name for CIO in Mexico"
+ },
+ {
+  "aff": "Thales Alenia Space (UK)",
+  "country": "UK",
+  "evidence": "UK branch as indicated in name"
+ },
+ {
+  "aff": "Sonardyne International",
+  "country": "UK",
+  "evidence": "Sonardyne is a UK-based underwater technology company"
+ },
+ {
+  "aff": "The 32nd Research Institute of China Electronics Technology Group",
+  "country": "China",
+  "evidence": "Chinese state-owned institute"
+ },
+ {
+  "aff": "Company",
+  "country": "Unknown",
+  "evidence": "Generic name with no identifying information"
+ },
+ {
+  "aff": "Ford Motor Company, Latitude AI",
+  "country": "USA",
+  "evidence": "Ford is a US automaker; Latitude AI is its US subsidiary"
+ },
+ {
+  "aff": "Sun Yat - Sen University",
+  "country": "China",
+  "evidence": "Sun Yat-sen University is in Guangzhou, China"
+ },
+ {
+  "aff": "Centre of Excellence MARBLE",
+  "country": "Croatia",
+  "evidence": "CoE MARBLE is in Croatia (Maritime Robotics)"
+ },
+ {
+  "aff": "CoE MARBLE - Centre of Excellence in Maritime Robotics and Technologies for Sustainable Blue Economy",
+  "country": "Croatia",
+  "evidence": "MARBLE Centre of Excellence is based in Croatia"
+ },
+ {
+  "aff": "University of Sunderland",
+  "country": "UK",
+  "evidence": "Located in Sunderland, England, UK"
+ },
+ {
+  "aff": "Robotics and Perception Group",
+  "country": "Switzerland",
+  "evidence": "RPG is at University of Zurich, Switzerland"
+ },
+ {
+  "aff": "University of Brasília",
+  "country": "Brazil",
+  "evidence": "UnB is in Brasília, Brazil"
+ },
+ {
+  "aff": "NRC",
+  "country": "Canada",
+  "evidence": "Most likely National Research Council of Canada"
+ },
+ {
+  "aff": "Pontificia Universidad Católica Del Perú",
+  "country": "Unknown",
+  "evidence": "PUCP is in Lima, Peru - not in normalized country list"
+ },
+ {
+  "aff": "PaperCept, Inc",
+  "country": "USA",
+  "evidence": "PaperCept is a US-based conference management company"
+ },
+ {
+  "aff": "KNU",
+  "country": "South Korea",
+  "evidence": "Likely Kyungpook/Kangwon National University in South Korea"
+ },
+ {
+  "aff": "XYZ Robotics",
+  "country": "China",
+  "evidence": "XYZ Robotics is a Shanghai-based robotics company"
+ },
+ {
+  "aff": "Davidson College",
+  "country": "USA",
+  "evidence": "Davidson College is in North Carolina, USA"
+ },
+ {
+  "aff": "CSIC - UPC",
+  "country": "Spain",
+  "evidence": "Joint center of CSIC and UPC in Spain"
+ },
+ {
+  "aff": "Vub",
+  "country": "Belgium",
+  "evidence": "Vrije Universiteit Brussel in Belgium"
+ },
+ {
+  "aff": "Chungang University",
+  "country": "South Korea",
+  "evidence": "Chung-Ang University is in Seoul, South Korea"
+ },
+ {
+  "aff": "University of Melborune",
+  "country": "Australia",
+  "evidence": "Misspelling of University of Melbourne in Australia"
+ },
+ {
+  "aff": "Univeristy of Regina",
+  "country": "Canada",
+  "evidence": "University of Regina is in Saskatchewan, Canada"
+ },
+ {
+  "aff": "U. of Washington",
+  "country": "USA",
+  "evidence": "University of Washington in Seattle, USA"
+ },
+ {
+  "aff": "AUT",
+  "country": "New Zealand",
+  "evidence": "Auckland University of Technology in New Zealand"
+ },
+ {
+  "aff": "Virginia Polytechnic Institute and State University",
+  "country": "USA",
+  "evidence": "Virginia Tech is in Blacksburg, Virginia, USA"
+ },
+ {
+  "aff": "China Jiliang University",
+  "country": "China",
+  "evidence": "Located in Hangzhou, China"
+ },
+ {
+  "aff": "University of Electro-Communications",
+  "country": "Japan",
+  "evidence": "UEC is in Tokyo, Japan"
+ },
+ {
+  "aff": "Zhiyuan Research Institute",
+  "country": "China",
+  "evidence": "Zhiyuan AI research institute in Beijing"
+ },
+ {
+  "aff": "IIT",
+  "country": "Italy",
+  "evidence": "Italian Institute of Technology in Genoa (could also be India IIT but more likely IIT Genoa in robotics context)"
+ },
+ {
+  "aff": "Jiangsu University of Technology",
+  "country": "China",
+  "evidence": "Located in Jiangsu, China"
+ },
+ {
+  "aff": "Satya Wacana Christian University",
+  "country": "Indonesia",
+  "evidence": "UKSW is in Salatiga, Indonesia"
+ },
+ {
+  "aff": "Spanish National Research Council",
+  "country": "Spain",
+  "evidence": "CSIC of Spain"
+ },
+ {
+  "aff": "Dipartimento delle Professioni Tecnico Sanitarie, della Riabilitazione e della Prevenzione Azienda USL Toscana Sudest",
+  "country": "Italy",
+  "evidence": "Italian regional health authority in Tuscany"
+ },
+ {
+  "aff": "ISTITUTO DI BIOROBOTICA",
+  "country": "Italy",
+  "evidence": "BioRobotics Institute at Scuola Sant'Anna, Italy"
+ },
+ {
+  "aff": "Scuola Superiore Sant Anna",
+  "country": "Italy",
+  "evidence": "Located in Pisa, Italy"
+ },
+ {
+  "aff": "LS2N",
+  "country": "France",
+  "evidence": "Laboratoire des Sciences du Numérique de Nantes, France"
+ },
+ {
+  "aff": "Aschaffenburg University of Applied Sciences",
+  "country": "Germany",
+  "evidence": "Located in Aschaffenburg, Germany"
+ },
+ {
+  "aff": "University of Kassel",
+  "country": "Germany",
+  "evidence": "Located in Kassel, Germany"
+ },
+ {
+  "aff": "Portland State University",
+  "country": "USA",
+  "evidence": "Located in Portland, Oregon, USA"
+ },
+ {
+  "aff": "High Tech Kids",
+  "country": "USA",
+  "evidence": "High Tech Kids is a Minnesota-based organization for student robotics"
+ },
+ {
+  "aff": "Shaanxi University of Science and Technology",
+  "country": "China",
+  "evidence": "Located in Shaanxi, China"
+ },
+ {
+  "aff": "Univeristy of Michigan",
+  "country": "USA",
+  "evidence": "Misspelling of University of Michigan in Ann Arbor, USA"
+ },
+ {
+  "aff": "Goertek Alpha Labs",
+  "country": "China",
+  "evidence": "Goertek is a Chinese electronics company"
+ },
+ {
+  "aff": "National Center for Cardiovascular Diseases and Fuwai Hospital",
+  "country": "China",
+  "evidence": "Fuwai Hospital is in Beijing, China"
+ },
+ {
+  "aff": "Technical University of Kaiserslautern",
+  "country": "Germany",
+  "evidence": "TU Kaiserslautern is in Germany"
+ },
+ {
+  "aff": "RPTU Kaiserslautern-Landau",
+  "country": "Germany",
+  "evidence": "Successor to TU Kaiserslautern in Germany"
+ },
+ {
+  "aff": "Université D'Évry",
+  "country": "France",
+  "evidence": "Located in Évry, France"
+ },
+ {
+  "aff": "American University of the Middle East",
+  "country": "Unknown",
+  "evidence": "AUM is in Kuwait, not in normalized country list"
+ },
+ {
+  "aff": "Lab-STICC, LS2N",
+  "country": "France",
+  "evidence": "Two French CNRS labs"
+ },
+ {
+  "aff": "The University of Queenland",
+  "country": "Australia",
+  "evidence": "Misspelling of University of Queensland in Brisbane, Australia"
+ },
+ {
+  "aff": "Scuola Superiore Sant' Anna",
+  "country": "Italy",
+  "evidence": "Located in Pisa, Italy"
+ },
+ {
+  "aff": "Megvii.com; Dexmal.com",
+  "country": "China",
+  "evidence": "Megvii is a Chinese AI company in Beijing"
+ },
+ {
+  "aff": "The University of Toyko",
+  "country": "Japan",
+  "evidence": "Misspelling of University of Tokyo, Japan"
+ },
+ {
+  "aff": "Changan University",
+  "country": "China",
+  "evidence": "Chang'an University is in Xi'an, China"
+ },
+ {
+  "aff": "AZTI Foundation",
+  "country": "Spain",
+  "evidence": "AZTI is a Basque (Spanish) marine research foundation"
+ },
+ {
+  "aff": "Department of Computer Languages and Systems, University of the Basque Country (UPV/EHU)",
+  "country": "Spain",
+  "evidence": "UPV/EHU is in the Basque Country, Spain"
+ },
+ {
+  "aff": "Leibniz-Institut für Wissensmedien",
+  "country": "Germany",
+  "evidence": "IWM is in Tübingen, Germany"
+ },
+ {
+  "aff": "University Institute for Engineering Research, Miguel Hernández University",
+  "country": "Spain",
+  "evidence": "Miguel Hernández University is in Elche, Spain"
+ },
+ {
+  "aff": "FZI Research Center for Information Technoloy",
+  "country": "Germany",
+  "evidence": "FZI is in Karlsruhe, Germany"
+ },
+ {
+  "aff": "Max-Planck Institute of Animal Behavior",
+  "country": "Germany",
+  "evidence": "Max Planck Institute in Konstanz/Radolfzell, Germany"
+ },
+ {
+  "aff": "Federal University of Sergipe",
+  "country": "Brazil",
+  "evidence": "UFS is in Sergipe state, Brazil"
+ },
+ {
+  "aff": "Csic - Upc",
+  "country": "Spain",
+  "evidence": "Joint center of CSIC and UPC in Spain"
+ },
+ {
+  "aff": "UCL",
+  "country": "UK",
+  "evidence": "University College London in UK"
+ },
+ {
+  "aff": "the Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ)",
+  "country": "China",
+  "evidence": "Shenzhen-based laboratory in Guangdong, China"
+ },
+ {
+  "aff": "Autodesk Research",
+  "country": "USA",
+  "evidence": "Autodesk is headquartered in San Francisco, USA"
+ },
+ {
+  "aff": "Autodesk Inc",
+  "country": "USA",
+  "evidence": "Autodesk is headquartered in San Francisco, USA"
+ },
+ {
+  "aff": "Meiji University",
+  "country": "Japan",
+  "evidence": "Located in Tokyo, Japan"
+ },
+ {
+  "aff": "Carnege Mellon University",
+  "country": "USA",
+  "evidence": "Misspelling of Carnegie Mellon in Pittsburgh, USA"
+ },
+ {
+  "aff": "Osnabrück University",
+  "country": "Germany",
+  "evidence": "Located in Osnabrück, Germany"
+ },
+ {
+  "aff": "Udeer",
+  "country": "China",
+  "evidence": "Udeer.AI is a Chinese AI/robotics company"
+ },
+ {
+  "aff": "Udeer AI",
+  "country": "China",
+  "evidence": "Udeer.AI is a Chinese AI/robotics company"
+ },
+ {
+  "aff": "Massachusettes Institute of Technology",
+  "country": "USA",
+  "evidence": "Misspelling of MIT in Cambridge, MA, USA"
+ },
+ {
+  "aff": "Xdof.ai",
+  "country": "China",
+  "evidence": "Xdof.ai is a Chinese robotics/AI startup"
+ },
+ {
+  "aff": "Innopolis University",
+  "country": "Russia",
+  "evidence": "Located in Innopolis, Tatarstan, Russia"
+ },
+ {
+  "aff": "DFKI GmbH",
+  "country": "Germany",
+  "evidence": "German Research Center for Artificial Intelligence"
+ },
+ {
+  "aff": "China Agriculture University",
+  "country": "China",
+  "evidence": "Located in Beijing, China"
+ },
+ {
+  "aff": "China Telecom",
+  "country": "China",
+  "evidence": "Chinese state-owned telecom company"
+ },
+ {
+  "aff": "Prince of Wales Hospital",
+  "country": "China",
+  "evidence": "Prince of Wales Hospital in Hong Kong (China per rules)"
+ },
+ {
+  "aff": "Diden Robotics Co., Ltd",
+  "country": "China",
+  "evidence": "Diden Robotics is a Chinese robotics company"
+ },
+ {
+  "aff": "Academy of Military Sciences",
+  "country": "China",
+  "evidence": "PLA Academy of Military Sciences in China"
+ },
+ {
+  "aff": "NestAI",
+  "country": "China",
+  "evidence": "NestAI is a Chinese AI company"
+ },
+ {
+  "aff": "EIVA",
+  "country": "Denmark",
+  "evidence": "EIVA is a Danish hydrographic software company"
+ },
+ {
+  "aff": "Peking Univesity",
+  "country": "China",
+  "evidence": "Misspelling of Peking University in Beijing, China"
+ },
+ {
+  "aff": "JAKA Robotics Co., Ltd",
+  "country": "China",
+  "evidence": "JAKA Robotics is a Shanghai-based Chinese company"
+ },
+ {
+  "aff": "HUST",
+  "country": "China",
+  "evidence": "Huazhong University of Science and Technology in Wuhan, China"
+ },
+ {
+  "aff": "Fortiss GmbH",
+  "country": "Germany",
+  "evidence": "Fortiss is a Munich-based German research institute"
+ },
+ {
+  "aff": "University of Siegen",
+  "country": "Germany",
+  "evidence": "Located in Siegen, Germany"
+ },
+ {
+  "aff": "Fortiss",
+  "country": "Germany",
+  "evidence": "Fortiss is a Munich-based German research institute"
+ },
+ {
+  "aff": "Belmont University",
+  "country": "USA",
+  "evidence": "Located in Nashville, Tennessee, USA"
+ },
+ {
+  "aff": "International Institute of Information Technology",
+  "country": "India",
+  "evidence": "IIIT Hyderabad/Bangalore in India"
+ },
+ {
+  "aff": "Miguel Hernández University",
+  "country": "Spain",
+  "evidence": "Located in Elche, Spain"
+ },
+ {
+  "aff": "Miguel Hernandez University",
+  "country": "Spain",
+  "evidence": "Located in Elche, Spain"
+ },
+ {
+  "aff": "Universidad Miguel Hernandez De Elche",
+  "country": "Spain",
+  "evidence": "Located in Elche, Spain"
+ },
+ {
+  "aff": "Brigham and Women's Hospital",
+  "country": "USA",
+  "evidence": "Boston, Massachusetts, USA (Harvard-affiliated)"
+ },
+ {
+  "aff": "Royal Institute of Technology",
+  "country": "Sweden",
+  "evidence": "KTH Royal Institute of Technology in Stockholm, Sweden"
+ },
+ {
+  "aff": "Scania",
+  "country": "Sweden",
+  "evidence": "Scania is a Swedish truck manufacturer"
+ },
+ {
+  "aff": "Marshall University",
+  "country": "USA",
+  "evidence": "Located in Huntington, West Virginia, USA"
+ },
+ {
+  "aff": "University of Sherbrooke",
+  "country": "Canada",
+  "evidence": "Located in Quebec, Canada"
+ },
+ {
+  "aff": "Not Disclosed",
+  "country": "Unknown",
+  "evidence": "No identifying information"
+ },
+ {
+  "aff": "Draper Laboratory",
+  "country": "USA",
+  "evidence": "Charles Stark Draper Laboratory in Cambridge, MA, USA"
+ },
+ {
+  "aff": "Unity Embodied Intelligence Robotics Technology Co., Ltd.",
+  "country": "China",
+  "evidence": "Chinese company name pattern (Co., Ltd) for robotics"
+ },
+ {
+  "aff": "Eagleprojects S.p.A",
+  "country": "Italy",
+  "evidence": "S.p.A indicates Italian company"
+ },
+ {
+  "aff": "Kermanshah University of Medical Sciences, Kermanshah",
+  "country": "Iran",
+  "evidence": "Located in Kermanshah, Iran"
+ },
+ {
+  "aff": "Kermanshah Univeristy of Medical Sciences",
+  "country": "Iran",
+  "evidence": "Located in Kermanshah, Iran"
+ },
+ {
+  "aff": "Univesità Degli Studi Della Campania \"Luigi Vanvitelli\"",
+  "country": "Italy",
+  "evidence": "University of Campania in Italy"
+ },
+ {
+  "aff": "Hansung University",
+  "country": "South Korea",
+  "evidence": "Located in Seoul, South Korea"
+ },
+ {
+  "aff": "Artificial Intelligence Research Institute IIIA-CSIC",
+  "country": "Spain",
+  "evidence": "IIIA-CSIC is in Barcelona, Spain"
+ },
+ {
+  "aff": "The Chinese University of Hongkong",
+  "country": "China",
+  "evidence": "CUHK in Hong Kong (China per rules)"
+ },
+ {
+  "aff": "Northwestern Univ",
+  "country": "USA",
+  "evidence": "Northwestern University in Evanston, Illinois, USA"
+ },
+ {
+  "aff": "Hexagon Robotics",
+  "country": "Sweden",
+  "evidence": "Hexagon AB is a Swedish technology company"
+ },
+ {
+  "aff": "CyberAgent, Inc",
+  "country": "Japan",
+  "evidence": "CyberAgent is a Tokyo-based Japanese company"
+ },
+ {
+  "aff": "Konica Minolta",
+  "country": "Japan",
+  "evidence": "Japanese imaging company headquartered in Tokyo"
+ },
+ {
+  "aff": "The University of Danang–University of Science and Technology",
+  "country": "Vietnam",
+  "evidence": "DUT is in Da Nang, Vietnam"
+ },
+ {
+  "aff": "Desay SV",
+  "country": "China",
+  "evidence": "Desay SV Automotive is a Chinese automotive electronics company"
+ },
+ {
+  "aff": "University of Science and Technology (UST)",
+  "country": "South Korea",
+  "evidence": "UST in Daejeon is a Korean graduate university"
+ },
+ {
+  "aff": "BIT",
+  "country": "China",
+  "evidence": "Beijing Institute of Technology in China"
+ },
+ {
+  "aff": "Free University of Bozen Bolzano",
+  "country": "Italy",
+  "evidence": "Located in Bolzano, South Tyrol, Italy"
+ },
+ {
+  "aff": "National Research Council",
+  "country": "Italy",
+  "evidence": "CNR Italy (likely given Italian researcher patterns); could also be Canada NRC but Italian context"
+ },
+ {
+  "aff": "Hainan University",
+  "country": "China",
+  "evidence": "Located in Haikou, Hainan, China"
+ },
+ {
+  "aff": "Peking Universitiy",
+  "country": "China",
+  "evidence": "Misspelling of Peking University in Beijing, China"
+ },
+ {
+  "aff": "Skyfend",
+  "country": "China",
+  "evidence": "Skyfend is a Chinese anti-drone technology company"
+ },
+ {
+  "aff": "University of Information Technology",
+  "country": "Vietnam",
+  "evidence": "UIT is in Ho Chi Minh City, Vietnam"
+ },
+ {
+  "aff": "Soutern University of Science and Technology",
+  "country": "China",
+  "evidence": "Misspelling of SUSTech in Shenzhen, China"
+ },
+ {
+  "aff": "Leonardo Labs",
+  "country": "Italy",
+  "evidence": "Leonardo S.p.A. is an Italian aerospace/defense company"
+ },
+ {
+  "aff": "Department of Neurosurgery, Kings College Hospital NHS Trust, London, UK",
+  "country": "UK",
+  "evidence": "Explicitly UK-based hospital in London"
+ },
+ {
+  "aff": "Research Department of Surgical & Interventional Engineering, School of Biomedical Engineering & Imaging Sciences, King's Coll",
+  "country": "UK",
+  "evidence": "King's College London in UK"
+ },
+ {
+  "aff": "HAL Robotics Ltd",
+  "country": "UK",
+  "evidence": "HAL Robotics is a UK-based robotics software company"
+ },
+ {
+  "aff": "Tencnet",
+  "country": "China",
+  "evidence": "Misspelling of Tencent, Chinese tech company"
+ },
+ {
+  "aff": "University of Tuebingen",
+  "country": "Germany",
+  "evidence": "Eberhard Karls University of Tübingen, Germany"
+ },
+ {
+  "aff": "University of North Florida",
+  "country": "USA",
+  "evidence": "Located in Jacksonville, Florida, USA"
+ },
+ {
+  "aff": "Guangzhou Fuwei Intelligent Technology Co., Ltd",
+  "country": "China",
+  "evidence": "Guangzhou-based Chinese company"
+ },
+ {
+  "aff": "Institut Des Systèmes Intelligents Et De Robotique",
+  "country": "France",
+  "evidence": "ISIR at Sorbonne University, Paris, France"
+ },
+ {
+  "aff": "Bstar Robotics Co., Ltd",
+  "country": "China",
+  "evidence": "Chinese robotics company name pattern"
+ },
+ {
+  "aff": "AIR",
+  "country": "China",
+  "evidence": "Likely Tsinghua AIR (Institute for AI Industry Research), China"
+ },
+ {
+  "aff": "The HongKong University of Science and Technology (Guangzhou)",
+  "country": "China",
+  "evidence": "HKUST Guangzhou in mainland China"
+ },
+ {
+  "aff": "Istituto Dalle Molle di Studi sull'Intelligenza Artificiale (IDSIA), USI-SUPSI",
+  "country": "Switzerland",
+  "evidence": "IDSIA is a Swiss AI research institute (USI/SUPSI Lugano)"
+ },
+ {
+  "aff": "DFKI kaiserslautern",
+  "country": "Germany",
+  "evidence": "DFKI is the German Research Center for AI in Kaiserslautern"
+ },
+ {
+  "aff": "DFKI Kaiserslautern",
+  "country": "Germany",
+  "evidence": "DFKI is the German Research Center for AI"
+ },
+ {
+  "aff": "Kennesaw State University",
+  "country": "USA",
+  "evidence": "Public university in Georgia, USA"
+ },
+ {
+  "aff": "DiDi KargoBot",
+  "country": "China",
+  "evidence": "DiDi is a Chinese tech company; KargoBot is its autonomous trucking unit"
+ },
+ {
+  "aff": "Kargobot.AI",
+  "country": "China",
+  "evidence": "DiDi spinoff autonomous trucking company based in China"
+ },
+ {
+  "aff": "Bridgewater Raritan High School",
+  "country": "USA",
+  "evidence": "Public high school in New Jersey, USA"
+ },
+ {
+  "aff": "INSA Centre Val De Loire - Univ. Orléans",
+  "country": "France",
+  "evidence": "French engineering school (INSA) in Orléans"
+ },
+ {
+  "aff": "VUB",
+  "country": "Belgium",
+  "evidence": "Vrije Universiteit Brussel"
+ },
+ {
+  "aff": "FZI - Forschungszentrum Informatik",
+  "country": "Germany",
+  "evidence": "Research center for IT in Karlsruhe, Germany"
+ },
+ {
+  "aff": "RIKEN",
+  "country": "Japan",
+  "evidence": "Japanese national research institute"
+ },
+ {
+  "aff": "Marmara University",
+  "country": "Turkey",
+  "evidence": "Public university in Istanbul, Turkey"
+ },
+ {
+  "aff": "King Mongkut’s University of Technology Thonburi",
+  "country": "Thailand",
+  "evidence": "Public university in Bangkok, Thailand"
+ },
+ {
+  "aff": "Oakland University",
+  "country": "USA",
+  "evidence": "Public university in Michigan, USA"
+ },
+ {
+  "aff": "California State University, Northridge",
+  "country": "USA",
+  "evidence": "Public university in California, USA"
+ },
+ {
+  "aff": "Kyutech, Space Robotics Laboratory",
+  "country": "Japan",
+  "evidence": "Kyushu Institute of Technology in Japan"
+ },
+ {
+  "aff": "The University of Western Ontario",
+  "country": "Canada",
+  "evidence": "Public university in Ontario, Canada"
+ },
+ {
+  "aff": "Sun-Yat Sun University",
+  "country": "China",
+  "evidence": "Sun Yat-sen University in Guangzhou, China"
+ },
+ {
+  "aff": "Nanyang Technology University",
+  "country": "Singapore",
+  "evidence": "Nanyang Technological University (NTU) in Singapore"
+ },
+ {
+  "aff": "I2R",
+  "country": "Singapore",
+  "evidence": "Institute for Infocomm Research, A*STAR Singapore"
+ },
+ {
+  "aff": "Universite De Technologie Belfort Montbeliard",
+  "country": "France",
+  "evidence": "UTBM, public engineering university in France"
+ },
+ {
+  "aff": "Ufa University of Science and Technology",
+  "country": "Russia",
+  "evidence": "Public university in Ufa, Bashkortostan, Russia"
+ },
+ {
+  "aff": "FPT Software AI Center",
+  "country": "Vietnam",
+  "evidence": "FPT Software is a major Vietnamese IT company"
+ },
+ {
+  "aff": "University of Victoria",
+  "country": "Canada",
+  "evidence": "Public university in British Columbia, Canada"
+ },
+ {
+  "aff": "The AI Institute",
+  "country": "USA",
+  "evidence": "Robotics & AI institute (formerly Boston Dynamics AI Institute) based in Cambridge, MA"
+ },
+ {
+  "aff": "IMT Atlantique",
+  "country": "France",
+  "evidence": "French engineering grande école"
+ },
+ {
+  "aff": "Johnson & Johnson",
+  "country": "USA",
+  "evidence": "American multinational pharmaceutical/medical devices company"
+ },
+ {
+  "aff": "ISIR",
+  "country": "France",
+  "evidence": "Institut des Systèmes Intelligents et de Robotique, Sorbonne University, Paris"
+ },
+ {
+  "aff": "INESC TEC and Universidade Do Minho",
+  "country": "Portugal",
+  "evidence": "Portuguese research institute and University of Minho"
+ },
+ {
+  "aff": "Lots Design",
+  "country": "Sweden",
+  "evidence": "Swedish design consultancy company"
+ },
+ {
+  "aff": "Ca’ Foscari University",
+  "country": "Italy",
+  "evidence": "Public university in Venice, Italy"
+ },
+ {
+  "aff": "Fujian Agriculture and Forestry University",
+  "country": "China",
+  "evidence": "Public university in Fuzhou, China"
+ },
+ {
+  "aff": "Finger Vision Inc",
+  "country": "Japan",
+  "evidence": "Japanese tactile sensor robotics startup"
+ },
+ {
+  "aff": "Kaohsiung Veterans General Hospital",
+  "country": "Taiwan",
+  "evidence": "Hospital in Kaohsiung, Taiwan"
+ },
+ {
+  "aff": "Playsure Technology Company",
+  "country": "China",
+  "evidence": "Chinese technology company"
+ },
+ {
+  "aff": "Chinese Culture University",
+  "country": "Taiwan",
+  "evidence": "Private university in Taipei, Taiwan"
+ },
+ {
+  "aff": "HNU University",
+  "country": "China",
+  "evidence": "Hunan University, China (commonly abbreviated HNU)"
+ },
+ {
+  "aff": "URobotics Corp",
+  "country": "South Korea",
+  "evidence": "Korean robotics company"
+ },
+ {
+  "aff": "Shantou University",
+  "country": "China",
+  "evidence": "Public university in Shantou, Guangdong, China"
+ },
+ {
+  "aff": "Hasselt University - Flanders Make - Digital Future Lab",
+  "country": "Belgium",
+  "evidence": "Hasselt University and Flanders Make are in Belgium"
+ },
+ {
+  "aff": "Hasselt Univeristy",
+  "country": "Belgium",
+  "evidence": "Hasselt University in Flanders, Belgium"
+ },
+ {
+  "aff": "Algoryx Simulation",
+  "country": "Sweden",
+  "evidence": "Swedish physics simulation company in Umeå"
+ },
+ {
+  "aff": "DFKI GmbH Robotics Innovation Center",
+  "country": "Germany",
+  "evidence": "DFKI Robotics Innovation Center in Bremen, Germany"
+ },
+ {
+  "aff": "Korea Univeristy",
+  "country": "South Korea",
+  "evidence": "Korea University in Seoul"
+ },
+ {
+  "aff": "Robotics Innovation Center, DFKI GmbH",
+  "country": "Germany",
+  "evidence": "DFKI Robotics Innovation Center in Bremen, Germany"
+ },
+ {
+  "aff": "German Research Center for Artificial Intelligence - DFKI",
+  "country": "Germany",
+  "evidence": "DFKI is German national AI research center"
+ },
+ {
+  "aff": "Korea Institute of Robotics & Technology Convergence (KIRO)",
+  "country": "South Korea",
+  "evidence": "KIRO, Korean government robotics research institute"
+ },
+ {
+  "aff": "Korea Military Academy",
+  "country": "South Korea",
+  "evidence": "South Korean military academy in Seoul"
+ },
+ {
+  "aff": "Istituito Italiano Di Tecnologia",
+  "country": "Italy",
+  "evidence": "Italian Institute of Technology (IIT) in Genoa"
+ },
+ {
+  "aff": "Comenius University",
+  "country": "Slovakia",
+  "evidence": "Public university in Bratislava, Slovakia"
+ },
+ {
+  "aff": "School of Computer Science and Technology, University of Xinjiang",
+  "country": "China",
+  "evidence": "Xinjiang University in Urumqi, China"
+ },
+ {
+  "aff": "National Chung Hsing University",
+  "country": "Taiwan",
+  "evidence": "Public university in Taichung, Taiwan"
+ },
+ {
+  "aff": "University of Burgundy Europe",
+  "country": "France",
+  "evidence": "Université de Bourgogne in Dijon, France"
+ },
+ {
+  "aff": "Marie and Louis Pasteur University",
+  "country": "France",
+  "evidence": "Université Marie et Louis Pasteur in Besançon, France"
+ },
+ {
+  "aff": "Saint Louis University",
+  "country": "USA",
+  "evidence": "Private university in St. Louis, Missouri, USA"
+ },
+ {
+  "aff": "Esslingen University",
+  "country": "Germany",
+  "evidence": "Esslingen University of Applied Sciences in Germany"
+ },
+ {
+  "aff": "School of Pedagogical and Technological Education",
+  "country": "Greece",
+  "evidence": "ASPETE - public university in Athens, Greece"
+ },
+ {
+  "aff": "KBR, Inc.",
+  "country": "USA",
+  "evidence": "American engineering and government services company"
+ },
+ {
+  "aff": "Redwire Space",
+  "country": "USA",
+  "evidence": "American space infrastructure company headquartered in Florida"
+ },
+ {
+  "aff": "n/a",
+  "country": "Unknown",
+  "evidence": "Not specified"
+ },
+ {
+  "aff": "Stinger Ghaffarian Technologies",
+  "country": "USA",
+  "evidence": "American government services contractor (NASA contractor)"
+ },
+ {
+  "aff": "SGT, Inc.",
+  "country": "USA",
+  "evidence": "Stinger Ghaffarian Technologies, US-based contractor"
+ },
+ {
+  "aff": "Coventry University",
+  "country": "UK",
+  "evidence": "Public university in Coventry, England"
+ },
+ {
+  "aff": "Institute of Spacecraft System Engineering",
+  "country": "China",
+  "evidence": "Part of CAST, China Academy of Space Technology"
+ },
+ {
+  "aff": "UTS",
+  "country": "Australia",
+  "evidence": "University of Technology Sydney"
+ },
+ {
+  "aff": "De La Salle University",
+  "country": "Philippines",
+  "evidence": "Private university in Manila, Philippines"
+ },
+ {
+  "aff": "University of Miyazaki",
+  "country": "Japan",
+  "evidence": "Public university in Miyazaki, Japan"
+ },
+ {
+  "aff": "Korean Institute of Medical Microrobotics",
+  "country": "South Korea",
+  "evidence": "KIMIRo, Korean medical robotics institute in Gwangju"
+ },
+ {
+  "aff": "Korea Institute of Medical Microrobotics",
+  "country": "South Korea",
+  "evidence": "KIMIRo in Gwangju, South Korea"
+ },
+ {
+  "aff": "Guangxi Normal University",
+  "country": "China",
+  "evidence": "Public university in Guilin, China"
+ },
+ {
+  "aff": "Asan Medical Center",
+  "country": "South Korea",
+  "evidence": "Major hospital in Seoul, South Korea"
+ },
+ {
+  "aff": "UK Centre for Ecology & Hydrology",
+  "country": "UK",
+  "evidence": "UKCEH, British environmental research institute"
+ },
+ {
+  "aff": "Maxon Motor Ag",
+  "country": "Switzerland",
+  "evidence": "Swiss precision motor manufacturer"
+ },
+ {
+  "aff": "Spatialtemporal AI, China",
+  "country": "China",
+  "evidence": "Explicitly stated as based in China"
+ },
+ {
+  "aff": "University of Electronic and Science Technology of China",
+  "country": "China",
+  "evidence": "UESTC in Chengdu, China"
+ },
+ {
+  "aff": "NCEPU",
+  "country": "China",
+  "evidence": "North China Electric Power University in Beijing"
+ },
+ {
+  "aff": "KBR Wyle Services, LLC",
+  "country": "USA",
+  "evidence": "American government services subsidiary"
+ },
+ {
+  "aff": "Institute of Infocomm Research, A-Star",
+  "country": "Singapore",
+  "evidence": "I2R, A*STAR research institute in Singapore"
+ },
+ {
+  "aff": "SylphAI",
+  "country": "USA",
+  "evidence": "AI startup based in San Francisco, USA"
+ },
+ {
+  "aff": "Shandong Jianzhu University",
+  "country": "China",
+  "evidence": "Public university in Jinan, Shandong, China"
+ },
+ {
+  "aff": "Gwangju Institution of Science and Technology",
+  "country": "South Korea",
+  "evidence": "GIST, public research university in Gwangju"
+ },
+ {
+  "aff": "Yantai University",
+  "country": "China",
+  "evidence": "Public university in Yantai, Shandong, China"
+ },
+ {
+  "aff": "GoerTek Inc",
+  "country": "China",
+  "evidence": "Chinese electronics manufacturer in Weifang, Shandong"
+ },
+ {
+  "aff": "Iscas",
+  "country": "China",
+  "evidence": "Institute of Software, Chinese Academy of Sciences"
+ },
+ {
+  "aff": "Zhejiang Univerisity",
+  "country": "China",
+  "evidence": "Zhejiang University in Hangzhou, China"
+ },
+ {
+  "aff": "Kuban State University",
+  "country": "Russia",
+  "evidence": "Public university in Krasnodar, Russia"
+ },
+ {
+  "aff": "Actibot Intelligence",
+  "country": "China",
+  "evidence": "Chinese robotics company"
+ },
+ {
+  "aff": "ABB Robotics LLC",
+  "country": "Switzerland",
+  "evidence": "ABB headquartered in Zurich, Switzerland (Swiss-Swedish multinational)"
+ },
+ {
+  "aff": "MOBINN",
+  "country": "South Korea",
+  "evidence": "South Korean autonomous delivery robot company"
+ },
+ {
+  "aff": "Mobinn",
+  "country": "South Korea",
+  "evidence": "South Korean autonomous delivery robot company"
+ },
+ {
+  "aff": "FBK",
+  "country": "Italy",
+  "evidence": "Fondazione Bruno Kessler, research foundation in Trento, Italy"
+ },
+ {
+  "aff": "Guangdong Laboratory of Artificial Intelligence and Digital Economy(SZ)",
+  "country": "China",
+  "evidence": "Provincial AI lab in Shenzhen, Guangdong, China"
+ },
+ {
+  "aff": "Qiyuan Laboratory",
+  "country": "China",
+  "evidence": "Chinese national research lab in Beijing"
+ },
+ {
+  "aff": "SOKENDAI",
+  "country": "Japan",
+  "evidence": "Graduate University for Advanced Studies in Japan"
+ },
+ {
+  "aff": "Politecnic University of Catalunia",
+  "country": "Spain",
+  "evidence": "Universitat Politècnica de Catalunya (UPC) in Barcelona"
+ },
+ {
+  "aff": "Institut De Ciencies Del Mar - CSIC",
+  "country": "Spain",
+  "evidence": "Institute of Marine Sciences, CSIC, Barcelona"
+ },
+ {
+  "aff": "Chukyo University",
+  "country": "Japan",
+  "evidence": "Private university in Nagoya, Japan"
+ },
+ {
+  "aff": "Dexmal",
+  "country": "China",
+  "evidence": "Chinese embodied AI startup"
+ },
+ {
+  "aff": "Harbin Institue of Techonlogy",
+  "country": "China",
+  "evidence": "Harbin Institute of Technology in Harbin, China"
+ },
+ {
+  "aff": "Agile Robots",
+  "country": "Germany",
+  "evidence": "Robotics company headquartered in Munich, Germany"
+ },
+ {
+  "aff": "IDSIA",
+  "country": "Switzerland",
+  "evidence": "Dalle Molle Institute for AI in Lugano, Switzerland"
+ },
+ {
+  "aff": "University D'Évry",
+  "country": "France",
+  "evidence": "Université d'Évry-Val-d'Essonne, France"
+ },
+ {
+  "aff": "California State University San Marcos",
+  "country": "USA",
+  "evidence": "Public university in California, USA"
+ },
+ {
+  "aff": "College of the Atlantic",
+  "country": "USA",
+  "evidence": "Private college in Bar Harbor, Maine, USA"
+ },
+ {
+  "aff": "Gwangju Institutue of Science and Technology",
+  "country": "South Korea",
+  "evidence": "GIST in Gwangju, South Korea"
+ },
+ {
+  "aff": "Rehabilitation Institute of Chicago",
+  "country": "USA",
+  "evidence": "Now Shirley Ryan AbilityLab, Chicago, USA"
+ },
+ {
+  "aff": "Shang Hai Jiao Tong University",
+  "country": "China",
+  "evidence": "Shanghai Jiao Tong University, Shanghai"
+ },
+ {
+  "aff": "National Univorsity of Defence Technology",
+  "country": "China",
+  "evidence": "NUDT in Changsha, China"
+ },
+ {
+  "aff": "Phytium Technology Co., Ltd",
+  "country": "China",
+  "evidence": "Chinese chip designer based in Tianjin"
+ },
+ {
+  "aff": "Zhejiang Guoli Xin'an Technology Co., Ltd",
+  "country": "China",
+  "evidence": "Chinese technology company in Zhejiang"
+ },
+ {
+  "aff": "Ucas",
+  "country": "China",
+  "evidence": "University of Chinese Academy of Sciences, Beijing"
+ },
+ {
+  "aff": "Intel",
+  "country": "USA",
+  "evidence": "American multinational tech company headquartered in Santa Clara, CA"
+ },
+ {
+  "aff": "FrodoBots",
+  "country": "Singapore",
+  "evidence": "Robotics startup based in Singapore"
+ },
+ {
+  "aff": "Wayve",
+  "country": "UK",
+  "evidence": "British autonomous driving company in London"
+ },
+ {
+  "aff": "Shang hai jiao tong university",
+  "country": "China",
+  "evidence": "Shanghai Jiao Tong University, Shanghai"
+ },
+ {
+  "aff": "Eastern Institute for Advanced Study",
+  "country": "China",
+  "evidence": "EIAS in Ningbo, China"
+ },
+ {
+  "aff": "The Univeristy of Texas at Austin",
+  "country": "USA",
+  "evidence": "Public research university in Texas, USA"
+ },
+ {
+  "aff": "Gallo",
+  "country": "USA",
+  "evidence": "E. & J. Gallo Winery, American wine company in California"
+ },
+ {
+  "aff": "University of Pennslyvania",
+  "country": "USA",
+  "evidence": "University of Pennsylvania, Ivy League in Philadelphia"
+ },
+ {
+  "aff": "ATeam",
+  "country": "Unknown",
+  "evidence": "Ambiguous name, no clear identification"
+ },
+ {
+  "aff": "Institut Supérieur De l'Aéronautique Et De L'Espace",
+  "country": "France",
+  "evidence": "ISAE-SUPAERO, French aerospace engineering school in Toulouse"
+ },
+ {
+  "aff": "ATR",
+  "country": "Japan",
+  "evidence": "Advanced Telecommunications Research Institute International, Kyoto, Japan"
+ },
+ {
+  "aff": "QiluHospitalofShandongUniversity",
+  "country": "China",
+  "evidence": "Qilu Hospital of Shandong University in Jinan, China"
+ },
+ {
+  "aff": "Noah's Ark Lab",
+  "country": "China",
+  "evidence": "Huawei Noah's Ark Lab (HQ in China; multiple sites)"
+ },
+ {
+  "aff": "H. U. Group Research Institute G. K",
+  "country": "Japan",
+  "evidence": "Japanese research institute (H.U. Group is Japanese clinical lab company)"
+ },
+ {
+  "aff": "MANITOU Group",
+  "country": "France",
+  "evidence": "French manufacturer of material handling equipment"
+ },
+ {
+  "aff": "RPTU Kaiserslautern–Landau",
+  "country": "Germany",
+  "evidence": "Rheinland-Pfälzische Technische Universität in Germany"
+ },
+ {
+  "aff": "Aerospline",
+  "country": "Unknown",
+  "evidence": "Could not confidently identify"
+ },
+ {
+  "aff": "Hillbot, Inc",
+  "country": "USA",
+  "evidence": "Robotics startup based in San Diego, California"
+ },
+ {
+  "aff": "Human In Motion Robotics Inc.",
+  "country": "Canada",
+  "evidence": "Canadian exoskeleton company in British Columbia"
+ },
+ {
+  "aff": "Inspire AG",
+  "country": "Switzerland",
+  "evidence": "Swiss research and innovation company in Zurich"
+ },
+ {
+  "aff": "MCI",
+  "country": "Austria",
+  "evidence": "Management Center Innsbruck, Austrian university"
+ },
+ {
+  "aff": "Shanhai Jiao Tong University",
+  "country": "China",
+  "evidence": "Shanghai Jiao Tong University, Shanghai"
+ },
+ {
+  "aff": "TeleAI, China Telecom Corp Ltd",
+  "country": "China",
+  "evidence": "AI division of China Telecom"
+ },
+ {
+  "aff": "University Pf Southern California",
+  "country": "USA",
+  "evidence": "University of Southern California in Los Angeles"
+ },
+ {
+  "aff": "Orbot Co., Ltd",
+  "country": "South Korea",
+  "evidence": "Korean robotics company"
+ },
+ {
+  "aff": "Clark University",
+  "country": "USA",
+  "evidence": "Private research university in Worcester, Massachusetts"
+ },
+ {
+  "aff": "Alexander Von Humboldt Biological Resources Research Institute",
+  "country": "Colombia",
+  "evidence": "Colombian biodiversity research institute in Bogotá"
+ },
+ {
+  "aff": "Syndesis Health",
+  "country": "USA",
+  "evidence": "American healthcare technology company"
+ },
+ {
+  "aff": "China Mobile Research Institute",
+  "country": "China",
+  "evidence": "R&D arm of China Mobile in Beijing"
+ },
+ {
+  "aff": "TNO",
+  "country": "Netherlands",
+  "evidence": "Netherlands Organisation for Applied Scientific Research"
+ },
+ {
+  "aff": "UNC Chapel Hill",
+  "country": "USA",
+  "evidence": "University of North Carolina at Chapel Hill"
+ },
+ {
+  "aff": "Humanoid AI",
+  "country": "Unknown",
+  "evidence": "Ambiguous; possibly UK-based startup but uncertain"
+ },
+ {
+  "aff": "City University of Hongkong",
+  "country": "China",
+  "evidence": "Public university in Hong Kong (per normalization rule)"
+ },
+ {
+  "aff": "Lafayette College",
+  "country": "USA",
+  "evidence": "Private liberal arts college in Easton, Pennsylvania"
+ },
+ {
+  "aff": "Miraikan, The National Museum of Emerging Science and Innovation",
+  "country": "Japan",
+  "evidence": "National museum in Tokyo, Japan"
+ },
+ {
+  "aff": "Guilin University of Electronic Technology",
+  "country": "China",
+  "evidence": "Public university in Guilin, China"
+ },
+ {
+  "aff": "Lab for High Technology",
+  "country": "Unknown",
+  "evidence": "Generic name, cannot reliably identify"
+ },
+ {
+  "aff": "Institute for AI Industry Research",
+  "country": "China",
+  "evidence": "AIR at Tsinghua University in Beijing"
+ },
+ {
+  "aff": "Saga University",
+  "country": "Japan",
+  "evidence": "Public university in Saga, Japan"
+ },
+ {
+  "aff": "UNC-Chapel Hill",
+  "country": "USA",
+  "evidence": "University of North Carolina at Chapel Hill"
+ },
+ {
+  "aff": "Hubei University",
+  "country": "China",
+  "evidence": "Located in Wuhan, China"
+ },
+ {
+  "aff": "Yat-Sen University",
+  "country": "China",
+  "evidence": "Sun Yat-Sen University, Guangzhou, China"
+ },
+ {
+  "aff": "CAAZ (Zhejiang) Information Technology Co., Ltd",
+  "country": "China",
+  "evidence": "Zhejiang, China"
+ },
+ {
+  "aff": "TAMU",
+  "country": "USA",
+  "evidence": "Texas A&M University"
+ },
+ {
+  "aff": "CESS",
+  "country": "Unknown",
+  "evidence": "Acronym ambiguous without context"
+ },
+ {
+  "aff": "University of Luebeck, Institute for Signal Processing",
+  "country": "Germany",
+  "evidence": "Lübeck, Germany"
+ },
+ {
+  "aff": "College of William and Mary",
+  "country": "USA",
+  "evidence": "Virginia, USA"
+ },
+ {
+  "aff": "VISTEC : Vidyasirimedhi Institute of Science and Technology",
+  "country": "Thailand",
+  "evidence": "Located in Rayong, Thailand"
+ },
+ {
+  "aff": "Vidyasirimedhi Institute of Science and Technology (VISTEC)",
+  "country": "Thailand",
+  "evidence": "Located in Rayong, Thailand"
+ },
+ {
+  "aff": "SHU",
+  "country": "China",
+  "evidence": "Shanghai University (most common SHU in robotics)"
+ },
+ {
+  "aff": "DeepMirror Inc",
+  "country": "UK",
+  "evidence": "AI drug discovery company based in Cambridge, UK"
+ },
+ {
+  "aff": "School of Engineering and Applied Science, Ahmedabad University",
+  "country": "India",
+  "evidence": "Ahmedabad, India"
+ },
+ {
+  "aff": "E-Surfing Digital Life Technology Co., Ltd",
+  "country": "China",
+  "evidence": "China Telecom subsidiary, China"
+ },
+ {
+  "aff": "MagicLab Robotics Technology Co., Ltd",
+  "country": "China",
+  "evidence": "Chinese humanoid robotics company"
+ },
+ {
+  "aff": "AXXX; Trusted AI Research Center, RAS",
+  "country": "Russia",
+  "evidence": "RAS = Russian Academy of Sciences"
+ },
+ {
+  "aff": "Univeristy of California, San Diego",
+  "country": "USA",
+  "evidence": "UCSD, USA (typo)"
+ },
+ {
+  "aff": "Carneige Mellon University",
+  "country": "USA",
+  "evidence": "Carnegie Mellon University, Pittsburgh USA (typo)"
+ },
+ {
+  "aff": "Pudu Technology Ltd",
+  "country": "China",
+  "evidence": "Shenzhen-based service robotics company"
+ },
+ {
+  "aff": "Sirjan University of Technology",
+  "country": "Iran",
+  "evidence": "Sirjan, Kerman Province, Iran"
+ },
+ {
+  "aff": "UNIVERSITY of Le Havre",
+  "country": "France",
+  "evidence": "Le Havre, France"
+ },
+ {
+  "aff": "Université Clermont Auvergne",
+  "country": "France",
+  "evidence": "Clermont-Ferrand, France"
+ },
+ {
+  "aff": "SIGMA-Clermont / Institut Pascal",
+  "country": "France",
+  "evidence": "Clermont-Ferrand, France"
+ },
+ {
+  "aff": "Zerith",
+  "country": "Unknown",
+  "evidence": "Insufficient context"
+ },
+ {
+  "aff": "PsiBot",
+  "country": "China",
+  "evidence": "Chinese embodied AI / humanoid robotics startup"
+ },
+ {
+  "aff": "Mohamed Khider University of Biskra",
+  "country": "Unknown",
+  "evidence": "Algeria - not in country list"
+ },
+ {
+  "aff": "IDEA",
+  "country": "China",
+  "evidence": "International Digital Economy Academy, Shenzhen"
+ },
+ {
+  "aff": "Xian Jiaotng University",
+  "country": "China",
+  "evidence": "Xi'an Jiaotong University, China (typo)"
+ },
+ {
+  "aff": "MediaTek Inc",
+  "country": "Taiwan",
+  "evidence": "Hsinchu, Taiwan"
+ },
+ {
+  "aff": "National Chiao Tung University",
+  "country": "Taiwan",
+  "evidence": "Hsinchu, Taiwan (now NYCU)"
+ },
+ {
+  "aff": "Tech Hive Labs",
+  "country": "Unknown",
+  "evidence": "Insufficient context"
+ },
+ {
+  "aff": "Athena Research Center",
+  "country": "Greece",
+  "evidence": "Athens, Greece"
+ },
+ {
+  "aff": "USP",
+  "country": "Brazil",
+  "evidence": "Universidade de São Paulo"
+ },
+ {
+  "aff": "Gran Sasso Science Institute (GSSI)",
+  "country": "Italy",
+  "evidence": "L'Aquila, Italy"
+ },
+ {
+  "aff": "Coco Robotics",
+  "country": "USA",
+  "evidence": "Los Angeles delivery robot startup"
+ },
+ {
+  "aff": "Shirley Ryan AbilityLab, Chicago, IL",
+  "country": "USA",
+  "evidence": "Chicago, Illinois"
+ },
+ {
+  "aff": "Shirley Ryan AbilityLab (formerly the Rehabilitation Institute of Chicago)",
+  "country": "USA",
+  "evidence": "Chicago, Illinois"
+ },
+ {
+  "aff": "U Illinois Chicago | Shirley Ryan AbilityLab",
+  "country": "USA",
+  "evidence": "Chicago, USA"
+ },
+ {
+  "aff": "Islamic University of Gaza",
+  "country": "Unknown",
+  "evidence": "Palestine - not in country list"
+ },
+ {
+  "aff": "University of Quebec in Outaouais",
+  "country": "Canada",
+  "evidence": "Quebec, Canada"
+ },
+ {
+  "aff": "Institute of FIeld roBOtics (FIBO), King Mongkut’s University of Technology Thonburi",
+  "country": "Thailand",
+  "evidence": "Bangkok, Thailand"
+ },
+ {
+  "aff": "MedInTech",
+  "country": "Unknown",
+  "evidence": "Insufficient context"
+ },
+ {
+  "aff": "Dongfeng USharing Technology Co., Ltd",
+  "country": "China",
+  "evidence": "Dongfeng Motor subsidiary, China"
+ },
+ {
+  "aff": "Cranfield University",
+  "country": "UK",
+  "evidence": "Bedfordshire, England"
+ },
+ {
+  "aff": "University of Cyprus",
+  "country": "Unknown",
+  "evidence": "Cyprus - not in country list"
+ },
+ {
+  "aff": "Izmir Institute of Technology",
+  "country": "Turkey",
+  "evidence": "Izmir, Turkey"
+ },
+ {
+  "aff": "China Aerospace Science and Technology Corporation",
+  "country": "China",
+  "evidence": "Chinese state-owned aerospace company"
+ },
+ {
+  "aff": "AIRS",
+  "country": "China",
+  "evidence": "Shenzhen Institute of Artificial Intelligence and Robotics for Society"
+ },
+ {
+  "aff": "University of Parma",
+  "country": "Italy",
+  "evidence": "Parma, Italy"
+ },
+ {
+  "aff": "Universita Di Parma",
+  "country": "Italy",
+  "evidence": "Parma, Italy"
+ },
+ {
+  "aff": "Saxion University of Applied Science",
+  "country": "Netherlands",
+  "evidence": "Enschede, Netherlands"
+ },
+ {
+  "aff": "Unaffiliated",
+  "country": "Unknown",
+  "evidence": "No affiliation"
+ },
+ {
+  "aff": "Kingston University, London, UK",
+  "country": "UK",
+  "evidence": "London, UK"
+ },
+ {
+  "aff": "East China Jiaotong University",
+  "country": "China",
+  "evidence": "Nanchang, Jiangxi, China"
+ },
+ {
+  "aff": "Sookmyung Women's University",
+  "country": "South Korea",
+  "evidence": "Seoul, South Korea"
+ },
+ {
+  "aff": "Path Robotics, Inc",
+  "country": "USA",
+  "evidence": "Columbus, Ohio robotics welding company"
+ },
+ {
+  "aff": "Vercept AI",
+  "country": "USA",
+  "evidence": "Seattle-based AI startup"
+ },
+ {
+  "aff": "Myongji University",
+  "country": "South Korea",
+  "evidence": "Seoul/Yongin, South Korea"
+ },
+ {
+  "aff": "JiangHuai Advanced Technology Center",
+  "country": "China",
+  "evidence": "Anhui, China"
+ },
+ {
+  "aff": "FORTH",
+  "country": "Greece",
+  "evidence": "Foundation for Research and Technology Hellas"
+ },
+ {
+  "aff": "South River High School",
+  "country": "USA",
+  "evidence": "Maryland, USA"
+ },
+ {
+  "aff": "Kessler Foundation",
+  "country": "USA",
+  "evidence": "New Jersey, USA"
+ },
+ {
+  "aff": "China Medical University",
+  "country": "Taiwan",
+  "evidence": "China Medical University in Taichung, Taiwan (most common in robotics conferences)"
+ },
+ {
+  "aff": "AGH University of Science and Technology",
+  "country": "Poland",
+  "evidence": "Krakow, Poland"
+ },
+ {
+  "aff": "Moonshot AI",
+  "country": "China",
+  "evidence": "Beijing AI startup (Kimi)"
+ },
+ {
+  "aff": "Minzu University of China",
+  "country": "China",
+  "evidence": "Beijing, China"
+ },
+ {
+  "aff": "Hanghai Huace Navigation Technology Ltd",
+  "country": "China",
+  "evidence": "Shanghai Huace Navigation, China (typo)"
+ },
+ {
+  "aff": "Ningbo Institute of Materials Technology&Engineering",
+  "country": "China",
+  "evidence": "CAS institute, Ningbo, China"
+ },
+ {
+  "aff": "National University Singpore",
+  "country": "Singapore",
+  "evidence": "NUS (typo)"
+ },
+ {
+  "aff": "Schindler",
+  "country": "Switzerland",
+  "evidence": "Schindler Group elevator company, Ebikon, Switzerland"
+ },
+ {
+  "aff": "Cisco Systems",
+  "country": "USA",
+  "evidence": "San Jose, California"
+ },
+ {
+  "aff": "National Innovation Institute of Defense Technology",
+  "country": "China",
+  "evidence": "Beijing, China (NIIDT/NUDT-affiliated)"
+ },
+ {
+  "aff": "NIIDT",
+  "country": "China",
+  "evidence": "National Innovation Institute of Defense Technology, China"
+ },
+ {
+  "aff": "DII",
+  "country": "Unknown",
+  "evidence": "Ambiguous acronym"
+ },
+ {
+  "aff": "Zhejiang Lab",
+  "country": "China",
+  "evidence": "Hangzhou, China"
+ },
+ {
+  "aff": "Analog Devices",
+  "country": "USA",
+  "evidence": "Wilmington, Massachusetts"
+ },
+ {
+  "aff": "Galaxea AI",
+  "country": "China",
+  "evidence": "Chinese embodied AI / humanoid robotics company"
+ },
+ {
+  "aff": "Galaxea.ai",
+  "country": "China",
+  "evidence": "Chinese embodied AI / humanoid robotics company"
+ },
+ {
+  "aff": "AWS",
+  "country": "USA",
+  "evidence": "Amazon Web Services"
+ },
+ {
+  "aff": "Tekniker",
+  "country": "Spain",
+  "evidence": "Basque research center, Spain"
+ },
+ {
+  "aff": "Department of Autonomous and Intelligent Systems, Tekniker - Basque Research and Technology Alliance (BRTA)",
+  "country": "Spain",
+  "evidence": "Basque, Spain"
+ },
+ {
+  "aff": "TEKNIKER",
+  "country": "Spain",
+  "evidence": "Basque, Spain"
+ },
+ {
+  "aff": "University of Basque Country",
+  "country": "Spain",
+  "evidence": "Basque Country, Spain"
+ },
+ {
+  "aff": "Edulis Therapeutics",
+  "country": "Unknown",
+  "evidence": "Insufficient context"
+ },
+ {
+  "aff": "Wuxi University of Technology",
+  "country": "China",
+  "evidence": "Wuxi, Jiangsu, China"
+ },
+ {
+  "aff": "Technische Hochschule Deggendorf",
+  "country": "Germany",
+  "evidence": "Deggendorf, Bavaria, Germany"
+ },
+ {
+  "aff": "Sair Lab",
+  "country": "USA",
+  "evidence": "Spatial AI & Robotics Lab at University at Buffalo"
+ },
+ {
+  "aff": "SAIR Labs",
+  "country": "USA",
+  "evidence": "Spatial AI & Robotics Lab at University at Buffalo"
+ },
+ {
+  "aff": "insitute of information engineering",
+  "country": "China",
+  "evidence": "Institute of Information Engineering, CAS, Beijing"
+ },
+ {
+  "aff": "Inner Monglia University",
+  "country": "China",
+  "evidence": "Inner Mongolia University, Hohhot, China (typo)"
+ },
+ {
+  "aff": "SenseAuto",
+  "country": "China",
+  "evidence": "SenseTime autonomous driving subsidiary"
+ },
+ {
+  "aff": "Delta Electronics Inc",
+  "country": "Taiwan",
+  "evidence": "Taipei, Taiwan"
+ },
+ {
+  "aff": "Horizon",
+  "country": "China",
+  "evidence": "Horizon Robotics, Beijing, China"
+ },
+ {
+  "aff": "HorizonRobotics",
+  "country": "China",
+  "evidence": "Horizon Robotics, Beijing, China"
+ },
+ {
+  "aff": "LaTIM, CHRU De Brest",
+  "country": "France",
+  "evidence": "Brest, France"
+ },
+ {
+  "aff": "IdMEC/IST",
+  "country": "Portugal",
+  "evidence": "Instituto Superior Técnico, Lisbon"
+ },
+ {
+  "aff": "DEM/IST",
+  "country": "Portugal",
+  "evidence": "Instituto Superior Técnico, Lisbon"
+ },
+ {
+  "aff": "Princess Sumaya University for Technology",
+  "country": "Unknown",
+  "evidence": "Amman, Jordan - not in country list"
+ },
+ {
+  "aff": "Franklin W. Olin College of Engineering",
+  "country": "USA",
+  "evidence": "Needham, Massachusetts"
+ },
+ {
+  "aff": "KU Leven",
+  "country": "Belgium",
+  "evidence": "KU Leuven, Belgium (typo)"
+ },
+ {
+  "aff": "Deutsches Zentrum Für Luft Und Raumfahrt",
+  "country": "Germany",
+  "evidence": "DLR - German Aerospace Center"
+ },
+ {
+  "aff": "aopeng",
+  "country": "Unknown",
+  "evidence": "Insufficient context"
+ },
+ {
+  "aff": "CESI Lineact",
+  "country": "France",
+  "evidence": "CESI engineering school research lab, France"
+ },
+ {
+  "aff": "CREATE Consortium",
+  "country": "Unknown",
+  "evidence": "Multiple consortia of this name; ambiguous"
+ },
+ {
+  "aff": "University of South Carolina",
+  "country": "USA",
+  "evidence": "Columbia, South Carolina"
+ },
+ {
+  "aff": "ETHZ",
+  "country": "Switzerland",
+  "evidence": "ETH Zurich"
+ },
+ {
+  "aff": "RSL, ETHZ",
+  "country": "Switzerland",
+  "evidence": "Robotic Systems Lab at ETH Zurich"
+ },
+ {
+  "aff": "Kangwon National University",
+  "country": "South Korea",
+  "evidence": "Chuncheon, South Korea"
+ },
+ {
+  "aff": "Archer Aviation",
+  "country": "USA",
+  "evidence": "San Jose, California eVTOL company"
+ },
+ {
+  "aff": "Prexa AI",
+  "country": "Unknown",
+  "evidence": "Insufficient context"
+ },
+ {
+  "aff": "National University of Defense and Technology",
+  "country": "China",
+  "evidence": "NUDT, Changsha, China"
+ },
+ {
+  "aff": "University of Picardy",
+  "country": "France",
+  "evidence": "Université de Picardie Jules Verne, Amiens"
+ },
+ {
+  "aff": "Watney Robotics",
+  "country": "Unknown",
+  "evidence": "Insufficient context"
+ },
+ {
+  "aff": "Xi 'an Jiaotong University",
+  "country": "China",
+  "evidence": "Xi'an, China"
+ },
+ {
+  "aff": "Xian Jiaotong University",
+  "country": "China",
+  "evidence": "Xi'an, China"
+ },
+ {
+  "aff": "1991",
+  "country": "Unknown",
+  "evidence": "Not a recognizable affiliation"
+ },
+ {
+  "aff": "Waytous",
+  "country": "China",
+  "evidence": "Beijing-based mining autonomous driving company"
+ },
+ {
+  "aff": "Lsts - +atlantic",
+  "country": "Portugal",
+  "evidence": "LSTS at University of Porto / +Atlantic CoLab"
+ },
+ {
+  "aff": "Scenix.ai",
+  "country": "Unknown",
+  "evidence": "Insufficient context"
+ },
+ {
+  "aff": "Scenix",
+  "country": "Unknown",
+  "evidence": "Insufficient context"
+ },
+ {
+  "aff": "LightWheel",
+  "country": "China",
+  "evidence": "Lightwheel AI - Chinese embodied AI / sim-to-real startup"
+ },
+ {
+  "aff": "Chinese Academy of Science",
+  "country": "China",
+  "evidence": "CAS, Beijing"
+ },
+ {
+  "aff": "Ai2",
+  "country": "USA",
+  "evidence": "Allen Institute for AI, Seattle"
+ },
+ {
+  "aff": "Olin College of Engineering",
+  "country": "USA",
+  "evidence": "Needham, Massachusetts"
+ },
+ {
+  "aff": "PROFACTOR GmbH",
+  "country": "Austria",
+  "evidence": "Steyr, Austria"
+ },
+ {
+  "aff": "Hezhou University",
+  "country": "China",
+  "evidence": "Hezhou, Guangxi, China"
+ },
+ {
+  "aff": "University of Malaga",
+  "country": "Spain",
+  "evidence": "Málaga, Spain"
+ },
+ {
+  "aff": "ELECTROCYCLING",
+  "country": "Germany",
+  "evidence": "Electrocycling GmbH, Goslar, Germany"
+ },
+ {
+  "aff": "Nanyang Technoligical University",
+  "country": "Singapore",
+  "evidence": "NTU Singapore (typo)"
+ },
+ {
+  "aff": "CSIC-UPC",
+  "country": "Spain",
+  "evidence": "Spanish National Research Council and UPC, Spain"
+ },
+ {
+  "aff": "Nazarbayev University",
+  "country": "Unknown",
+  "evidence": "Astana, Kazakhstan - not in country list"
+ },
+ {
+  "aff": "Korean Advanced Institute of Science and Technology",
+  "country": "South Korea",
+  "evidence": "KAIST, Daejeon"
+ },
+ {
+  "aff": "Institute of Systems Engineering, China Academy of Engineering Physics",
+  "country": "China",
+  "evidence": "Mianyang, Sichuan, China"
+ },
+ {
+  "aff": "Ningbo Institute of Intelligent Equipment Technology Co. Ltd.",
+  "country": "China",
+  "evidence": "Ningbo, China"
+ },
+ {
+  "aff": "Pollen Robotics",
+  "country": "France",
+  "evidence": "Bordeaux, France"
+ },
+ {
+  "aff": "MinJiang University",
+  "country": "China",
+  "evidence": "Fuzhou, Fujian, China"
+ },
+ {
+  "aff": "Avidbots",
+  "country": "Canada",
+  "evidence": "Kitchener, Ontario, Canada"
+ },
+ {
+  "aff": "Neura Robotics",
+  "country": "Germany",
+  "evidence": "Metzingen, Germany"
+ },
+ {
+  "aff": "Anhui Eyevolution Technology",
+  "country": "China",
+  "evidence": "Anhui, China"
+ },
+ {
+  "aff": "Massachusetts General Hospital",
+  "country": "USA",
+  "evidence": "Boston, Massachusetts"
+ },
+ {
+  "aff": "AIDIN ROBOTICS Inc",
+  "country": "South Korea",
+  "evidence": "Seongnam, South Korea"
+ },
+ {
+  "aff": "Busan National University",
+  "country": "South Korea",
+  "evidence": "Pusan National University, Busan"
+ },
+ {
+  "aff": "Murdoch University",
+  "country": "Australia",
+  "evidence": "Perth, Western Australia"
+ },
+ {
+  "aff": "LiberAI",
+  "country": "Unknown",
+  "evidence": "Insufficient context"
+ },
+ {
+  "aff": "Dyson",
+  "country": "UK",
+  "evidence": "Dyson Ltd / Dyson Robotics, UK"
+ },
+ {
+  "aff": "Flinders University",
+  "country": "Australia",
+  "evidence": "Adelaide, South Australia"
+ }
+]

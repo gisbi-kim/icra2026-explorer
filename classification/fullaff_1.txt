@@ -1,0 +1,539 @@
+412	Tsinghua University
+239	Shanghai Jiao Tong University
+237	Zhejiang University
+218	Carnegie Mellon University
+200	Peking University
+180	National University of Singapore
+178	Stanford University
+177	Beihang University
+158	Seoul National University
+145	Fudan University
+140	The University of Hong Kong
+129	Tongji University
+127	Beijing Institute of Technology
+123	Huazhong University of Science and Technology
+120	Massachusetts Institute of Technology
+119	Georgia Institute of Technology
+119	Southeast University
+118	Technical University of Munich
+107	The Chinese University of Hong Kong
+104	Harbin Institute of Technology
+97	Sun Yat-Sen University
+95	The University of Tokyo
+93	University of Michigan
+93	ETH Zurich
+92	University of Pennsylvania
+84	University of Washington
+84	Purdue University
+82	Nanyang Technological University
+82	Northeastern University
+80	Imperial College London
+79	National University of Defense Technology
+78	University of Southern California
+74	The Hong Kong University of Science and Technology (Guangzhou)
+74	The University of Texas at Austin
+70	University of California, Berkeley
+68	Sungkyunkwan University
+67	University of Toronto
+67	Hunan University
+65	University of California, San Diego
+62	Institute of Automation, Chinese Academy of Sciences
+58	Tohoku University
+58	University of Science and Technology of China
+58	Wuhan University
+57	The Hong Kong Polytechnic University
+55	UC Berkeley
+55	Harbin Institute of Technology, Shenzhen
+55	NVIDIA
+54	Southern University of Science and Technology
+53	Northwestern Polytechnical University
+52	ShanghaiTech University
+51	Columbia University
+51	KTH Royal Institute of Technology
+51	DGIST
+50	University College London
+49	KAIST
+48	EPFL
+48	Nankai University
+47	Delft University of Technology
+47	Istituto Italiano Di Tecnologia
+45	New York University
+45	Johns Hopkins University
+44	Karlsruhe Institute of Technology
+43	University of Illinois Urbana-Champaign
+43	The Hong Kong University of Science and Technology
+43	Korea Advanced Institute of Science and Technology
+41	University of Texas at Austin
+41	Cornell University
+40	California Institute of Technology
+39	University of Electronic Science and Technology of China
+39	Worcester Polytechnic Institute
+39	Scuola Superiore Sant'Anna
+38	MIT
+38	McGill University
+38	Texas A&M University
+38	King's College London
+38	Beijing University of Posts and Telecommunications
+37	Toyota Research Institute
+36	University of Oxford
+35	Queensland University of Technology
+35	University of Chinese Academy of Sciences
+34	Shanghai AI Laboratory
+33	Korea Institute of Science and Technology
+33	Chonnam National University
+31	University of Trento
+31	University of California San Diego
+30	University of Bonn
+30	City University of Hong Kong
+30	Westlake University
+30	Xi'an Jiaotong University
+30	University of Bristol
+30	George Mason University
+29	University of Waterloo
+29	Hong Kong University of Science and Technology
+29	Oregon State University
+29	Nanjing University
+29	University of Cambridge
+29	Boston University
+29	Shandong University
+29	University of Luxembourg
+29	University of Massachusetts Amherst
+28	Chongqing University
+28	Chinese Academy of Sciences
+28	University of Edinburgh
+28	University of Utah
+28	Korea University
+28	Waseda University
+27	University of Bologna
+27	TU Wien
+27	Osaka University
+27	University of Minnesota
+26	CSIRO
+26	Guangdong University of Technology
+26	University of Stuttgart
+25	Mohamed Bin Zayed University of Artificial Intelligence
+25	ETH Zürich
+25	Zhejiang University of Technology
+25	Stevens Institute of Technology
+25	Luleå University of Technology
+24	Hong Kong University of Science and Technology (Guangzhou)
+24	German Aerospace Center (DLR)
+24	The Chinese University of Hong Kong, Shenzhen
+24	Gwangju Institute of Science and Technology
+24	East China Normal University
+24	South China University of Technology
+24	Arizona State University
+24	Keio University
+24	Huawei
+24	Brown University
+23	Technische Universität Darmstadt
+23	Shenzhen University
+23	National Taiwan University
+23	TU Delft
+23	Tianjin University
+23	Shanghai University
+22	University of Twente
+22	University of Maryland, College Park
+22	University of Freiburg
+22	University of Macau
+22	Robotics and AI Institute
+22	University of Maryland
+22	University of Colorado Boulder
+22	NASA Ames Research Center
+21	Kyung Hee University
+21	Institute of Computing Technology, Chinese Academy of Sciences
+21	Northwestern University
+21	Princeton University
+21	Nanjing University of Science and Technology
+21	National Yang Ming Chiao Tung University
+21	Rutgers University
+21	Queen's University
+20	University of Illinois at Urbana-Champaign
+20	Li Auto Inc
+20	Indian Institute of Science
+20	Monash University
+20	University of California, Riverside
+19	University of Leeds
+19	Simon Fraser University
+19	Xidian University
+19	Kyoto University
+19	New York University Abu Dhabi
+19	McMaster University
+19	University of Michigan, Ann Arbor
+19	Czech Technical University in Prague
+19	University of Sydney
+19	University of California, Los Angeles
+18	University of Southampton
+18	CNRS
+18	Singapore University of Technology and Design
+18	Kyushu University
+18	Japan Advanced Institute of Science and Technology
+18	Korea Advanced Institute of Science and Technology (KAIST)
+18	TU Munich
+18	Central South University
+18	Pusan National University
+18	Technion
+18	Yonsei University
+18	Dalian University of Technology
+18	Vrije Universiteit Brussel
+18	KU Leuven
+17	Sapienza University of Rome
+17	Technische Universität München
+17	Duke University
+17	Inha University
+17	University of Zagreb, Faculty of Electrical Engineering and Computing
+17	Hanyang University
+17	Kyungpook National University
+17	Motional AD
+16	The University of Osaka
+16	University of Hamburg
+16	TU Darmstadt
+16	Jilin University
+16	Brigham Young University
+16	Jet Propulsion Laboratory, California Institute of Technology
+16	Sichuan University
+15	ZTE Corporation
+15	Xiamen University
+15	Technical University of Munich (TUM)
+15	Politecnico Di Milano
+15	University of Georgia
+15	Harvard University
+15	York University
+15	Yale University
+14	TU Berlin
+14	Karlsruhe Institute of Technology (KIT)
+14	Shanghai Jiaotong University
+14	Tencent
+14	University of Hong Kong
+14	University of Delaware
+14	Vanderbilt University
+14	University of Virginia
+14	University of Verona
+14	University of Pisa
+14	University of Siena
+14	Microsoft Research Asia
+14	China University of Mining and Technology
+14	The University of Queensland
+13	Amazon
+13	UC San Diego
+13	LAAS-CNRS
+13	Beijing University of Chemical Technology
+13	Örebro University
+13	University of Technology Nuremberg
+13	Gachon University
+13	Chinese University of Hong Kong
+13	Carl Zeiss AG
+13	Yeungnam University
+13	IIIT Hyderabad
+13	Wuhan University of Technology
+13	Huawei Technologies Canada
+13	Harbin Engineering University
+13	Renmin University of China
+12	Poznan University of Technology
+12	University of Nottingham
+12	University of Southern Denmark
+12	University of Alberta
+12	University of Zurich
+12	NTNU - Norwegian University of Science and Technology
+12	Gwangju Institute of Science and Technology (GIST)
+12	University of Science and Technology Beijing
+12	TII - Technology Innovation Institute
+12	Wesleyan University
+12	Pennsylvania State University
+12	Drexel University
+12	Mitsubishi Electric Research Laboratories
+12	University of Tartu
+12	National Cheng Kung University
+12	Jiangnan University
+11	Tampere University
+11	University of Illinois at Urbana Champaign
+11	Eindhoven University of Technology
+11	Li Auto
+11	Aarhus University
+11	Heriot-Watt University
+11	Fraunhofer IPA
+11	Technische Universität Berlin
+11	University of Padova
+11	Technical University of Darmstadt
+11	Honda Research Institute Europe
+11	Rice University
+11	Hefei University of Technology
+11	University of Lincoln
+11	Chuo University
+11	Nara Institute of Science and Technology
+11	Norwegian University of Science and Technology
+11	Beijing Academy of Artificial Intelligence
+11	University of Technology Sydney
+11	Norwegian University of Science and Technology (NTNU)
+11	UCLA
+11	Rensselaer Polytechnic Institute
+11	Aalto University
+11	Waymo
+11	South China Normal University
+10	The University of Edinburgh
+10	INRIA
+10	Singapore University of Technology & Design
+10	Chungbuk National University
+10	Hyundai Motor Company
+10	Ghent University
+10	Friedrich-Alexander-Universität Erlangen-Nürnberg
+10	Graz University of Technology
+10	University of Pittsburgh
+10	University of Groningen
+10	OMRON SINIC X Corporation
+10	Tel Aviv University
+10	Shanghaitech University
+10	Dartmouth College
+10	University of Glasgow
+10	Inria
+10	Washington University in St. Louis
+10	Chalmers University of Technology
+10	Caltech
+10	Horizon Robotics
+10	Centre for Transformative Garment Production
+10	The University of British Columbia
+10	Shenyang Institute of Automation, Chinese Academy of Sciences
+10	Ulsan National Institute of Science and Technology
+10	University of Nevada, Reno
+10	University of Bremen
+10	Midea Group
+10	University of British Columbia
+10	University of California Berkeley
+10	University of California, Irvine
+10	Zhejiang University, Huzhou Institute of Zhejiang University
+9	U.S. Army Research Laboratory
+9	Taiyuan University of Technology
+9	Ritsumeikan University
+9	Tsinghua Shenzhen International Graduate School
+9	Waabi, University of Toronto
+9	ByteDance Inc
+9	Universidad Carlos III De Madrid
+9	HKUST
+9	UNIST (Ulsan National Institute of Science and Technology)
+9	Chinese University of Hong Kong, Shenzhen
+9	Disney Research
+9	University of Wisconsin-Madison
+9	Nanjing University of Aeronautics and Astronautics
+9	Leibniz University Hannover
+9	Technion - Israel Institute of Technology
+9	Beijing University of Technology
+9	Tokyo University of Science
+9	Vrije Universiteit Amsterdam
+9	Toyota Technological Institute at Chicago
+9	Gyeongsang National University
+9	Inner Mongolia University
+9	Soochow University
+9	Indian Institute of Technology Gandhinagar
+9	King Abdullah University of Science and Technology
+9	University of Turku
+9	The University of Sheffield
+9	University of Sheffield
+9	Pohang University of Science and Technology (POSTECH)
+9	University of Klagenfurt
+9	Huawei Noah's Ark Lab
+9	University of Liverpool
+9	Lehigh University
+9	University of Alcalá
+9	Valeo.ai
+9	Stony Brook University
+9	Northwest A&F University
+9	Universidad Pablo De Olavide
+8	SUSTech
+8	POSTECH
+8	KTH
+8	Politecnico Di Bari
+8	ShangHai Jiao Tong University
+8	Agency for Science, Technology and Research (A*STAR)
+8	Paderborn University
+8	Institute of Automation, Chinese Academy of Science
+8	Pohang University of Science and Technology
+8	University of Texas at Dallas
+8	Binghamton University
+8	Allen Institute for AI
+8	Technische Universität Braunschweig
+8	University of Florida
+8	Korea Institute of Industrial Technology
+8	University of Minnesota, Twin Cities
+8	Univ. of Tokyo
+8	Bogazici University
+8	University of North Texas
+8	Dalian Maritime University
+8	Chang'an University
+8	University of Notre Dame
+8	Universidad De Zaragoza
+8	Google DeepMind
+8	UT Austin
+8	University of Arkansas
+8	National Technical University of Athens
+8	MIT Lincoln Laboratory
+8	Beijing Institute for General Artificial Intelligence
+7	Great Bay University
+7	École Polytechnique De Montréal
+7	Chongqing Afari Intelligent Drive Co., Ltd
+7	Shanghai Artificial Intelligence Laboratory
+7	Korea Advanced Institute of Science and Technology, KAIST
+7	The University of Sydney; Vanderbilt University
+7	Tech. Univ. Muenchen TUM
+7	Bielefeld University
+7	Beijing Jiaotong University
+7	Kookmin University
+7	Alibaba DAMO Academy
+7	KAIST (Korea Advanced Institute of Science and Technology)
+7	Shenzhen Institute of Artificial Intelligence and Robotics for Society
+7	PICO, ByteDance
+7	Woods Hole Oceanographic Institution
+7	Allen Institute for Artificial Intelligence
+7	Korea Advanced Institute of Science & Technology (KAIST)
+7	Khalifa University
+7	Georgia Tech
+7	Aalborg University
+7	Daegu Gyeongbuk Institute of Science and Technology (DGIST)
+7	Istituto Italiano di Tecnologia
+7	Kanazawa University
+7	Bilkent University
+7	SungKyunKwan University
+7	Zhengzhou University
+7	Australian National University
+7	Massachusetts Institute of Technology (MIT)
+7	Center for Artificial Intelligence and Robotics, Graduate School at Shenzhen, Tsinghua University, 518055 Shenzhen, China
+7	Sorbonne University
+7	Syracuse University
+7	Tufts University
+7	Toyota Motor East Japan, Inc
+7	University of Tsukuba
+7	Keimyung University
+7	Korea Research Institute of Ships and Ocean Engineering
+7	Hefei Institutes of Physical Science, Chinese Academy of Sciences
+7	Toyota Motor North America R&D
+7	University of Cape Town
+7	University of Sydney, NVIDIA
+7	Nokia Bell Labs
+7	University of Illinois Chicago
+7	Jet Propulsion Laboratory
+7	North Carolina State University
+7	Daegu Gyeongbuk Institute of Science and Technology(DGIST)
+6	National Institute of Advanced Industrial Science and Technology
+6	University of Rome Tor Vergata
+6	Ecole Polytechnique Fédérale De Lausanne (EPFL)
+6	Information Engineering University
+6	Lancaster University
+6	Wuhan University of Science and Technology
+6	Baidu
+6	Irisa Cnrs Umr6074
+6	Beijing Galbot Co., Ltd
+6	Southwest University
+6	Alibaba Group
+6	Honda Research Institute, USA
+6	Skolkovo Institute of Science and Technology
+6	Institute of Science Tokyo
+6	Italian Institute of Technology
+6	University of York
+6	Amazon Robotics
+6	Durham University
+6	The University of Manchester
+6	ZheJiang University
+6	Meta
+6	University of Tokyo
+6	Kumoh National Institute of Technology
+6	Mercedes-Benz AG
+6	Virginia Tech
+6	Université Laval
+6	University of Konstanz
+6	Chinese Univ Hong Kong (CUHK) & National Univ Singapore(NUS)
+6	NanyangTechnological University
+6	Jeonbuk National University
+6	Korea Institute of Machinery & Materials
+6	Hong Kong Polytechnic University
+6	Pohang University of Science and Technology ( POSTECH )
+6	University of Naples Federico II
+6	ETRI
+6	Noah's Ark Lab, Huawei Technologies
+6	Universität Der Bundeswehr München
+6	University of Texas at Arlington
+6	University of Milan
+6	Oxford Brookes University
+6	Kyushu Institute of Technology
+6	University of Auckland
+6	Ewha Womans University
+6	The University of Sydney
+6	University of Hertfordshire
+6	Chung-Ang University
+6	Mindanao State University - Iligan Institute of Technology
+6	Inventec Corporation
+6	University of São Paulo
+6	Uppsala University
+6	Beijing Institute for General Artificial Intelligence (BIGAI)
+6	University of Zaragoza
+6	Nvidia
+6	Ocean University of China
+6	General Robotics
+6	Alibaba Damo Academy
+6	University of Seoul
+6	University of New South Wales
+5	University of Adelaide
+5	University of Essex
+5	National Institute of Advanced Industrial Science and Technology (AIST)
+5	Inria Rennes
+5	MBZUAI
+5	DEVCOM Army Research Laboratory
+5	LiAuto
+5	Alibaba
+5	Chemnitz University of Technology
+5	Technical University Munich
+5	Institute of Automation，Chinese Academy of Sciences
+5	Honda Research Institute USA
+5	National Oceanography Centre
+5	Politecnico Di Torino
+5	New York University Tandon School of Engineering
+5	MDA Space
+5	Shanghai Qi Zhi Institute
+5	Florida International University
+5	RWTH Aachen University
+5	University of California
+5	Shanghai JiaoTong University
+5	Sirius University of Science and Technology
+5	FZI Forschungszentrum Informatik
+5	Boston Dynamics AI Institute
+5	Google
+5	Institut De Robòtica I Informàtica Industrial, CSIC-UPC
+5	Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ)
+5	University of Alabama
+5	Qiyuan Lab
+5	Robert Bosch GmbH, Corporate Research
+5	Sogang University
+5	Korea Institute of Machinery and Materials
+5	KRISO
+5	Heidelberg University
+5	Huawei Technologies
+5	University of Haifa
+5	University of Sussex
+5	Seoul National University of Science and Technology
+5	University of the Bundeswehr Munich
+5	Panasonic Advanced Technology Development Co., Ltd
+5	AIOZ
+5	Aston University
+5	NASA
+5	Stanford
+5	AIT Austrian Institute of Technology
+5	University of Illinois Urbana Champaign
+5	University of North Carolina at Chapel Hill
+5	D-Robotics
+5	Institute for Infocomm Research, A*STAR
+5	Xiaomi EV
+5	IT University of Copenhagen
+5	Friedrich-Alexander-University Erlangen-Nurnberg (FAU)
+5	Beijing Normal University
+5	École Polytechnique Fédérale De Lausanne
+5	The Alan Turing Institute
+5	Karlsruhe University of Applied Sciences
+5	Microsoft
+5	Tianjin University of Technology
+5	Gac R&d Center
+5	Ingenuity Labs Research Institute at Queen's University
+5	Universidad De Alcalá
+5	Henan University of Science and Technology
+5	Fka GmbH
+5	UNIST
+5	Waymo LLC
+5	Robotics Center
+5	Shanxi University
