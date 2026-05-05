@@ -51,6 +51,15 @@ for k, v in list(overrides_data.items()):
         del overrides_data[k]
 country_overrides_json = json.dumps(overrides_data, ensure_ascii=False, separators=(",", ":"))
 
+# Pre-computed top-K similar-paper lookup (SPECTER2 embeddings, see scripts/embed_papers.py).
+# Optional: if the file is missing the explorer simply omits the "Similar papers" section.
+SIMILAR_PATH = ROOT / "classification" / "similar_papers.json"
+if SIMILAR_PATH.exists():
+    similar_data = json.loads(SIMILAR_PATH.read_text(encoding="utf-8"))
+else:
+    similar_data = {}
+similar_json = json.dumps(similar_data, ensure_ascii=False, separators=(",", ":"))
+
 HTML = r"""<!doctype html>
 <html lang="en">
 <head>
@@ -174,6 +183,28 @@ HTML = r"""<!doctype html>
   .paper .abstract .kw:hover { border-color: var(--accent); color: var(--accent); }
   .paper .abstract .ab-text { white-space: normal; }
   .paper .abstract .empty { color: var(--muted); font-style: italic; }
+  /* Similar papers section (SPECTER2) */
+  .paper .abstract .similar-row { margin-top: 14px; padding-top: 12px;
+    border-top: 1px dashed var(--border-soft); }
+  .paper .abstract .similar-row .label { font-size: 11px; font-weight: 600;
+    color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em;
+    display: block; margin-bottom: 8px; }
+  .paper .abstract .similar-row .label .sim-meta { color: var(--muted-2);
+    font-weight: 500; text-transform: none; letter-spacing: 0; }
+  .paper .abstract .similar-list { display: flex; flex-direction: column; gap: 4px; }
+  .paper .abstract .similar-item { all: unset; display: grid;
+    grid-template-columns: 44px 1fr; gap: 10px; align-items: center;
+    padding: 6px 10px; border-radius: 6px; cursor: pointer;
+    border: 1px solid transparent; transition: background 0.1s, border-color 0.1s; }
+  .paper .abstract .similar-item:hover { background: var(--accent-soft);
+    border-color: rgba(0,102,204,0.20); }
+  .paper .abstract .similar-item .sim-score { font-size: 12px; font-weight: 700;
+    color: var(--accent); text-align: right; font-variant-numeric: tabular-nums; }
+  .paper .abstract .similar-item .sim-text { display: flex; flex-direction: column;
+    gap: 2px; min-width: 0; }
+  .paper .abstract .similar-item .sim-title { font-size: 13px; color: var(--text);
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .paper .abstract .similar-item .sim-tags { font-size: 11px; color: var(--muted); }
   .paper .expand-hint { font-size: 11px; color: var(--muted-2); margin-left: 6px; }
   .paper.open .expand-hint::after { content: "▾"; }
   .paper:not(.open) .expand-hint::after { content: "▸"; }
@@ -765,11 +796,18 @@ HTML = r"""<!doctype html>
 </div>
 
 <script id="papers-data" type="application/json">__PAPERS_JSON__</script>
+<script id="similar-data" type="application/json">__SIMILAR_JSON__</script>
 <script>
 const ALL_PAPERS = JSON.parse(document.getElementById('papers-data').textContent);
 // Late Breaking abstracts are excluded site-wide (per project requirement).
 function _isLateBreaking(code) { return /^[A-Z][a-z]I\d+LB(\.|$)/.test(code); }
 const PAPERS = ALL_PAPERS.filter(p => !_isLateBreaking(p.code));
+// SPECTER2-based pre-computed top-K similar papers per paper code.
+const SIMILAR_PAPERS = (() => {
+  const el = document.getElementById('similar-data');
+  try { return el ? JSON.parse(el.textContent) : {}; } catch (_) { return {}; }
+})();
+const PAPER_BY_CODE = new Map(PAPERS.map(p => [p.code, p]));
 function normalizeSearchText(s) {
   return String(s || "").toLowerCase().replace(/\s+/g, " ").trim();
 }
@@ -879,6 +917,7 @@ PAPERS.forEach(p => {
   p.abstract = p.abstract || "";
   p.sessionType = sessionTypeOf(p.code);
   p._search = normalizeSearchText(
+    p.code.toLowerCase() + " " +
     p.title.toLowerCase() + " " +
     p.authors.map(a => a.name + " " + a.aff).join(" ").toLowerCase() +
     " " + p.tags.join(" ").toLowerCase() +
@@ -1526,6 +1565,24 @@ function render() {
     const abText = p.abstract
       ? `<div class="ab-text">${hl(p.abstract, terms)}</div>`
       : `<div class="empty">No abstract available for this paper.</div>`;
+    const sim = SIMILAR_PAPERS[p.code] || [];
+    const simItems = sim
+      .map(s => [s, PAPER_BY_CODE.get(s.code)])
+      .filter(([_, t]) => t)
+      .slice(0, 5);
+    const simHTML = simItems.length
+      ? `<div class="similar-row">
+           <span class="label">Similar papers <span class="sim-meta">· SPECTER2</span></span>
+           <div class="similar-list">${simItems.map(([s, t]) => `
+             <button type="button" class="similar-item" data-jump="${escapeHTML(s.code)}" title="Jump to ${escapeHTML(t.code)}">
+               <span class="sim-score">${(s.sim*100).toFixed(0)}%</span>
+               <span class="sim-text">
+                 <span class="sim-title">${escapeHTML(t.title)}</span>
+                 <span class="sim-tags">${escapeHTML(t.day.slice(0,3))} · ${escapeHTML(t.code)}${(t.tags||[]).length ? " · " + escapeHTML((t.tags||[]).slice(0,2).join(", ")) : ""}</span>
+               </span>
+             </button>`).join("")}</div>
+         </div>`
+      : "";
     const typeCls = p.sessionType === "Oral" ? "oral" : p.sessionType === "Interactive" ? "interactive" : p.sessionType === "Late Breaking" ? "latebreak" : "";
     const typeChip = typeCls
       ? `<span class="chip clickable ${typeCls}${fType && p.sessionType === fType ? " matched" : ""}" data-stype="${escapeHTML(p.sessionType)}" title="Filter by format: ${escapeHTML(p.sessionType)}">${escapeHTML(p.sessionType)}</span>`
@@ -1544,7 +1601,7 @@ function render() {
       </div>
       <div class="title">${hl(p.title, terms)}<span class="expand-hint"></span></div>
       <div class="authors">${authorList}</div>
-      <div class="abstract">${kwHTML}${abText}</div>
+      <div class="abstract">${kwHTML}${abText}${simHTML}</div>
     </div>`);
   }
   wrap.innerHTML = html.join("") || `<div class="card" style="text-align:center;color:var(--muted)">No results match your search.</div>`;
@@ -1634,6 +1691,14 @@ function render() {
       document.getElementById("topicFilter").value = "";
       applyFilter();
       maybeScrollToSearch();
+    });
+  });
+  // similar-paper button click → reset filters and search by paper code
+  wrap.querySelectorAll(".paper .similar-item[data-jump]").forEach(el => {
+    el.addEventListener("click", (e) => {
+      e.stopPropagation();
+      e.preventDefault();
+      jumpToPaper(el.dataset.jump);
     });
   });
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE));
@@ -1882,6 +1947,31 @@ document.getElementById("brandHome").addEventListener("click", (e) => {
   e.preventDefault();
   resetToHome();
 });
+
+// Jump to a specific paper by code (used by Similar-papers links).
+// Resets every filter so the target is always reachable, then searches by
+// its code (which is included in p._search) so it appears as the only hit.
+function jumpToPaper(code) {
+  document.getElementById("q2").value = "";
+  document.getElementById("q3").value = "";
+  document.getElementById("searchMode").value = "and";
+  document.getElementById("dayFilter").value = "";
+  document.getElementById("sessionTypeFilter").value = "";
+  document.getElementById("topicFilter").value = "";
+  document.getElementById("countryFilter").value = "";
+  document.getElementById("affFilter").value = "";
+  document.getElementById("sortFilter").value = "default";
+  authorCountFilter = null;
+  document.getElementById("q").value = code;
+  applyFilter();
+  // applyFilter → render() is synchronous, so the new card is in the DOM now.
+  const wrap = document.getElementById("papers");
+  const card = wrap?.querySelector(".paper");
+  if (card) {
+    card.classList.add("open");
+    card.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}
 document.getElementById("shuffleResults").addEventListener("click", () => {
   shuffleSeed = Math.floor(Math.random() * 2147483647);
   document.getElementById("sortFilter").value = "shuffle";
@@ -1932,6 +2022,7 @@ document.getElementById("genDate").textContent = new Date().toISOString().slice(
 
 html_filled = (HTML
     .replace("__PAPERS_JSON__", papers_json)
+    .replace("__SIMILAR_JSON__", similar_json)
     .replace("__COUNTRY_HINTS_JSON__", country_hints_json)
     .replace("__COUNTRY_OVERRIDES_JSON__", country_overrides_json))
 OUT.write_text(html_filled, encoding="utf-8")
