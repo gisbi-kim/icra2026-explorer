@@ -645,8 +645,8 @@ HTML = r"""<!doctype html>
     </section>
 
     <section id="trends">
-      <h2>Hot topics<span class="info-tip" data-tip="How topics are assigned:&#10;Each paper's title AND its author-declared PaperPlaza keywords are matched against 32 hand-curated regex patterns (keywords + their plurals / variants). The taxonomy is NOT learned from the data.&#10;&#10;Multi-label: a paper can match several topics simultaneously, so percentages can sum above 100%.&#10;&#10;Disclaimer — uncategorized papers exist:&#10;Currently about 6% of papers (~187) match no topic at all. They are usually niche subjects the taxonomy doesn't cover (e.g. formal methods, KAN, novel sensors).&#10;&#10;For maximum accuracy use the author-declared keywords below.">i</span></h2>
-      <div class="section-sub">Auto-tagged from paper titles + author-declared keywords via regex. Click a bar to filter the paper list below. Multi-label: a paper can match several topics, so percentages can sum above 100%. About 6% of papers are uncategorized — see the i tooltip.</div>
+      <h2>Hot topics<span class="info-tip" data-tip="How topics are assigned:&#10;Each paper title is matched against 32 hand-curated regex patterns (keywords + their plurals / variants). The taxonomy is NOT learned from the data.&#10;&#10;Multi-label: a paper can match several topics simultaneously, so percentages can sum above 100%.&#10;&#10;Disclaimer — uncategorized papers exist:&#10;Currently about 22% of papers (~641) match no topic at all. They are usually niche subjects the taxonomy doesn't cover (e.g. formal methods, KAN, novel sensors).&#10;&#10;For maximum accuracy use the author-declared keywords below.">i</span></h2>
+      <div class="section-sub">Auto-tagged from paper titles via keyword regexes. Click a bar to filter the paper list below. Multi-label: a paper can match several topics, so percentages can sum above 100%. About 22% of papers are uncategorized — see the i tooltip.</div>
       <div class="card" style="margin-top:8px"><div class="chart-box xtall"><canvas id="topicBar"></canvas></div></div>
     </section>
 
@@ -898,14 +898,9 @@ const TOPICS = [
   ["Bio-inspired",
     /\b(bio.?inspired|biomimetic|biologically.?inspired|nature.?inspired|insect.?inspired|fish.?inspired|bird.?inspired|samara|inspired by)\b/i],
 ];
-function topicsFor(p) {
-  // Scan both the title and the author-declared PaperPlaza keywords.
-  // The keyword vocabulary is curated (~150 entries) so it adds signal with
-  // very little false-positive risk. Drops the auto-tag miss rate roughly
-  // 22% → 6% on this dataset.
-  const text = p.title + " " + ((p.keywords || []).join(" "));
+function topicsForTitle(title) {
   const tags = [];
-  for (const [name, re] of TOPICS) if (re.test(text)) tags.push(name);
+  for (const [name, re] of TOPICS) if (re.test(title)) tags.push(name);
   return tags;
 }
 
@@ -921,7 +916,7 @@ function sessionTypeOf(code) {
 }
 
 PAPERS.forEach(p => {
-  p.tags = topicsFor(p);
+  p.tags = topicsForTitle(p.title);
   p.countries = Array.from(new Set(p.authors.map(a => countryFor(a.aff))));
   p.affs = Array.from(new Set(p.authors.map(a => a.aff)));
   p.keywords = p.keywords || [];
