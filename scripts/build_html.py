@@ -582,8 +582,8 @@ HTML = r"""<!doctype html>
     <a href="#overview" class="active">Introduction</a>
     <a href="#stats">Conference statistics</a>
     <h4>Trends</h4>
-    <a href="#trends">Hot topics</a>
     <a href="#kw-trends">Author keywords</a>
+    <a href="#trends">Hot topics</a>
     <h4>EDA</h4>
     <a href="#eda-aff">Top affiliations</a>
     <a href="#eda-country">Affiliation region</a>
@@ -644,15 +644,9 @@ HTML = r"""<!doctype html>
       </div>
     </section>
 
-    <section id="trends">
-      <h2>Hot topics<span class="info-tip" data-tip="How topics are assigned:&#10;Each paper title is matched against 32 hand-curated regex patterns (keywords + their plurals / variants). The taxonomy is NOT learned from the data.&#10;&#10;Multi-label: a paper can match several topics simultaneously, so percentages can sum above 100%.&#10;&#10;Disclaimer — uncategorized papers exist:&#10;Currently about 22% of papers (~641) match no topic at all. They are usually niche subjects the taxonomy doesn't cover (e.g. formal methods, KAN, novel sensors).&#10;&#10;For maximum accuracy use the author-declared keywords below.">i</span></h2>
-      <div class="section-sub">Auto-tagged from paper titles via keyword regexes. Click a bar to filter the paper list below. Multi-label: a paper can match several topics, so percentages can sum above 100%. About 22% of papers are uncategorized — see the i tooltip.</div>
-      <div class="card" style="margin-top:8px"><div class="chart-box xtall"><canvas id="topicBar"></canvas></div></div>
-    </section>
-
     <section id="kw-trends">
-      <h2>Author-declared keywords<span class="info-tip" data-tip="Keywords assigned by the paper authors themselves at submission time, drawn from PaperPlaza's controlled vocabulary (~150 categories).&#10;&#10;Each paper typically declares 2–3 keywords, so the same paper appears under multiple bars. Click a bar to filter the paper list below.&#10;&#10;This is the ground-truth tagging — more accurate but more granular than the Hot topics above.">i</span></h2>
-      <div class="section-sub">Top author-declared keywords from PaperPlaza. Each paper has 2–3 keywords. Click a bar to filter.</div>
+      <h2>Author-declared keywords<span class="info-tip" data-tip="Keywords assigned by the paper authors themselves at submission time, drawn from PaperPlaza's controlled vocabulary (~150 categories).&#10;&#10;Each paper typically declares 2–3 keywords, so the same paper appears under multiple bars. Click a bar to filter the paper list below.">i</span></h2>
+      <div class="section-sub"><b>Ground-truth tagging</b> — assigned by the authors themselves at submission, from PaperPlaza's controlled vocabulary of ~150 categories. Each paper declares 2–3 keywords. More accurate (and more granular) than the regex-based Hot topics below. Click a bar to filter.</div>
       <div class="card" style="margin-top:8px">
         <div class="card-header">
           <h3 style="margin:0">Top keywords</h3>
@@ -664,6 +658,12 @@ HTML = r"""<!doctype html>
         </div>
         <div class="chart-box" id="kwBarBox" style="height:auto;min-height:780px"><canvas id="kwBar"></canvas></div>
       </div>
+    </section>
+
+    <section id="trends">
+      <h2>Hot topics<span class="info-tip" data-tip="Each paper title is matched against 32 hand-curated regex patterns (keywords + their plurals / variants). The taxonomy is NOT learned from the data.&#10;&#10;Multi-label: a paper can match several topics simultaneously, so percentages can sum above 100%.">i</span></h2>
+      <div class="section-sub"><b>Auto-tagged</b> from paper titles only via 32 hand-curated regex patterns — a coarse view of the broad themes at the conference. Multi-label: a paper can match several topics, so percentages can sum above 100%. <b>~22% of papers (~641) match no topic at all</b> (niche subjects the taxonomy doesn't cover — e.g. formal methods, KAN, novel sensors). For granular and accurate tagging use the <a href="#kw-trends">author-declared keywords above</a>.</div>
+      <div class="card" style="margin-top:8px"><div class="chart-box xtall"><canvas id="topicBar"></canvas></div></div>
     </section>
 
     <section id="eda-aff">
