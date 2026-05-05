@@ -103,7 +103,10 @@ HTML = r"""<!doctype html>
     max-width: 1440px; margin: 0 auto; padding: 0 24px;
     height: 100%; display: flex; align-items: center; gap: 18px;
   }
-  .brand { font-weight: 600; font-size: 17px; letter-spacing: -0.02em; }
+  .brand { font-weight: 600; font-size: 17px; letter-spacing: -0.02em;
+           color: inherit; text-decoration: none; cursor: pointer;
+           user-select: none; transition: opacity 0.15s; }
+  .brand:hover { opacity: 0.7; }
   .brand .dot { color: var(--accent); }
   .topbar .meta { color: var(--muted); font-size: 13px; }
   .topbar .right { margin-left: auto; display: flex; gap: 8px; align-items: center; }
@@ -505,7 +508,7 @@ HTML = r"""<!doctype html>
 
 <div class="topbar">
   <div class="inner">
-    <div class="brand">ICRA 2026<span class="dot"> · </span>Paper Explorer</div>
+    <a class="brand" id="brandHome" href="#overview" title="Reset filters and return to home">ICRA 2026<span class="dot"> · </span>Paper Explorer</a>
     <div class="meta">Vienna, Austria · June 1–5</div>
     <div class="right">
       <span class="stat-pill"><b>4,947</b> submissions</span>
@@ -1710,6 +1713,28 @@ document.getElementById("topicFilter").addEventListener("change", applyFilter);
 document.getElementById("countryFilter").addEventListener("change", applyFilter);
 document.getElementById("affFilter").addEventListener("change", applyFilter);
 document.getElementById("sortFilter").addEventListener("change", applyFilter);
+
+// Brand click → full reset to initial home state
+function resetToHome() {
+  document.getElementById("q").value = "";
+  document.getElementById("q2").value = "";
+  document.getElementById("q3").value = "";
+  document.getElementById("searchMode").value = "and";
+  document.getElementById("dayFilter").value = "";
+  document.getElementById("sessionTypeFilter").value = "";
+  document.getElementById("topicFilter").value = "";
+  document.getElementById("countryFilter").value = "";
+  document.getElementById("affFilter").value = "";
+  document.getElementById("sortFilter").value = "default";
+  authorCountFilter = null;
+  applyFilter();
+  history.replaceState(null, "", window.location.pathname);
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+document.getElementById("brandHome").addEventListener("click", (e) => {
+  e.preventDefault();
+  resetToHome();
+});
 document.getElementById("shuffleResults").addEventListener("click", () => {
   shuffleSeed = Math.floor(Math.random() * 2147483647);
   document.getElementById("sortFilter").value = "shuffle";
