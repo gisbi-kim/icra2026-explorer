@@ -502,6 +502,32 @@ HTML = r"""<!doctype html>
   footer { color: var(--muted); font-size: 12px; text-align: center;
     padding: 32px 0; border-top: 1px solid var(--border-soft); margin-top: 40px; }
   footer .credit { color: var(--text-2); font-weight: 600; margin-bottom: 6px; }
+
+  /* Country × Topic heatmap */
+  .heatmap { display: grid; gap: 2px; font-size: 11px; min-width: 760px;
+             grid-template-columns: 130px repeat(var(--cols, 20), minmax(28px, 1fr)); }
+  .heatmap .corner { grid-column: 1; }
+  .heatmap .colhead { writing-mode: vertical-rl; transform: rotate(180deg);
+                      padding: 6px 2px; text-align: left; color: var(--text-2);
+                      font-size: 10.5px; line-height: 1.1; cursor: pointer;
+                      white-space: nowrap; user-select: none;
+                      border-bottom: 1px solid var(--border-soft); }
+  .heatmap .colhead:hover { color: var(--accent); }
+  .heatmap .rowhead { padding: 6px 10px 6px 4px; text-align: right;
+                      color: var(--text); font-weight: 500; cursor: pointer;
+                      white-space: nowrap; user-select: none;
+                      border-right: 1px solid var(--border-soft); font-size: 11.5px; }
+  .heatmap .rowhead:hover { color: var(--accent); }
+  .heatmap .cell { aspect-ratio: 1 / 1; min-height: 28px; border-radius: 3px;
+                   display: flex; align-items: center; justify-content: center;
+                   color: var(--text); font-size: 9.5px; font-weight: 600;
+                   cursor: pointer; transition: outline 0.1s, transform 0.08s;
+                   outline: 1px solid transparent; }
+  .heatmap .cell:hover { outline: 2px solid var(--accent); transform: scale(1.08); z-index: 2; }
+  .heatmap .cell.empty { background: var(--bg-alt); color: var(--muted-2); }
+  .heatmap .cell .v { pointer-events: none; }
+  /* Use white text on darker cells (intensity > 0.55) */
+  .heatmap .cell.dark { color: #fff; }
 </style>
 </head>
 <body>
@@ -530,6 +556,7 @@ HTML = r"""<!doctype html>
     <h4>EDA</h4>
     <a href="#eda-aff">Top affiliations</a>
     <a href="#eda-country">Affiliation region</a>
+    <a href="#eda-heatmap">Country × Topic</a>
     <a href="#eda-misc">Day · authors</a>
     <h4>Search</h4>
     <a href="#search">Find papers</a>
@@ -627,6 +654,21 @@ HTML = r"""<!doctype html>
           <div class="chart-box tall" id="countryDonutBox"><canvas id="countryDonut"></canvas></div>
           <div class="chart-box tall" id="countryBarBox" style="display:none"><canvas id="countryBar"></canvas></div>
         </div>
+      </div>
+    </section>
+
+    <section id="eda-heatmap">
+      <div class="card-header" style="align-items:flex-end">
+        <h2 style="margin:0">Country × Topic<span class="info-tip" data-tip="Heatmap of papers across countries (rows) and topics (columns).&#10;&#10;A paper with co-authors from China + USA on a 'Manipulation' topic counts +1 for both China×Manipulation AND USA×Manipulation. Multi-label: a paper can also belong to several topics.&#10;&#10;Modes:&#10; Row %: each row sums to ~100% — shows what each country specializes in.&#10; Col %: each column sums to ~100% — shows which countries dominate each topic.&#10; Absolute: raw counts, dynamic range compressed via square-root scaling.&#10;&#10;Click any cell to drill down.">i</span></h2>
+        <div class="tabs">
+          <button class="tab active" data-heatview="row">Row %</button>
+          <button class="tab" data-heatview="col">Col %</button>
+          <button class="tab" data-heatview="abs">Absolute</button>
+        </div>
+      </div>
+      <div class="section-sub">Top 15 countries × Top 20 auto-tagged topics. Click a cell to filter the paper list. Click a row/column label to apply that filter alone.</div>
+      <div class="card" style="margin-top:8px;overflow-x:auto">
+        <div id="heatmapGrid" class="heatmap"></div>
       </div>
     </section>
 
@@ -1091,6 +1133,111 @@ new Chart(document.getElementById("topicBar"), {
     },
   },
 });
+
+// === Country × Topic heatmap =================================================
+// Build matrix: heatMat[country][topic] = #papers where the country appears in
+// p.countries AND the topic appears in p.tags. Multi-label: one paper can
+// contribute to many cells.
+const heatTopicCount = new Map(); // re-derive in topic-frequency order
+for (const p of PAPERS) for (const t of p.tags) heatTopicCount.set(t, (heatTopicCount.get(t)||0)+1);
+const heatTopics = Array.from(heatTopicCount.entries()).sort((a,b)=>b[1]-a[1]).slice(0,20).map(x=>x[0]);
+const heatCountries = top15Country.map(x => x[0]);  // already sorted desc
+
+const heatMat = {};      // {country: {topic: count}}
+const heatRowSum = {};   // {country: int}
+const heatColSum = {};   // {topic: int}
+let heatGrand = 0;
+for (const c of heatCountries) { heatMat[c] = {}; heatRowSum[c] = 0; for (const t of heatTopics) heatMat[c][t] = 0; }
+for (const t of heatTopics) heatColSum[t] = 0;
+for (const p of PAPERS) {
+  const cs = new Set(p.countries.filter(c => heatMat[c]));
+  const ts = new Set(p.tags.filter(t => heatColSum.hasOwnProperty(t)));
+  for (const c of cs) for (const t of ts) {
+    heatMat[c][t]++; heatRowSum[c]++; heatColSum[t]++; heatGrand++;
+  }
+}
+
+// Renderer. mode: "row" | "col" | "abs"
+function renderHeatmap(mode) {
+  const grid = document.getElementById("heatmapGrid");
+  grid.style.setProperty("--cols", String(heatTopics.length));
+  const html = [];
+  // Top-left corner
+  html.push(`<div class="corner"></div>`);
+  // Column headers (topics)
+  for (const t of heatTopics) {
+    html.push(`<div class="colhead" data-topic="${escapeHTML(t)}" title="Filter topic: ${escapeHTML(t)}">${escapeHTML(t)}</div>`);
+  }
+  // Rows
+  for (const c of heatCountries) {
+    html.push(`<div class="rowhead" data-country="${escapeHTML(c)}" title="Filter country: ${escapeHTML(c)}">${escapeHTML(c)}</div>`);
+    for (const t of heatTopics) {
+      const v = heatMat[c][t];
+      let intensity = 0; let pct = 0;
+      if (mode === "row") {
+        pct = heatRowSum[c] ? v/heatRowSum[c] : 0;
+        intensity = Math.min(1, pct / 0.20); // saturate at 20% of any row
+      } else if (mode === "col") {
+        pct = heatColSum[t] ? v/heatColSum[t] : 0;
+        intensity = Math.min(1, pct / 0.45); // saturate at 45% (China-heavy cols)
+      } else {
+        // sqrt scaling so small values are still visible
+        const maxAbs = 250;
+        intensity = v ? Math.min(1, Math.sqrt(v) / Math.sqrt(maxAbs)) : 0;
+      }
+      const empty = v === 0 ? " empty" : "";
+      const dark  = intensity > 0.55 ? " dark" : "";
+      // background: blend white -> accent (#0066cc)
+      // r,g,b lerp from (255,255,255) -> (0,102,204)
+      const r = Math.round(255 - intensity * 255);
+      const g = Math.round(255 - intensity * 153);
+      const b = Math.round(255 - intensity *  51);
+      const bg = v === 0 ? "" : ` style="background:rgb(${r},${g},${b})"`;
+      const labelText =
+        mode === "row" ? (v ? (pct*100).toFixed(0) + "%" : "")
+      : mode === "col" ? (v ? (pct*100).toFixed(0) + "%" : "")
+      :                  (v ? (v >= 100 ? v : v) : "");
+      const rowPctStr = heatRowSum[c] ? (v/heatRowSum[c]*100).toFixed(1) : "0";
+      const colPctStr = heatColSum[t] ? (v/heatColSum[t]*100).toFixed(1) : "0";
+      const tip = `${c} × ${t}\n${v} papers — ${rowPctStr}% of ${c} · ${colPctStr}% of ${t}\nClick to filter`;
+      html.push(`<div class="cell${empty}${dark}" data-country="${escapeHTML(c)}" data-topic="${escapeHTML(t)}" title="${escapeHTML(tip)}"${bg}><span class="v">${labelText}</span></div>`);
+    }
+  }
+  grid.innerHTML = html.join("");
+  // Wire interactions
+  grid.querySelectorAll(".cell").forEach(el => {
+    el.addEventListener("click", () => {
+      document.getElementById("countryFilter").value = el.dataset.country;
+      document.getElementById("topicFilter").value = el.dataset.topic;
+      applyFilter();
+      maybeScrollToSearch();
+    });
+  });
+  grid.querySelectorAll(".rowhead").forEach(el => {
+    el.addEventListener("click", () => {
+      document.getElementById("countryFilter").value = el.dataset.country;
+      document.getElementById("topicFilter").value = "";
+      applyFilter();
+      maybeScrollToSearch();
+    });
+  });
+  grid.querySelectorAll(".colhead").forEach(el => {
+    el.addEventListener("click", () => {
+      document.getElementById("topicFilter").value = el.dataset.topic;
+      document.getElementById("countryFilter").value = "";
+      applyFilter();
+      maybeScrollToSearch();
+    });
+  });
+}
+renderHeatmap("row");
+document.querySelectorAll("#eda-heatmap .tab").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll("#eda-heatmap .tab").forEach(b => b.classList.toggle("active", b === btn));
+    renderHeatmap(btn.dataset.heatview);
+  });
+});
+// === end heatmap =============================================================
 
 const days = ["Tuesday","Wednesday","Thursday"];
 const dayClass = { Tuesday: "tue", Wednesday: "wed", Thursday: "thu" };

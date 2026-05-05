@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
 .claude/
+.venv/
 .DS_Store
 output/abstract_sample.txt
