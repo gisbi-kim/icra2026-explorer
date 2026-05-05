@@ -645,7 +645,7 @@ HTML = r"""<!doctype html>
     </section>
 
     <section id="trends">
-      <h2>Hot topics<span class="info-tip" data-tip="How topics are assigned:&#10;Each paper title is matched against 29 hand-curated regex patterns (keywords + their plurals / variants). The taxonomy is NOT learned from the data.&#10;&#10;Multi-label: a paper can match several topics simultaneously, so percentages can sum above 100%.&#10;&#10;Disclaimer — uncategorized papers exist:&#10;Currently about 22% of papers (~660) match no topic at all. They are usually niche subjects the taxonomy doesn't cover (e.g. formal methods, KAN, novel sensors).&#10;&#10;For maximum accuracy use the author-declared keywords below.">i</span></h2>
+      <h2>Hot topics<span class="info-tip" data-tip="How topics are assigned:&#10;Each paper title is matched against 32 hand-curated regex patterns (keywords + their plurals / variants). The taxonomy is NOT learned from the data.&#10;&#10;Multi-label: a paper can match several topics simultaneously, so percentages can sum above 100%.&#10;&#10;Disclaimer — uncategorized papers exist:&#10;Currently about 22% of papers (~641) match no topic at all. They are usually niche subjects the taxonomy doesn't cover (e.g. formal methods, KAN, novel sensors).&#10;&#10;For maximum accuracy use the author-declared keywords below.">i</span></h2>
       <div class="section-sub">Auto-tagged from paper titles via keyword regexes. Click a bar to filter the paper list below. Multi-label: a paper can match several topics, so percentages can sum above 100%. About 22% of papers are uncategorized — see the i tooltip.</div>
       <div class="card" style="margin-top:8px"><div class="chart-box xtall"><canvas id="topicBar"></canvas></div></div>
     </section>
@@ -873,6 +873,12 @@ const TOPICS = [
     /\b(agricultur\w*|farms?|crops?|orchards?|harvest\w*|greenhouse|weeds?|fruits?|plant phenotyp\w*)\b/i],
   ["Safety / MPC",
     /\b(\bmpcs?\b|model predictive|control barriers?|\bsafety\b|safe.?(?:learning|control)|robust control|reachab\w+)\b/i],
+  ["Force / Compliance",
+    /\b(impedance|admittance|compliance control|compliant control|force.?(?:control|aware|feedback|guided|tracking)|stiffness control|hybrid force)\b/i],
+  ["Visual Servoing",
+    /\b(visual servo\w*|image.?based visual|position.?based visual|\bIBVS\b|\bPBVS\b)\b/i],
+  ["Classical Control",
+    /\b(adaptive control|optimal control|nonlinear control|sliding mode|backstepping|\bLQR\b|\bLQG\b|\bPID\b|H.?infinity|feedback linearization|gain scheduling|lyapunov\w*)\b/i],
   ["Planning",
     /\b(planning|trajectory optim\w*|\brrt\b|sampling.?based|motion planning|task and motion|tamp|navigation)\b/i],
   ["Sim-to-Real",
