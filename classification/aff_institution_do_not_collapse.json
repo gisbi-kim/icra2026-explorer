@@ -1,0 +1,52 @@
+[
+  {
+    "child": "Bosch China",
+    "parent": "Bosch",
+    "reason": "Regional branch in China; do not collapse to Bosch Germany."
+  },
+  {
+    "child": "Georgia Tech Europe",
+    "parent": "Georgia Tech",
+    "reason": "European campus/site in France; do not collapse to Georgia Tech USA for country attribution."
+  },
+  {
+    "child": "Honda Research Institute Europe",
+    "parent": "Honda",
+    "reason": "Regional research lab in Germany; do not collapse to Honda Japan."
+  },
+  {
+    "child": "Honda Research Institute USA",
+    "parent": "Honda",
+    "reason": "Regional research lab in USA; do not collapse to Honda Japan."
+  },
+  {
+    "child": "Huawei Technologies Canada",
+    "parent": "Huawei",
+    "reason": "Regional branch in Canada; do not collapse to Huawei China for country attribution."
+  },
+  {
+    "child": "Noah's Ark Lab",
+    "parent": "Huawei",
+    "reason": "Noah's Ark Lab may be affiliated with Huawei, but its site/country should not be replaced by Huawei's parent-country."
+  },
+  {
+    "child": "MERL",
+    "parent": "Mitsubishi Electric",
+    "reason": "Research lab in USA; do not collapse to Mitsubishi Electric Japan."
+  },
+  {
+    "child": "Samsung Research America",
+    "parent": "Samsung",
+    "reason": "Regional research lab in USA; do not collapse to Samsung Korea."
+  },
+  {
+    "child": "Toyota Motor North America",
+    "parent": "Toyota",
+    "reason": "Regional branch in USA; do not collapse to Toyota Japan."
+  },
+  {
+    "child": "Toyota Research Institute",
+    "parent": "Toyota",
+    "reason": "Research institute in USA; do not collapse to Toyota Japan."
+  }
+]

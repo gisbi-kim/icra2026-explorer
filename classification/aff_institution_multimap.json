@@ -1,7 +1,15 @@
 {
+  "Allen Institute for AI, University of Washington": [
+    "Allen Institute for AI",
+    "University of Washington"
+  ],
   "Beijing University of Posts and Telecommunications / Tsinghua University": [
     "Beijing University of Posts and Telecommunications",
     "Tsinghua University"
+  ],
+  "Carnegie Mellon University; Vanderbilt University": [
+    "Carnegie Mellon University",
+    "Vanderbilt University"
   ],
   "Chinese Univ Hong Kong (CUHK) & National Univ Singapore(NUS)": [
     "CUHK",
@@ -75,17 +83,21 @@
     "National University of Singapore",
     "University of Hong Kong"
   ],
+  "Noah's Ark Lab, Huawei": [
+    "Noah's Ark Lab"
+  ],
   "Noah's Ark Lab, Huawei Technologies": [
-    "Noah's Ark Lab",
-    "Huawei"
+    "Noah's Ark Lab"
+  ],
+  "Noah's Ark Lab, Huawei Technologies Canada Inc": [
+    "Noah's Ark Lab"
   ],
   "NVIDIA, UC Berkeley": [
     "NVIDIA",
     "UC Berkeley"
   ],
   "PICO, ByteDance": [
-    "PICO",
-    "ByteDance"
+    "PICO"
   ],
   "Singapore University of Technology and Design, MIT": [
     "Singapore University of Technology and Design",

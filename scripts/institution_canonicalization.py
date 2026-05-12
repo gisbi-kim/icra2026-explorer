@@ -37,6 +37,21 @@ def load_multimap(path: Path | None = None) -> dict[str, list[str]]:
     return normalized_multimap(json.loads(path.read_text(encoding="utf-8")))
 
 
+def load_site_country_overrides(path: Path | None = None) -> dict[str, str]:
+    path = path or CLASSIFICATION_DIR / "aff_institution_site_country_overrides.json"
+    return normalized_dict(json.loads(path.read_text(encoding="utf-8")))
+
+
+def load_institution_country_table(path: Path | None = None) -> dict[str, str]:
+    path = path or CLASSIFICATION_DIR / "aff_institution_country_table.json"
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def load_parent_org(path: Path | None = None) -> dict[str, dict[str, str]]:
+    path = path or CLASSIFICATION_DIR / "aff_institution_parent_org.json"
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
 def canonicalize_affiliation(
     raw_affiliation: str,
     alias_map: dict[str, str],
@@ -65,3 +80,29 @@ def canonicalize_paper_affiliations(
             canonical_institutions.add(institution)
 
     return sorted(canonical_institutions)
+
+
+def infer_country_for_institution(
+    raw_affiliation: str,
+    canonical_institution: str,
+    site_country_overrides: dict[str, str],
+    institution_country_table: dict[str, str],
+    parent_org_table: dict[str, dict[str, str]],
+    fallback_country: str | None = None,
+) -> str | None:
+    raw_normalized = normalize_affiliation_text(raw_affiliation)
+
+    if raw_normalized in site_country_overrides:
+        return site_country_overrides[raw_normalized]
+
+    if canonical_institution in site_country_overrides:
+        return site_country_overrides[canonical_institution]
+
+    if canonical_institution in institution_country_table:
+        return institution_country_table[canonical_institution]
+
+    parent_meta = parent_org_table.get(canonical_institution)
+    if parent_meta and "institution_country" in parent_meta:
+        return parent_meta["institution_country"]
+
+    return fallback_country

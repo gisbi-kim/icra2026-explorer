@@ -348,12 +348,6 @@
     "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
   },
   {
-    "affiliation": "Honda Research Institute USA, Inc",
-    "count": 2,
-    "country": "USA",
-    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
-  },
-  {
     "affiliation": "Beijing University of Aeronautics and Astronautics",
     "count": 2,
     "country": "China",
@@ -429,12 +423,6 @@
     "affiliation": "University of California, Santa Barbara",
     "count": 2,
     "country": "USA",
-    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
-  },
-  {
-    "affiliation": "Honda R&D Co., Ltd",
-    "count": 2,
-    "country": "Japan",
     "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
   },
   {
@@ -549,12 +537,6 @@
     "affiliation": "Hanoi University of Science and Technology",
     "count": 2,
     "country": "Vietnam",
-    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
-  },
-  {
-    "affiliation": "Toyota Motor North America R&D",
-    "count": 2,
-    "country": "USA",
     "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
   },
   {
@@ -678,12 +660,6 @@
     "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
   },
   {
-    "affiliation": "Toyota Motor North America, InfoTech Labs",
-    "count": 2,
-    "country": "USA",
-    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
-  },
-  {
     "affiliation": "University of Modena and Reggio Emilia",
     "count": 2,
     "country": "Italy",
@@ -717,6 +693,30 @@
     "affiliation": "TeCIP Institute, Scuola Superiore Sant'Anna",
     "count": 2,
     "country": "Italy",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Information Technology and Human Factors",
+    "count": 1,
+    "country": "Unknown",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Continental, FU Berlin",
+    "count": 1,
+    "country": "Germany",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Freie Universitaet Berlin, Aumovio SE",
+    "count": 1,
+    "country": "Germany",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Aumovio SE, Freie Universitaet Berlin",
+    "count": 1,
+    "country": "Germany",
     "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
   }
 ]

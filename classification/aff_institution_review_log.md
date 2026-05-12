@@ -15,7 +15,11 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
 | Allen Institute for AI | Allen Institute for Artificial Intelligence | USA | name variant | high | observed in current table |
 | BIGAI | Beijing Institute for General Artificial Intelligence; Beijing Institute for General Artificial Intelligence (BIGAI) | China | acronym/full-name, name variant | high | observed in current table |
 | Beihang University | BeiHang University; Beihang Unverisity | China | accent/unaccented, typo variant | high | observed in current table |
+| Bosch Center for Artificial Intelligence | Bosch Center for AI; Bosch Center for Artificial Intelligence | Germany | article variant, name variant | high | observed in current table |
+| Bosch China | Bosch China | China | article variant | high | observed in current table |
+| Bosch Corporate Research | Bosch Corporate Research; Robert Bosch GmbH Corporate Research; Robert Bosch GmbH, Corporate Research | Germany | article variant, name variant, punctuation variant | high | observed in current table |
 | ByteDance | Bytedance; ByteDance Inc | China | accent/unaccented, lab suffix | high | observed in current table |
+| ByteDance Seed Robotics | ByteDance Seed Robotics | China | article variant | high | observed in current table |
 | CASIA | Institute of Automation, Chinese Academy of Science; Institute of Automation, Chinese Academy of Sciences; Institute of Automation，Chinese Academy of Sciences | China | name variant, punctuation variant | high | observed in current table |
 | CUHK | Chinese University of Hong Kong; CUHK; T-Stone Robotics Institute, the Chinese University of Hong Kong; The Chinese University of Hong Kong; The Chinese University of Hong Kong (CUHK) | China | acronym/full-name, name variant, punctuation variant | high | observed in current table |
 | CUHK Shenzhen | Chinese University of Hong Kong (Shenzhen); Chinese University of Hong Kong, Shenzhen; CUHK(SZ); The Chinese University of Hong Kong (Shenzhen); The Chinese University of Hong Kong CUHK (Shenzhen); The Chinese University of Hong Kong, Shenzhen; The Chinese Unviersity of Hong Kong, Shenzhen | China | acronym/full-name, punctuation variant | high | observed in current table |
@@ -26,12 +30,16 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
 | FAU Erlangen-Nürnberg | Friedrich-Alexander-University Erlangen-Nurnberg (FAU); Friedrich-Alexander-Universität Erlangen-Nürnberg | Germany | acronym/full-name, name variant | high | observed in current table |
 | GIST | Gwangju Institute of Science and Technology; Gwangju Institute of Science and Technology (GIST) | South Korea | acronym/full-name, name variant | high | observed in current table |
 | Georgia Tech | Georgia Institute of Technology; The Georgia Institute of Technology | USA | name variant | high | observed in current table |
+| Georgia Tech Europe | Georgia Tech Europe - IRL 2958 GT-CNRS; GeorgiaTech Lorraine | France | lab suffix, name variant | high | observed in current table |
 | HKUST | Hong Kong University of Science and Technology; The Hong Kong University of Science and Technology; The Hong Kong University of Science and Technology (HKUST); The Hong Kong University of Science and Technology, Robotic Institute | China | acronym/full-name, name variant, punctuation variant | high | observed in current table |
 | HKUST Guangzhou | Hong Kong University of Science and Technology (Guangzhou); Hong Kong University of Science and Technology (GuangZhou); The Hong Kong University of Science and Technology (Guangzhou); The Hong Kong University of Science and Technology(Guangzhou); The Hong Kong University of Science and Technology(GuangZhou) | China | acronym/full-name | high | observed in current table |
 | Heidelberg University | University of Heidelberg | Germany | name variant | potential | potential alias; not observed in current table |
-| Honda Research Institute USA | Honda Research Institute, USA | USA | punctuation variant | high | observed in current table |
+| Honda R&D | Honda R&D Co., Ltd | Japan | campus/subunit suffix | high | observed in current table |
+| Honda Research Institute Europe | Honda Research Institute Europe; Honda Research Institute Europe GmbH | Germany | article variant, lab suffix | high | observed in current table |
+| Honda Research Institute USA | Honda Research Institute - USA; Honda Research Institute USA, Inc; Honda Research Institute, USA | USA | campus/subunit suffix, name variant, punctuation variant | high | observed in current table |
 | Hong Kong Polytechnic University | The Hong Kong Polytechnic University; The Hong Kong Polytechnic University (PolyU) | China | acronym/full-name, article variant | high | observed in current table |
-| Huawei | Huawei Noah's Ark Lab; Huawei Technologies | China | lab suffix | high | observed in current table |
+| Huawei | Huawei Technologies | China | lab suffix | high | observed in current table |
+| Huawei Technologies Canada | Huawei Canada; Huawei Technologies Canada | Canada | article variant, name variant | high | observed in current table |
 | IIIT Hyderabad | International Institute of Information Technology, Hyderabad | India | punctuation variant | high | observed in current table |
 | IIT Jodhpur | Indian Institute of Technology, Jodhpur | India | punctuation variant | high | observed in current table |
 | Inria | INRIA; Inria Bordeaux; Inria Center at the University of Bordeaux; Inria Center at University of Rennes; Inria centre at the university of Bordeaux, F-33405 Talence, France; INRIA Nancy - Grand Est; Inria Paris; Inria Rennes | France | acronym/full-name, campus/subunit suffix, lab suffix, name variant | high | observed in current table |
@@ -48,6 +56,7 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
 | Li Auto | Li Auto Inc; LiAuto | China | lab suffix, spacing/case variant | high | observed in current table |
 | Luleå University of Technology | Lulea University of Technology | Sweden | accent/unaccented | high | observed in current table |
 | MBZUAI | Mohamed Bin Zayed University of Artificial Intelligence | UAE | name variant | high | observed in current table |
+| MERL | MERL; Mitsubishi Electric Research Laboratories; Mitsubishi Electric Research Laboratories (MERL) | USA | acronym/full-name, name variant | high | observed in current table |
 | MIT | Massachusetts Institute of Technology; Massachusetts Institute of Technology (MIT) | USA | acronym/full-name, name variant | high | observed in current table |
 | NASA Jet Propulsion Laboratory | Jet Propulsion Laboratory; JPL; NASA JPL; NASA-JPL | USA | acronym/full-name, name variant | high | observed in current table |
 | NTNU | Norwegian University of Science and Technology; Norwegian University of Science and Technology (NTNU); NTNU - Norwegian University of Science and Technology; NTNU: Norwegian University of Science and Technology | Norway | acronym/full-name, lab suffix, name variant | high | observed in current table |
@@ -55,10 +64,13 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
 | Nankai University | NanKai University; Nankai University, | China | accent/unaccented, campus/subunit suffix | high | observed in current table |
 | Nanyang Technological University | Nanyang Technoligical University; Nanyang Technological University (NTU); Nanyang Technological University, Singapore; Nanyang Technology University; NanyangTechnological University | Singapore | acronym/full-name, campus/subunit suffix, name variant, spacing/case variant, typo variant | high | observed in current table |
 | National University of Singapore | National University of Singapore (NUS); NUS | Singapore | acronym/full-name | high | observed in current table |
+| Noah's Ark Lab | Huawei Noah's Ark Lab; Huawei Noah’s Ark Lab; Huawei Research (Noah's Ark Labs); Noah's Ark Lab | Canada | acronym/full-name, article variant, lab suffix, name variant | high | observed in current table |
 | Osaka University | The University of Osaka | Japan | name variant | high | observed in current table |
 | POSTECH | Pohang University of Science and Technology; Pohang University of Science and Technology ( POSTECH ); Pohang University of Science and Technology (POSTECH); POSTECH, Pohang University of Science and Technology | South Korea | acronym/full-name, campus/subunit suffix, name variant | high | observed in current table |
 | Peking University | Advanced Institute of Information Technology (AIIT), Peking University; Institute for Artificial Intelligence, Peking University; Peking Universitiy; Peking University (PKU); Peking University Shenzhen Graduate School; Peking Univesity; State Key Laboratory of General Artificial Inteligence, Peking University, Shenzhen Graduate School; State Key Laboratory of General Artificial Intelligence, Peking University, Shenzhen Graduate School | China | acronym/full-name, campus/subunit suffix, lab suffix, name variant | high | observed in current table |
 | SUSTech | Southern University of Science and Technology; Southern University of Science and Technology (SUSTech) | China | acronym/full-name, name variant | high | observed in current table |
+| Samsung AI Center | AI Center, Samsung Electronics Co. LTD | South Korea | punctuation variant | high | observed in current table |
+| Samsung Research America | Samsung Research America | USA | article variant | high | observed in current table |
 | Scuola Superiore Sant'Anna | Scuola Superiore Sant'Anna - SSSA | Italy | lab suffix | high | observed in current table |
 | Shanghai AI Laboratory | Shanghai AI Lab; Shanghai Artificial Intelligence Laboratory | China | name variant | high | observed in current table |
 | Shanghai Jiao Tong University | Shanghai Jiao Ton University; Shanghai Jiao Tong Univ; ShangHai Jiao Tong University; Shanghai Jiao Tong University, Shanghai Artificial Intelligence Laboratory; Shanghai Jiao Tong University, Shanghai Innovation Institute; Shanghai Jiaotong University; Shanghai JiaoTong University | China | accent/unaccented, campus/subunit suffix, name variant, spacing/case variant | high | observed in current table |
@@ -71,6 +83,8 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
 | Technical University of Berlin | Technische Universität Berlin; TU Berlin | Germany | name variant | high | observed in current table |
 | Technical University of Darmstadt | Technische Universität Darmstadt; TU Darmstadt | Germany | name variant | high | observed in current table |
 | Technical University of Munich | Tech. Univ. Muenchen TUM; Technical University Munich; Technical University of Munich (TUM); Technische Universitaet Muenchen; Technische Universität München; TU Munich; TUM | Germany | acronym/full-name, name variant | high | observed in current table |
+| Toyota Motor East Japan | Toyota Motor East Japan, Inc | Japan | campus/subunit suffix | high | observed in current table |
+| Toyota Motor North America R&D | Toyota Motor North America R&D; Toyota Motor North America, InfoTech Labs; Toyota Motor North America, R&D | USA | article variant, punctuation variant | high | observed in current table |
 | Tsinghua University | AIR, Tsinghua University; Center for Artificial Intelligence and Robotics, Graduate School at Shenzhen, Tsinghua University, 518055 Shenzhen, China; Institute for AI Industry Research (AIR), Tsinghua University; Institute for AI Industry Research(AIR), Tsinghua University; Shenzhen Graduate School, Tsinghua University; Tsinghua; Tsinghua Shenzhen International Graduate School; Tsinghua Shenzhen International Graduate School, Tsinghua University; Tsinghua Univ; Tsinghua Univeristy; TsingHua University; Tsinghua university; tsinghua university; Tsinghua Unviersity; TsinghuaUniversity; ​Tsinghua University | China | accent/unaccented, campus/subunit suffix, name variant, spacing/case variant, typo variant | high | observed in current table |
 | UC Berkeley | Berkeley; UC University of California, Berkeley; UC, Berkeley; UC,Berkeley; Univerisity of California, Berkeley; Univeristy of California, Berkeley; University of California -- Berkeley; University of California at Berkeley; University of California Berkeley; University of California, Berkeley; University of California: Berkeley | USA | name variant, punctuation variant | high | observed in current table |
 | UC San Diego | UC San Diego (UCSD); UCSD; University of California - San Diego; University of California at San Diego; University of California San Diego; University of California San Diego (UCSD); University of California, San Diego | USA | acronym/full-name, name variant, punctuation variant | high | observed in current table |
@@ -128,7 +142,9 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
 
 | Raw Affiliation | Canonical Institutions | Paper Count | Status | Notes |
 | --- | --- | --- | --- | --- |
+| Allen Institute for AI, University of Washington | Allen Institute for AI; University of Washington | 1 | observed | split only by exact multimap lookup |
 | Beijing University of Posts and Telecommunications / Tsinghua University | Beijing University of Posts and Telecommunications; Tsinghua University | 1 | observed | split only by exact multimap lookup |
+| Carnegie Mellon University; Vanderbilt University | Carnegie Mellon University; Vanderbilt University | 1 | observed | split only by exact multimap lookup |
 | Chinese Univ Hong Kong (CUHK) & National Univ Singapore(NUS) | CUHK; National University of Singapore | 6 | observed | split only by exact multimap lookup |
 | Dalian Univ. of Tech.; CUHK-Shenzhen | Dalian University of Technology; CUHK Shenzhen | 1 | observed | split only by exact multimap lookup |
 | ETH Zurich & IDSIA, USI-SUPSI | ETH Zurich; IDSIA, USI-SUPSI | 1 | observed | split only by exact multimap lookup |
@@ -148,8 +164,10 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
 | NVIDIA, UC Berkeley | NVIDIA; UC Berkeley | 1 | observed | split only by exact multimap lookup |
 | Nasa's Jet Propulsion Laboratory, Caltech | NASA Jet Propulsion Laboratory; Caltech | 1 | observed | split only by exact multimap lookup |
 | National University of Singapore, the University of Hong Kong | National University of Singapore; University of Hong Kong | 1 | observed | split only by exact multimap lookup |
-| Noah's Ark Lab, Huawei Technologies | Noah's Ark Lab; Huawei | 6 | observed | split only by exact multimap lookup |
-| PICO, ByteDance | PICO; ByteDance | 2 | observed | split only by exact multimap lookup |
+| Noah's Ark Lab, Huawei | Noah's Ark Lab | 1 | observed | split only by exact multimap lookup |
+| Noah's Ark Lab, Huawei Technologies | Noah's Ark Lab | 6 | observed | split only by exact multimap lookup |
+| Noah's Ark Lab, Huawei Technologies Canada Inc | Noah's Ark Lab | 1 | observed | split only by exact multimap lookup |
+| PICO, ByteDance | PICO | 2 | observed | split only by exact multimap lookup |
 | Singapore University of Technology and Design, MIT | Singapore University of Technology and Design; MIT | 1 | observed | split only by exact multimap lookup |
 | Stanford & UIUC | Stanford University; University of Illinois Urbana-Champaign | 1 | observed | split only by exact multimap lookup |
 | Tencent, Tsinghua University | Tencent; Tsinghua University | 1 | observed | split only by exact multimap lookup |
@@ -259,7 +277,6 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
 | Technology and Engineering Center for Space Utilization, Chinese Academy of Sciences | 2 | China | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | TU Wien, Austrian Institute of Technology | 2 | Austria | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | University of Pennsylvania, Honda Research Institute USA | 2 | USA | Contains a separator or subunit phrase and is not covered by alias/multimap. |
-| Honda Research Institute USA, Inc | 2 | USA | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | Beijing University of Aeronautics and Astronautics | 2 | China | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | Skolkovo Institute of Science and Technology | 2 | Russia | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | Bielefeld University / Fraunhofer IOSB-INA | 2 | Germany | Contains a separator or subunit phrase and is not covered by alias/multimap. |
@@ -273,7 +290,6 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
 | Galaxy General Robot Co., Ltd | 2 | China | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | Poznan University of Technology, IDEAS Research Institute, IDEAS NCBR | 2 | Poland | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | University of California, Santa Barbara | 2 | USA | Contains a separator or subunit phrase and is not covered by alias/multimap. |
-| Honda R&D Co., Ltd | 2 | Japan | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | Gyeongsang National University, South Korea | 2 | South Korea | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | Sirius University of Science and Technology | 2 | Russia | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | Shanghai Flexiv Robotics Technology CO., LTD | 2 | China | Contains a separator or subunit phrase and is not covered by alias/multimap. |
@@ -293,7 +309,6 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
 | Institute of AI for Industries, Chinese Academy of Sciences | 2 | China | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | KITECH(Korea Institute of Industrial Technology), | 2 | South Korea | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | Hanoi University of Science and Technology | 2 | Vietnam | Contains a separator or subunit phrase and is not covered by alias/multimap. |
-| Toyota Motor North America R&D | 2 | USA | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | China Ship Development &design Center | 2 | China | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | Huawei, Autonomous University of Barcelona, | 2 | China | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | Carnegie Mellon University, Robotics Institute | 2 | USA | Contains a separator or subunit phrase and is not covered by alias/multimap. |
@@ -314,13 +329,16 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
 | Suzhou University of Science and Technology | 2 | China | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | Ulsan National Institute of Science and Technology (UNIST) | 2 | South Korea | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | Seoul National University, Karlsruhe Institute of Technology | 2 | South Korea | Contains a separator or subunit phrase and is not covered by alias/multimap. |
-| Toyota Motor North America, InfoTech Labs | 2 | USA | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | University of Modena and Reggio Emilia | 2 | Italy | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | Imperial College, London, UK | 2 | UK | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | Federal University of Minas Gerais, UFMG, Brazil | 2 | Brazil | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | Khalifa University of Science and Technology | 2 | UAE | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | Shanghai Aopeng Medical Technology Co., Ltd | 2 | China | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 | TeCIP Institute, Scuola Superiore Sant'Anna | 2 | Italy | Contains a separator or subunit phrase and is not covered by alias/multimap. |
+| Information Technology and Human Factors | 1 | Unknown | Contains a separator or subunit phrase and is not covered by alias/multimap. |
+| Continental, FU Berlin | 1 | Germany | Contains a separator or subunit phrase and is not covered by alias/multimap. |
+| Freie Universitaet Berlin, Aumovio SE | 1 | Germany | Contains a separator or subunit phrase and is not covered by alias/multimap. |
+| Aumovio SE, Freie Universitaet Berlin | 1 | Germany | Contains a separator or subunit phrase and is not covered by alias/multimap. |
 
 ## 7. Proposed aff_institution_aliases.json
 
@@ -336,8 +354,15 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
   "Beihang Unverisity": "Beihang University",
   "Beijing Institute for General Artificial Intelligence": "BIGAI",
   "Beijing Institute for General Artificial Intelligence (BIGAI)": "BIGAI",
+  "Bosch Center for AI": "Bosch Center for Artificial Intelligence",
+  "Bosch Center for Artificial Intelligence": "Bosch Center for Artificial Intelligence",
+  "Bosch China": "Bosch China",
+  "Bosch Corporate Research": "Bosch Corporate Research",
+  "Robert Bosch GmbH Corporate Research": "Bosch Corporate Research",
+  "Robert Bosch GmbH, Corporate Research": "Bosch Corporate Research",
   "Bytedance": "ByteDance",
   "ByteDance Inc": "ByteDance",
+  "ByteDance Seed Robotics": "ByteDance Seed Robotics",
   "California Institute of Technology": "Caltech",
   "California Institute of Technology (Caltech)": "Caltech",
   "CALTECH": "Caltech",
@@ -381,6 +406,8 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
   "Friedrich-Alexander-Universität Erlangen-Nürnberg": "FAU Erlangen-Nürnberg",
   "Georgia Institute of Technology": "Georgia Tech",
   "The Georgia Institute of Technology": "Georgia Tech",
+  "Georgia Tech Europe - IRL 2958 GT-CNRS": "Georgia Tech Europe",
+  "GeorgiaTech Lorraine": "Georgia Tech Europe",
   "Gwangju Institute of Science and Technology": "GIST",
   "Gwangju Institute of Science and Technology (GIST)": "GIST",
   "University of Heidelberg": "Heidelberg University",
@@ -393,11 +420,17 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
   "The Hong Kong University of Science and Technology (Guangzhou)": "HKUST Guangzhou",
   "The Hong Kong University of Science and Technology(Guangzhou)": "HKUST Guangzhou",
   "The Hong Kong University of Science and Technology(GuangZhou)": "HKUST Guangzhou",
+  "Honda R&D Co., Ltd": "Honda R&D",
+  "Honda Research Institute Europe": "Honda Research Institute Europe",
+  "Honda Research Institute Europe GmbH": "Honda Research Institute Europe",
+  "Honda Research Institute - USA": "Honda Research Institute USA",
+  "Honda Research Institute USA, Inc": "Honda Research Institute USA",
   "Honda Research Institute, USA": "Honda Research Institute USA",
   "The Hong Kong Polytechnic University": "Hong Kong Polytechnic University",
   "The Hong Kong Polytechnic University (PolyU)": "Hong Kong Polytechnic University",
-  "Huawei Noah's Ark Lab": "Huawei",
   "Huawei Technologies": "Huawei",
+  "Huawei Canada": "Huawei Technologies Canada",
+  "Huawei Technologies Canada": "Huawei Technologies Canada",
   "International Institute of Information Technology, Hyderabad": "IIIT Hyderabad",
   "Indian Institute of Technology, Jodhpur": "IIT Jodhpur",
   "INRIA": "Inria",
@@ -430,6 +463,9 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
   "LiAuto": "Li Auto",
   "Lulea University of Technology": "Luleå University of Technology",
   "Mohamed Bin Zayed University of Artificial Intelligence": "MBZUAI",
+  "MERL": "MERL",
+  "Mitsubishi Electric Research Laboratories": "MERL",
+  "Mitsubishi Electric Research Laboratories (MERL)": "MERL",
   "Massachusetts Institute of Technology": "MIT",
   "Massachusetts Institute of Technology (MIT)": "MIT",
   "NanKai University": "Nankai University",
@@ -445,6 +481,10 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
   "NASA-JPL": "NASA Jet Propulsion Laboratory",
   "National University of Singapore (NUS)": "National University of Singapore",
   "NUS": "National University of Singapore",
+  "Huawei Noah's Ark Lab": "Noah's Ark Lab",
+  "Huawei Noah’s Ark Lab": "Noah's Ark Lab",
+  "Huawei Research (Noah's Ark Labs)": "Noah's Ark Lab",
+  "Noah's Ark Lab": "Noah's Ark Lab",
   "Norwegian University of Science and Technology": "NTNU",
   "Norwegian University of Science and Technology (NTNU)": "NTNU",
   "NTNU - Norwegian University of Science and Technology": "NTNU",
@@ -463,6 +503,8 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
   "Pohang University of Science and Technology ( POSTECH )": "POSTECH",
   "Pohang University of Science and Technology (POSTECH)": "POSTECH",
   "POSTECH, Pohang University of Science and Technology": "POSTECH",
+  "AI Center, Samsung Electronics Co. LTD": "Samsung AI Center",
+  "Samsung Research America": "Samsung Research America",
   "Scuola Superiore Sant'Anna - SSSA": "Scuola Superiore Sant'Anna",
   "Shanghai AI Lab": "Shanghai AI Laboratory",
   "Shanghai Artificial Intelligence Laboratory": "Shanghai AI Laboratory",
@@ -491,6 +533,10 @@ Be conservative. Merge only when identity is clear. If uncertain, send the case 
   "Technische Universität München": "Technical University of Munich",
   "TU Munich": "Technical University of Munich",
   "TUM": "Technical University of Munich",
+  "Toyota Motor East Japan, Inc": "Toyota Motor East Japan",
+  "Toyota Motor North America R&D": "Toyota Motor North America R&D",
+  "Toyota Motor North America, InfoTech Labs": "Toyota Motor North America R&D",
+  "Toyota Motor North America, R&D": "Toyota Motor North America R&D",
   "AIR, Tsinghua University": "Tsinghua University",
   "Center for Artificial Intelligence and Robotics, Graduate School at Shenzhen, Tsinghua University, 518055 Shenzhen, China": "Tsinghua University",
   "Institute for AI Industry Research (AIR), Tsinghua University": "Tsinghua University",
@@ -599,9 +645,17 @@ Potential aliases not observed in the current table are retained in the JSON bec
 
 ```json
 {
+  "Allen Institute for AI, University of Washington": [
+    "Allen Institute for AI",
+    "University of Washington"
+  ],
   "Beijing University of Posts and Telecommunications / Tsinghua University": [
     "Beijing University of Posts and Telecommunications",
     "Tsinghua University"
+  ],
+  "Carnegie Mellon University; Vanderbilt University": [
+    "Carnegie Mellon University",
+    "Vanderbilt University"
   ],
   "Chinese Univ Hong Kong (CUHK) & National Univ Singapore(NUS)": [
     "CUHK",
@@ -675,17 +729,21 @@ Potential aliases not observed in the current table are retained in the JSON bec
     "National University of Singapore",
     "University of Hong Kong"
   ],
+  "Noah's Ark Lab, Huawei": [
+    "Noah's Ark Lab"
+  ],
   "Noah's Ark Lab, Huawei Technologies": [
-    "Noah's Ark Lab",
-    "Huawei"
+    "Noah's Ark Lab"
+  ],
+  "Noah's Ark Lab, Huawei Technologies Canada Inc": [
+    "Noah's Ark Lab"
   ],
   "NVIDIA, UC Berkeley": [
     "NVIDIA",
     "UC Berkeley"
   ],
   "PICO, ByteDance": [
-    "PICO",
-    "ByteDance"
+    "PICO"
   ],
   "Singapore University of Technology and Design, MIT": [
     "Singapore University of Technology and Design",
@@ -888,9 +946,234 @@ Counting-policy recommendation: full counting with per-paper deduplication. A pa
 
 ## 10. Implementation Guideline
 
-Use this order: Unicode NFKC normalization -> whitespace and punctuation normalization -> exact multimap lookup -> exact alias lookup -> suspicious separator detection -> canonical institution name(s) -> canonical institution country lookup -> fallback country hints -> manual review log.
+Use this order: Unicode NFKC normalization -> whitespace and punctuation normalization -> raw affiliation exact site-country override -> exact multimap lookup -> exact alias lookup -> canonical institution site-country override -> canonical institution country lookup -> parent-org metadata institution_country fallback -> fallback country hints -> manual review log.
 
 Do not split commas, slashes, ampersands, semicolons, `and`, or `with` automatically. Split only when the exact raw string is in `aff_institution_multimap.json`.
+
+Parent organization metadata is not a primary country-attribution source. For example, `Noah's Ark Lab` keeps Canada as the site-aware institution country while storing Huawei as parent metadata.
+
+## 10.1 Proposed aff_institution_site_country_overrides.json
+
+```json
+{
+  "Bosch Center for AI": "Germany",
+  "Bosch Center for Artificial Intelligence": "Germany",
+  "Bosch China": "China",
+  "Bosch Corporate Research": "Germany",
+  "Georgia Tech Europe": "France",
+  "Georgia Tech Europe - IRL 2958 GT-CNRS": "France",
+  "GeorgiaTech Lorraine": "France",
+  "Honda R&D": "Japan",
+  "Honda R&D Co., Ltd": "Japan",
+  "Honda Research Institute - USA": "USA",
+  "Honda Research Institute Europe": "Germany",
+  "Honda Research Institute Europe GmbH": "Germany",
+  "Honda Research Institute USA": "USA",
+  "Honda Research Institute USA, Inc": "USA",
+  "Honda Research Institute, USA": "USA",
+  "Huawei Canada": "Canada",
+  "Huawei Noah's Ark Lab": "Canada",
+  "Huawei Noah’s Ark Lab": "Canada",
+  "Huawei Research (Noah's Ark Labs)": "Canada",
+  "Huawei Technologies Canada": "Canada",
+  "MERL": "USA",
+  "Mitsubishi Electric Research Laboratories": "USA",
+  "Mitsubishi Electric Research Laboratories (MERL)": "USA",
+  "Noah's Ark Lab": "Canada",
+  "Noah's Ark Lab, Huawei": "Canada",
+  "Noah's Ark Lab, Huawei Technologies": "Canada",
+  "Noah's Ark Lab, Huawei Technologies Canada Inc": "Canada",
+  "Robert Bosch GmbH Corporate Research": "Germany",
+  "Robert Bosch GmbH, Corporate Research": "Germany",
+  "Samsung Research America": "USA",
+  "Toyota Motor East Japan": "Japan",
+  "Toyota Motor East Japan, Inc": "Japan",
+  "Toyota Motor North America": "USA",
+  "Toyota Motor North America R&D": "USA",
+  "Toyota Motor North America, InfoTech Labs": "USA",
+  "Toyota Motor North America, R&D": "USA",
+  "Toyota Research Institute": "USA",
+  "University of Toronto, Noah's Ark Lab": "Canada"
+}
+```
+
+## 10.2 Proposed aff_institution_parent_org.json
+
+```json
+{
+  "Alibaba DAMO Academy": {
+    "parent_org": "Alibaba",
+    "parent_country": "China",
+    "institution_country": "China",
+    "policy": "research-lab"
+  },
+  "Bosch Center for Artificial Intelligence": {
+    "parent_org": "Bosch",
+    "parent_country": "Germany",
+    "institution_country": "Germany",
+    "policy": "research-lab"
+  },
+  "Bosch China": {
+    "parent_org": "Bosch",
+    "parent_country": "Germany",
+    "institution_country": "China",
+    "policy": "regional-branch"
+  },
+  "Bosch Corporate Research": {
+    "parent_org": "Bosch",
+    "parent_country": "Germany",
+    "institution_country": "Germany",
+    "policy": "research-lab"
+  },
+  "ByteDance Seed Robotics": {
+    "parent_org": "ByteDance",
+    "parent_country": "China",
+    "institution_country": "China",
+    "policy": "research-lab"
+  },
+  "Georgia Tech Europe": {
+    "parent_org": "Georgia Tech",
+    "parent_country": "USA",
+    "institution_country": "France",
+    "policy": "overseas-campus"
+  },
+  "Honda R&D": {
+    "parent_org": "Honda",
+    "parent_country": "Japan",
+    "institution_country": "Japan",
+    "policy": "regional-branch"
+  },
+  "Honda Research Institute Europe": {
+    "parent_org": "Honda",
+    "parent_country": "Japan",
+    "institution_country": "Germany",
+    "policy": "regional-research-lab"
+  },
+  "Honda Research Institute USA": {
+    "parent_org": "Honda",
+    "parent_country": "Japan",
+    "institution_country": "USA",
+    "policy": "regional-research-lab"
+  },
+  "Huawei Technologies Canada": {
+    "parent_org": "Huawei",
+    "parent_country": "China",
+    "institution_country": "Canada",
+    "policy": "regional-branch"
+  },
+  "MERL": {
+    "parent_org": "Mitsubishi Electric",
+    "parent_country": "Japan",
+    "institution_country": "USA",
+    "policy": "research-lab"
+  },
+  "Noah's Ark Lab": {
+    "parent_org": "Huawei",
+    "parent_country": "China",
+    "institution_country": "Canada",
+    "policy": "site-aware"
+  },
+  "PICO": {
+    "parent_org": "ByteDance",
+    "parent_country": "China",
+    "institution_country": "China",
+    "policy": "subsidiary"
+  },
+  "Samsung AI Center": {
+    "parent_org": "Samsung",
+    "parent_country": "South Korea",
+    "institution_country": "South Korea",
+    "policy": "site-aware"
+  },
+  "Samsung Research America": {
+    "parent_org": "Samsung",
+    "parent_country": "South Korea",
+    "institution_country": "USA",
+    "policy": "regional-research-lab"
+  },
+  "Toyota Motor East Japan": {
+    "parent_org": "Toyota",
+    "parent_country": "Japan",
+    "institution_country": "Japan",
+    "policy": "regional-branch"
+  },
+  "Toyota Motor North America": {
+    "parent_org": "Toyota",
+    "parent_country": "Japan",
+    "institution_country": "USA",
+    "policy": "regional-branch"
+  },
+  "Toyota Motor North America R&D": {
+    "parent_org": "Toyota",
+    "parent_country": "Japan",
+    "institution_country": "USA",
+    "policy": "regional-branch"
+  },
+  "Toyota Research Institute": {
+    "parent_org": "Toyota",
+    "parent_country": "Japan",
+    "institution_country": "USA",
+    "policy": "research-institute"
+  }
+}
+```
+
+## 10.3 Proposed aff_institution_do_not_collapse.json
+
+```json
+[
+  {
+    "child": "Bosch China",
+    "parent": "Bosch",
+    "reason": "Regional branch in China; do not collapse to Bosch Germany."
+  },
+  {
+    "child": "Georgia Tech Europe",
+    "parent": "Georgia Tech",
+    "reason": "European campus/site in France; do not collapse to Georgia Tech USA for country attribution."
+  },
+  {
+    "child": "Honda Research Institute Europe",
+    "parent": "Honda",
+    "reason": "Regional research lab in Germany; do not collapse to Honda Japan."
+  },
+  {
+    "child": "Honda Research Institute USA",
+    "parent": "Honda",
+    "reason": "Regional research lab in USA; do not collapse to Honda Japan."
+  },
+  {
+    "child": "Huawei Technologies Canada",
+    "parent": "Huawei",
+    "reason": "Regional branch in Canada; do not collapse to Huawei China for country attribution."
+  },
+  {
+    "child": "Noah's Ark Lab",
+    "parent": "Huawei",
+    "reason": "Noah's Ark Lab may be affiliated with Huawei, but its site/country should not be replaced by Huawei's parent-country."
+  },
+  {
+    "child": "MERL",
+    "parent": "Mitsubishi Electric",
+    "reason": "Research lab in USA; do not collapse to Mitsubishi Electric Japan."
+  },
+  {
+    "child": "Samsung Research America",
+    "parent": "Samsung",
+    "reason": "Regional research lab in USA; do not collapse to Samsung Korea."
+  },
+  {
+    "child": "Toyota Motor North America",
+    "parent": "Toyota",
+    "reason": "Regional branch in USA; do not collapse to Toyota Japan."
+  },
+  {
+    "child": "Toyota Research Institute",
+    "parent": "Toyota",
+    "reason": "Research institute in USA; do not collapse to Toyota Japan."
+  }
+]
+```
 
 ## 11. Suggested Tests
 
@@ -909,6 +1192,15 @@ Do not split commas, slashes, ampersands, semicolons, `and`, or `with` automatic
 - `Shanghai Jiaotong University -> Shanghai Jiao Tong University`
 - `Institute of Automation，Chinese Academy of Sciences -> CASIA`
 - `NanyangTechnological University -> Nanyang Technological University`
+- `Huawei Noah's Ark Lab -> Noah's Ark Lab`, country Canada, parent Huawei.
+- `Noah's Ark Lab, Huawei Technologies -> Noah's Ark Lab`, country Canada, parent Huawei.
+- `Huawei Technologies Canada -> Huawei Technologies Canada`, country Canada, parent Huawei.
+- `Huawei Technologies -> Huawei`, country China.
+- `Bosch China -> Bosch China`, country China, parent Bosch.
+- `Honda Research Institute Europe -> Honda Research Institute Europe`, country Germany, parent Honda.
+- `Toyota Research Institute -> Toyota Research Institute`, country USA, parent Toyota.
+- `Georgia Tech Europe - IRL 2958 GT-CNRS -> Georgia Tech Europe`, country France, parent Georgia Tech.
+- `Mitsubishi Electric Research Laboratories -> MERL`, country USA, parent Mitsubishi Electric.
 
 ## 12. Remaining Risks
 
@@ -918,3 +1210,4 @@ Do not split commas, slashes, ampersands, semicolons, `and`, or `with` automatic
 4. Inverted names such as `Bonn University` are handled only by explicit alias mapping.
 5. Comma-containing strings are not split automatically.
 6. Ambiguous strings are logged instead of silently normalized.
+7. Parent-organization roll-up charts should be separate from institution-level ranking charts.

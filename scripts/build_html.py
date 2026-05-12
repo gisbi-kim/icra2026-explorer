@@ -40,6 +40,8 @@ OVERRIDES_PATH = ROOT / "classification" / "country_overrides.json"
 INSTITUTION_ALIASES_PATH = ROOT / "classification" / "aff_institution_aliases.json"
 INSTITUTION_MULTIMAP_PATH = ROOT / "classification" / "aff_institution_multimap.json"
 INSTITUTION_COUNTRY_PATH = ROOT / "classification" / "aff_institution_country_table.json"
+INSTITUTION_SITE_COUNTRY_PATH = ROOT / "classification" / "aff_institution_site_country_overrides.json"
+INSTITUTION_PARENT_ORG_PATH = ROOT / "classification" / "aff_institution_parent_org.json"
 overrides_data: dict[str, str] = {}
 if OVERRIDES_PATH.exists():
     overrides_data.update(json.loads(OVERRIDES_PATH.read_text(encoding="utf-8")))
@@ -68,6 +70,16 @@ institution_country_data = {}
 if INSTITUTION_COUNTRY_PATH.exists():
     institution_country_data = json.loads(INSTITUTION_COUNTRY_PATH.read_text(encoding="utf-8"))
 institution_country_json = json.dumps(institution_country_data, ensure_ascii=False, separators=(",", ":"))
+
+institution_site_country_data = {}
+if INSTITUTION_SITE_COUNTRY_PATH.exists():
+    institution_site_country_data = json.loads(INSTITUTION_SITE_COUNTRY_PATH.read_text(encoding="utf-8"))
+institution_site_country_json = json.dumps(institution_site_country_data, ensure_ascii=False, separators=(",", ":"))
+
+institution_parent_org_data = {}
+if INSTITUTION_PARENT_ORG_PATH.exists():
+    institution_parent_org_data = json.loads(INSTITUTION_PARENT_ORG_PATH.read_text(encoding="utf-8"))
+institution_parent_org_json = json.dumps(institution_parent_org_data, ensure_ascii=False, separators=(",", ":"))
 
 # Pre-computed top-K similar-paper lookup (SPECTER2 embeddings, see scripts/embed_papers.py).
 # Optional: if the file is missing the explorer simply omits the "Similar papers" section.
@@ -839,14 +851,16 @@ const COUNTRY_OVERRIDES = __COUNTRY_OVERRIDES_JSON__;
 const INSTITUTION_ALIASES_RAW = __INSTITUTION_ALIASES_JSON__;
 const INSTITUTION_MULTIMAP_RAW = __INSTITUTION_MULTIMAP_JSON__;
 const INSTITUTION_COUNTRIES = __INSTITUTION_COUNTRIES_JSON__;
+const SITE_COUNTRY_OVERRIDES_RAW = __INSTITUTION_SITE_COUNTRY_OVERRIDES_JSON__;
+const PARENT_ORG = __INSTITUTION_PARENT_ORG_JSON__;
 
 function normalizeAffiliationText(text) {
   let normalized = String(text || "");
   if (typeof normalized.normalize === "function") normalized = normalized.normalize("NFKC");
   normalized = normalized
-    .replace(/，/g, ",")
-    .replace(/；/g, ";")
-    .replace(/＆/g, "&")
+    .replace(/\uFF0C/g, ",")
+    .replace(/\uFF1B/g, ";")
+    .replace(/\uFF06/g, "&")
     .replace(/\s+/g, " ")
     .trim()
     .replace(/,+$/g, "")
@@ -860,6 +874,7 @@ function normalizedLookupMap(obj) {
 }
 const INSTITUTION_ALIASES = normalizedLookupMap(INSTITUTION_ALIASES_RAW);
 const INSTITUTION_MULTIMAP = normalizedLookupMap(INSTITUTION_MULTIMAP_RAW);
+const SITE_COUNTRY_OVERRIDES = normalizedLookupMap(SITE_COUNTRY_OVERRIDES_RAW);
 
 function canonicalizeAffiliation(rawAff) {
   const normalized = normalizeAffiliationText(rawAff);
@@ -888,14 +903,26 @@ function countryForRawText(text) {
   }
   return "Other";
 }
-function countryForInstitution(institution) {
+function countryForCanonical(rawAff, institution) {
+  const rawNormalized = normalizeAffiliationText(rawAff);
+  if (Object.prototype.hasOwnProperty.call(SITE_COUNTRY_OVERRIDES, rawNormalized)) {
+    return SITE_COUNTRY_OVERRIDES[rawNormalized];
+  }
+  if (Object.prototype.hasOwnProperty.call(SITE_COUNTRY_OVERRIDES, institution)) {
+    return SITE_COUNTRY_OVERRIDES[institution];
+  }
   if (Object.prototype.hasOwnProperty.call(INSTITUTION_COUNTRIES, institution)) {
     return INSTITUTION_COUNTRIES[institution];
   }
-  return countryForRawText(institution);
+  const parentMeta = PARENT_ORG[institution];
+  if (parentMeta && parentMeta.institution_country) return parentMeta.institution_country;
+  return countryForRawText(rawAff || institution);
+}
+function countryForInstitution(institution) {
+  return countryForCanonical(institution, institution);
 }
 function countriesForAffiliation(rawAff) {
-  return Array.from(new Set(canonicalizeAffiliation(rawAff).map(countryForInstitution)));
+  return Array.from(new Set(canonicalizeAffiliation(rawAff).map(inst => countryForCanonical(rawAff, inst))));
 }
 function countryFor(aff) {
   return countriesForAffiliation(aff)[0] || "Other";
@@ -993,7 +1020,7 @@ PAPERS.forEach(p => {
   p.institutions = canonicalizePaperAffiliations(p.rawAffs);
   // Keep p.affs as the existing UI/filter field, now backed by canonical institutions.
   p.affs = p.institutions;
-  p.countries = Array.from(new Set(p.institutions.map(countryForInstitution)));
+  p.countries = Array.from(new Set(p.rawAffs.flatMap(countriesForAffiliation)));
   p.keywords = p.keywords || [];
   p.abstract = p.abstract || "";
   p.sessionType = sessionTypeOf(p.code);
@@ -1631,7 +1658,7 @@ function render() {
     }).join("");
     const authorList = p.authors.map(a => {
       const authorInstitutions = canonicalizeAffiliation(a.aff);
-      const authorCountries = new Set(authorInstitutions.map(countryForInstitution));
+      const authorCountries = new Set(authorInstitutions.map(inst => countryForCanonical(a.aff, inst)));
       const primaryInstitution = authorInstitutions[0] || a.aff;
       const affMatched = (fAff && authorInstitutions.includes(fAff)) || (fCountry && authorCountries.has(fCountry));
       const affCls = "aff clickable" + (affMatched ? " matched" : "");
@@ -2107,6 +2134,8 @@ html_filled = (HTML
     .replace("__COUNTRY_OVERRIDES_JSON__", country_overrides_json)
     .replace("__INSTITUTION_ALIASES_JSON__", institution_aliases_json)
     .replace("__INSTITUTION_MULTIMAP_JSON__", institution_multimap_json)
-    .replace("__INSTITUTION_COUNTRIES_JSON__", institution_country_json))
+    .replace("__INSTITUTION_COUNTRIES_JSON__", institution_country_json)
+    .replace("__INSTITUTION_SITE_COUNTRY_OVERRIDES_JSON__", institution_site_country_json)
+    .replace("__INSTITUTION_PARENT_ORG_JSON__", institution_parent_org_json))
 OUT.write_text(html_filled, encoding="utf-8")
 print(f"Wrote {OUT} ({OUT.stat().st_size/1024:.0f} KB)")

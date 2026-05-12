@@ -136,6 +136,36 @@ EXTRA_ALIASES = {
     "Inria Paris": "Inria",
     "INRIA Nancy - Grand Est": "Inria",
     "Inria centre at the university of Bordeaux, F-33405 Talence, France": "Inria",
+    "Huawei Noah's Ark Lab": "Noah's Ark Lab",
+    "Huawei Noah’s Ark Lab": "Noah's Ark Lab",
+    "Huawei Research (Noah's Ark Labs)": "Noah's Ark Lab",
+    "Noah's Ark Lab": "Noah's Ark Lab",
+    "Huawei Technologies Canada": "Huawei Technologies Canada",
+    "Huawei Canada": "Huawei Technologies Canada",
+    "Bosch China": "Bosch China",
+    "Bosch Center for Artificial Intelligence": "Bosch Center for Artificial Intelligence",
+    "Bosch Center for AI": "Bosch Center for Artificial Intelligence",
+    "Bosch Corporate Research": "Bosch Corporate Research",
+    "Robert Bosch GmbH, Corporate Research": "Bosch Corporate Research",
+    "Robert Bosch GmbH Corporate Research": "Bosch Corporate Research",
+    "Honda Research Institute Europe": "Honda Research Institute Europe",
+    "Honda Research Institute Europe GmbH": "Honda Research Institute Europe",
+    "Honda Research Institute, USA": "Honda Research Institute USA",
+    "Honda Research Institute USA, Inc": "Honda Research Institute USA",
+    "Honda Research Institute - USA": "Honda Research Institute USA",
+    "Honda R&D Co., Ltd": "Honda R&D",
+    "Toyota Motor North America R&D": "Toyota Motor North America R&D",
+    "Toyota Motor North America, InfoTech Labs": "Toyota Motor North America R&D",
+    "Toyota Motor North America, R&D": "Toyota Motor North America R&D",
+    "Toyota Motor East Japan, Inc": "Toyota Motor East Japan",
+    "Samsung Research America": "Samsung Research America",
+    "AI Center, Samsung Electronics Co. LTD": "Samsung AI Center",
+    "GeorgiaTech Lorraine": "Georgia Tech Europe",
+    "Georgia Tech Europe - IRL 2958 GT-CNRS": "Georgia Tech Europe",
+    "ByteDance Seed Robotics": "ByteDance Seed Robotics",
+    "Mitsubishi Electric Research Laboratories": "MERL",
+    "Mitsubishi Electric Research Laboratories (MERL)": "MERL",
+    "MERL": "MERL",
 }
 
 
@@ -187,7 +217,228 @@ EXTRA_MULTIMAP = {
     "Westlake University, Zhejiang University": ["Westlake University", "Zhejiang University"],
     "Zhejiang University, Idiap Research Institute": ["Zhejiang University", "Idiap Research Institute"],
     "Zhejiang University, Shanghai AI Laboratory": ["Zhejiang University", "Shanghai AI Laboratory"],
+    "Noah's Ark Lab, Huawei Technologies": ["Noah's Ark Lab"],
+    "Noah's Ark Lab, Huawei": ["Noah's Ark Lab"],
+    "Noah's Ark Lab, Huawei Technologies Canada Inc": ["Noah's Ark Lab"],
+    "PICO, ByteDance": ["PICO"],
+    "University of Sydney, NVIDIA": ["University of Sydney", "NVIDIA"],
+    "Carnegie Mellon University; Vanderbilt University": ["Carnegie Mellon University", "Vanderbilt University"],
+    "Allen Institute for AI, University of Washington": ["Allen Institute for AI", "University of Washington"],
 }
+
+
+SITE_COUNTRY_OVERRIDES = {
+    "Huawei Technologies Canada": "Canada",
+    "Huawei Canada": "Canada",
+    "Huawei Noah's Ark Lab": "Canada",
+    "Huawei Noah’s Ark Lab": "Canada",
+    "Huawei Research (Noah's Ark Labs)": "Canada",
+    "Noah's Ark Lab": "Canada",
+    "Noah's Ark Lab, Huawei Technologies": "Canada",
+    "Noah's Ark Lab, Huawei": "Canada",
+    "Noah's Ark Lab, Huawei Technologies Canada Inc": "Canada",
+    "University of Toronto, Noah's Ark Lab": "Canada",
+    "Samsung Research America": "USA",
+    "Honda Research Institute Europe": "Germany",
+    "Honda Research Institute Europe GmbH": "Germany",
+    "Honda Research Institute USA": "USA",
+    "Honda Research Institute, USA": "USA",
+    "Honda Research Institute USA, Inc": "USA",
+    "Honda Research Institute - USA": "USA",
+    "Honda R&D Co., Ltd": "Japan",
+    "Honda R&D": "Japan",
+    "Toyota Motor North America": "USA",
+    "Toyota Motor North America R&D": "USA",
+    "Toyota Motor North America, InfoTech Labs": "USA",
+    "Toyota Motor North America, R&D": "USA",
+    "Toyota Motor East Japan": "Japan",
+    "Toyota Motor East Japan, Inc": "Japan",
+    "Toyota Research Institute": "USA",
+    "Bosch China": "China",
+    "Bosch Center for Artificial Intelligence": "Germany",
+    "Bosch Center for AI": "Germany",
+    "Bosch Corporate Research": "Germany",
+    "Robert Bosch GmbH, Corporate Research": "Germany",
+    "Robert Bosch GmbH Corporate Research": "Germany",
+    "Georgia Tech Europe": "France",
+    "GeorgiaTech Lorraine": "France",
+    "Georgia Tech Europe - IRL 2958 GT-CNRS": "France",
+    "MERL": "USA",
+    "Mitsubishi Electric Research Laboratories": "USA",
+    "Mitsubishi Electric Research Laboratories (MERL)": "USA",
+}
+
+
+PARENT_ORG = {
+    "Noah's Ark Lab": {
+        "parent_org": "Huawei",
+        "parent_country": "China",
+        "institution_country": "Canada",
+        "policy": "site-aware",
+    },
+    "Huawei Technologies Canada": {
+        "parent_org": "Huawei",
+        "parent_country": "China",
+        "institution_country": "Canada",
+        "policy": "regional-branch",
+    },
+    "Bosch China": {
+        "parent_org": "Bosch",
+        "parent_country": "Germany",
+        "institution_country": "China",
+        "policy": "regional-branch",
+    },
+    "Bosch Center for Artificial Intelligence": {
+        "parent_org": "Bosch",
+        "parent_country": "Germany",
+        "institution_country": "Germany",
+        "policy": "research-lab",
+    },
+    "Bosch Corporate Research": {
+        "parent_org": "Bosch",
+        "parent_country": "Germany",
+        "institution_country": "Germany",
+        "policy": "research-lab",
+    },
+    "Honda Research Institute Europe": {
+        "parent_org": "Honda",
+        "parent_country": "Japan",
+        "institution_country": "Germany",
+        "policy": "regional-research-lab",
+    },
+    "Honda Research Institute USA": {
+        "parent_org": "Honda",
+        "parent_country": "Japan",
+        "institution_country": "USA",
+        "policy": "regional-research-lab",
+    },
+    "Honda R&D": {
+        "parent_org": "Honda",
+        "parent_country": "Japan",
+        "institution_country": "Japan",
+        "policy": "regional-branch",
+    },
+    "Toyota Research Institute": {
+        "parent_org": "Toyota",
+        "parent_country": "Japan",
+        "institution_country": "USA",
+        "policy": "research-institute",
+    },
+    "Toyota Motor North America": {
+        "parent_org": "Toyota",
+        "parent_country": "Japan",
+        "institution_country": "USA",
+        "policy": "regional-branch",
+    },
+    "Toyota Motor North America R&D": {
+        "parent_org": "Toyota",
+        "parent_country": "Japan",
+        "institution_country": "USA",
+        "policy": "regional-branch",
+    },
+    "Toyota Motor East Japan": {
+        "parent_org": "Toyota",
+        "parent_country": "Japan",
+        "institution_country": "Japan",
+        "policy": "regional-branch",
+    },
+    "Samsung Research America": {
+        "parent_org": "Samsung",
+        "parent_country": "South Korea",
+        "institution_country": "USA",
+        "policy": "regional-research-lab",
+    },
+    "Samsung AI Center": {
+        "parent_org": "Samsung",
+        "parent_country": "South Korea",
+        "institution_country": "South Korea",
+        "policy": "site-aware",
+    },
+    "Georgia Tech Europe": {
+        "parent_org": "Georgia Tech",
+        "parent_country": "USA",
+        "institution_country": "France",
+        "policy": "overseas-campus",
+    },
+    "PICO": {
+        "parent_org": "ByteDance",
+        "parent_country": "China",
+        "institution_country": "China",
+        "policy": "subsidiary",
+    },
+    "ByteDance Seed Robotics": {
+        "parent_org": "ByteDance",
+        "parent_country": "China",
+        "institution_country": "China",
+        "policy": "research-lab",
+    },
+    "Alibaba DAMO Academy": {
+        "parent_org": "Alibaba",
+        "parent_country": "China",
+        "institution_country": "China",
+        "policy": "research-lab",
+    },
+    "MERL": {
+        "parent_org": "Mitsubishi Electric",
+        "parent_country": "Japan",
+        "institution_country": "USA",
+        "policy": "research-lab",
+    },
+}
+
+
+DO_NOT_COLLAPSE = [
+    {
+        "child": "Noah's Ark Lab",
+        "parent": "Huawei",
+        "reason": "Noah's Ark Lab may be affiliated with Huawei, but its site/country should not be replaced by Huawei's parent-country.",
+    },
+    {
+        "child": "Huawei Technologies Canada",
+        "parent": "Huawei",
+        "reason": "Regional branch in Canada; do not collapse to Huawei China for country attribution.",
+    },
+    {
+        "child": "Bosch China",
+        "parent": "Bosch",
+        "reason": "Regional branch in China; do not collapse to Bosch Germany.",
+    },
+    {
+        "child": "Honda Research Institute Europe",
+        "parent": "Honda",
+        "reason": "Regional research lab in Germany; do not collapse to Honda Japan.",
+    },
+    {
+        "child": "Honda Research Institute USA",
+        "parent": "Honda",
+        "reason": "Regional research lab in USA; do not collapse to Honda Japan.",
+    },
+    {
+        "child": "Toyota Research Institute",
+        "parent": "Toyota",
+        "reason": "Research institute in USA; do not collapse to Toyota Japan.",
+    },
+    {
+        "child": "Toyota Motor North America",
+        "parent": "Toyota",
+        "reason": "Regional branch in USA; do not collapse to Toyota Japan.",
+    },
+    {
+        "child": "Samsung Research America",
+        "parent": "Samsung",
+        "reason": "Regional research lab in USA; do not collapse to Samsung Korea.",
+    },
+    {
+        "child": "Georgia Tech Europe",
+        "parent": "Georgia Tech",
+        "reason": "European campus/site in France; do not collapse to Georgia Tech USA for country attribution.",
+    },
+    {
+        "child": "MERL",
+        "parent": "Mitsubishi Electric",
+        "reason": "Research lab in USA; do not collapse to Mitsubishi Electric Japan.",
+    },
+]
 
 
 EXTRA_DO_NOT_MERGE = [
@@ -241,13 +492,21 @@ def country_by_canonical(
     aliases: dict[str, str],
     multimap: dict[str, list[str]],
     aff_country: dict[str, str],
+    site_country_overrides: dict[str, str],
+    parent_org: dict[str, dict[str, str]],
 ) -> dict[str, str]:
     votes: dict[str, Counter[str]] = defaultdict(Counter)
+    site_overrides = normalized_dict(site_country_overrides)
     for raw, country in aff_country.items():
-        country = fold_country(country)
-        if country == "Unknown":
-            continue
+        raw_normalized = normalize_affiliation_text(raw)
         for inst in canonicalize_affiliation(raw, aliases, multimap):
+            country = site_overrides.get(raw_normalized)
+            if not country:
+                country = site_overrides.get(inst)
+            if not country:
+                country = fold_country(aff_country.get(raw, "Other"))
+            if country == "Unknown":
+                continue
             votes[inst][country] += 1
 
     out: dict[str, str] = {}
@@ -257,6 +516,15 @@ def country_by_canonical(
         else:
             winner, _ = counter.most_common(1)[0]
             out[institution] = winner
+
+    for raw, country in site_country_overrides.items():
+        for inst in canonicalize_affiliation(raw, aliases, multimap):
+            out[inst] = country
+
+    for institution, meta in parent_org.items():
+        if "institution_country" in meta:
+            out[institution] = meta["institution_country"]
+
     return dict(sorted(out.items()))
 
 
@@ -338,6 +606,9 @@ def write_review_log(
     aff_country: dict[str, str],
     aff_counts: Counter[str],
     institution_country: dict[str, str],
+    site_country_overrides: dict[str, str],
+    parent_org: dict[str, dict[str, str]],
+    do_not_collapse: list[dict[str, str]],
 ) -> None:
     grouped: dict[str, list[str]] = defaultdict(list)
     for raw, canonical in aliases.items():
@@ -458,9 +729,23 @@ def write_review_log(
             "",
             "## 10. Implementation Guideline",
             "",
-            "Use this order: Unicode NFKC normalization -> whitespace and punctuation normalization -> exact multimap lookup -> exact alias lookup -> suspicious separator detection -> canonical institution name(s) -> canonical institution country lookup -> fallback country hints -> manual review log.",
+            "Use this order: Unicode NFKC normalization -> whitespace and punctuation normalization -> raw affiliation exact site-country override -> exact multimap lookup -> exact alias lookup -> canonical institution site-country override -> canonical institution country lookup -> parent-org metadata institution_country fallback -> fallback country hints -> manual review log.",
             "",
             "Do not split commas, slashes, ampersands, semicolons, `and`, or `with` automatically. Split only when the exact raw string is in `aff_institution_multimap.json`.",
+            "",
+            "Parent organization metadata is not a primary country-attribution source. For example, `Noah's Ark Lab` keeps Canada as the site-aware institution country while storing Huawei as parent metadata.",
+            "",
+            "## 10.1 Proposed aff_institution_site_country_overrides.json",
+            "",
+            json_block(site_country_overrides),
+            "",
+            "## 10.2 Proposed aff_institution_parent_org.json",
+            "",
+            json_block(parent_org),
+            "",
+            "## 10.3 Proposed aff_institution_do_not_collapse.json",
+            "",
+            json_block(do_not_collapse),
             "",
             "## 11. Suggested Tests",
             "",
@@ -479,6 +764,15 @@ def write_review_log(
             "- `Shanghai Jiaotong University -> Shanghai Jiao Tong University`",
             "- `Institute of Automation，Chinese Academy of Sciences -> CASIA`",
             "- `NanyangTechnological University -> Nanyang Technological University`",
+            "- `Huawei Noah's Ark Lab -> Noah's Ark Lab`, country Canada, parent Huawei.",
+            "- `Noah's Ark Lab, Huawei Technologies -> Noah's Ark Lab`, country Canada, parent Huawei.",
+            "- `Huawei Technologies Canada -> Huawei Technologies Canada`, country Canada, parent Huawei.",
+            "- `Huawei Technologies -> Huawei`, country China.",
+            "- `Bosch China -> Bosch China`, country China, parent Bosch.",
+            "- `Honda Research Institute Europe -> Honda Research Institute Europe`, country Germany, parent Honda.",
+            "- `Toyota Research Institute -> Toyota Research Institute`, country USA, parent Toyota.",
+            "- `Georgia Tech Europe - IRL 2958 GT-CNRS -> Georgia Tech Europe`, country France, parent Georgia Tech.",
+            "- `Mitsubishi Electric Research Laboratories -> MERL`, country USA, parent Mitsubishi Electric.",
             "",
             "## 12. Remaining Risks",
             "",
@@ -488,6 +782,7 @@ def write_review_log(
             "4. Inverted names such as `Bonn University` are handled only by explicit alias mapping.",
             "5. Comma-containing strings are not split automatically.",
             "6. Ambiguous strings are logged instead of silently normalized.",
+            "7. Parent-organization roll-up charts should be separate from institution-level ranking charts.",
             "",
         ]
     )
@@ -515,8 +810,17 @@ def main() -> None:
 
     aliases = dict(sorted(aliases.items(), key=lambda kv: (kv[1].lower(), kv[0].lower())))
     multimap = dict(sorted(multimap.items(), key=lambda kv: kv[0].lower()))
+    site_country_overrides = dict(sorted(SITE_COUNTRY_OVERRIDES.items(), key=lambda kv: kv[0].lower()))
+    parent_org = dict(sorted(PARENT_ORG.items(), key=lambda kv: kv[0].lower()))
+    do_not_collapse = sorted(DO_NOT_COLLAPSE, key=lambda x: (x["parent"].lower(), x["child"].lower()))
     ambiguous = build_ambiguous(aff_counts, aliases, multimap, aff_country)
-    institution_country = country_by_canonical(aliases, multimap, aff_country)
+    institution_country = country_by_canonical(
+        aliases,
+        multimap,
+        aff_country,
+        site_country_overrides,
+        parent_org,
+    )
 
     CLASSIFICATION_DIR.mkdir(exist_ok=True)
     (CLASSIFICATION_DIR / "aff_institution_aliases.json").write_text(
@@ -539,12 +843,38 @@ def main() -> None:
         json.dumps(institution_country, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    write_review_log(aliases, multimap, do_not_merge, ambiguous, aff_country, aff_counts, institution_country)
+    (CLASSIFICATION_DIR / "aff_institution_site_country_overrides.json").write_text(
+        json.dumps(site_country_overrides, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    (CLASSIFICATION_DIR / "aff_institution_parent_org.json").write_text(
+        json.dumps(parent_org, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    (CLASSIFICATION_DIR / "aff_institution_do_not_collapse.json").write_text(
+        json.dumps(do_not_collapse, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    write_review_log(
+        aliases,
+        multimap,
+        do_not_merge,
+        ambiguous,
+        aff_country,
+        aff_counts,
+        institution_country,
+        site_country_overrides,
+        parent_org,
+        do_not_collapse,
+    )
 
     print(f"aliases: {len(aliases)}")
     print(f"multimap: {len(multimap)}")
     print(f"do_not_merge: {len(do_not_merge)}")
     print(f"ambiguous: {len(ambiguous)}")
+    print(f"site_country_overrides: {len(site_country_overrides)}")
+    print(f"parent_org: {len(parent_org)}")
+    print(f"do_not_collapse: {len(do_not_collapse)}")
 
 
 if __name__ == "__main__":
