@@ -3,6 +3,7 @@ from __future__ import annotations
 
 from institution_canonicalization import (
     canonicalize_affiliation,
+    canonicalize_paper_affiliations,
     infer_country_for_institution,
     load_alias_map,
     load_institution_country_table,
@@ -53,6 +54,30 @@ def main() -> None:
         "GeorgiaTech Lorraine": ["Georgia Tech Europe"],
         "Mitsubishi Electric Research Laboratories": ["MERL"],
         "PICO, ByteDance": ["PICO"],
+        "KAIST(Korea Advanced Institute of Science and Technology)": ["KAIST"],
+        "Korea Advanced Institute of Science and Technology(KAIST)": ["KAIST"],
+        "DGIST (Daegu Gyeongbuk Institute of Science and Technology)": ["DGIST"],
+        "Daegu Gyeongbuk Institute of Science&Technology": ["DGIST"],
+        "Gwangju Institue of Science and Technology (GIST)": ["GIST"],
+        "Department of Mechanical Engineering, Ulsan National Institute of Science and Technology (UNIST)": ["UNIST"],
+        "POSTECH(Pohang University of Science and Technology)": ["POSTECH"],
+        "Postech": ["POSTECH"],
+        "Seoul National University (SNU)": ["Seoul National University"],
+        "Seoul National University of Science and Technology": ["SeoulTech"],
+        "Korea Institute of Science & Technology (KIST)": ["KIST"],
+        "KITECH(Korea Institute of Industrial Technology),": ["KITECH"],
+        "Korea Research Institute of Ships & Ocean Engineering (KRISO)": ["KRISO"],
+        "Electronics and Telecommunications Research Institute (ETRI)": ["ETRI"],
+        "The National University of Singapore": ["National University of Singapore"],
+        "NTU Singapore": ["Nanyang Technological University"],
+        "Delft University of Technology (TU Delft)": ["TU Delft"],
+        "Technical University Delft": ["TU Delft"],
+        "KTH - Royal Institute of Technology": ["KTH Royal Institute of Technology"],
+        "The Unversity of Tokyo": ["University of Tokyo"],
+        "Tokyo Institute of Technology": ["Institute of Science Tokyo"],
+        "National Inst. of AIST": ["AIST"],
+        "University of Technology, Sydney": ["University of Technology Sydney"],
+        "UNSW Sydney": ["UNSW"],
     }
 
     for raw, expected in cases.items():
@@ -67,6 +92,10 @@ def main() -> None:
         ("Zhejiang University", "Zhejiang University of Technology"),
         ("CUHK", "CUHK Shenzhen"),
         ("HKUST", "HKUST Guangzhou"),
+        ("Seoul National University", "SeoulTech"),
+        ("KAIST", "KIST"),
+        ("University of Sydney", "University of Technology Sydney"),
+        ("Georgia Tech", "University of Georgia"),
     ]
     for left, right in false_pairs:
         assert canonicalize_affiliation(left, aliases, multimap) != canonicalize_affiliation(
@@ -106,9 +135,47 @@ def main() -> None:
         actual_parent = parent_org.get(actual_canonical, {}).get("parent_org")
         assert actual_parent == expected_parent, f"{raw!r}: expected parent {expected_parent!r}, got {actual_parent!r}"
 
+    fair_counting_cases = [
+        (
+            [
+                "MIT",
+                "Massachusetts Institute of Technology",
+                "Massachusetts Institute of Technology (MIT)",
+            ],
+            ["MIT"],
+        ),
+        (
+            [
+                "KAIST",
+                "Korea Advanced Institute of Science and Technology (KAIST)",
+                "KAIST(Korea Advanced Institute of Science and Technology)",
+            ],
+            ["KAIST"],
+        ),
+        (
+            [
+                "Noah's Ark Lab, Huawei Technologies",
+                "Huawei Noah's Ark Lab",
+            ],
+            ["Noah's Ark Lab"],
+        ),
+        (
+            [
+                "University of Sydney, NVIDIA",
+                "The University of Sydney",
+                "NVIDIA",
+            ],
+            ["NVIDIA", "University of Sydney"],
+        ),
+    ]
+    for raw_affiliations, expected in fair_counting_cases:
+        actual = canonicalize_paper_affiliations(raw_affiliations, aliases, multimap)
+        assert actual == expected, f"{raw_affiliations!r}: expected paper-level set {expected!r}, got {actual!r}"
+
     print(
         f"passed {len(cases)} positive cases, {len(false_pairs)} false-merge guards, "
-        f"and {len(country_cases)} site-aware country cases"
+        f"{len(country_cases)} site-aware country cases, and "
+        f"{len(fair_counting_cases)} fair paper-level dedup cases"
     )
 
 

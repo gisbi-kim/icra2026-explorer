@@ -113,5 +113,40 @@
     "a": "University of California",
     "b": "University of California, Merced",
     "reason": "System-level name should not be automatically mapped to a specific campus."
+  },
+  {
+    "a": "Seoul National University",
+    "b": "SeoulTech",
+    "reason": "Different Korean universities; SeoulTech is Seoul National University of Science and Technology."
+  },
+  {
+    "a": "Seoul National University",
+    "b": "Korea University",
+    "reason": "Different Korean universities."
+  },
+  {
+    "a": "KAIST",
+    "b": "KIST",
+    "reason": "Different Korean institutions despite similar acronyms."
+  },
+  {
+    "a": "POSTECH",
+    "b": "SeoulTech",
+    "reason": "Different Korean universities despite both using Tech-style shorthand."
+  },
+  {
+    "a": "University of Sydney",
+    "b": "University of Technology Sydney",
+    "reason": "Different Australian universities."
+  },
+  {
+    "a": "National Taiwan University",
+    "b": "Nanyang Technological University",
+    "reason": "Do not map bare NTU to either institution; only explicit NTU Singapore maps to Nanyang Technological University."
+  },
+  {
+    "a": "Georgia Tech",
+    "b": "University of Georgia",
+    "reason": "Different US universities in Georgia."
   }
 ]

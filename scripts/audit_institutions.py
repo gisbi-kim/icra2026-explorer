@@ -15,6 +15,7 @@ from pathlib import Path
 
 from institution_canonicalization import (
     canonicalize_affiliation,
+    canonicalize_paper_affiliations,
     normalize_affiliation_text,
     normalized_dict,
     normalized_multimap,
@@ -24,6 +25,7 @@ from institution_canonicalization import (
 ROOT = Path(__file__).resolve().parent.parent
 CLASSIFICATION_DIR = ROOT / "classification"
 DEFAULT_PROMPT = Path.home() / "Downloads" / "institution_canonicalization_final_prompt.md"
+LATE_BREAKING_RE = re.compile(r"^[A-Z][a-z]I\d+LB(\.|$)")
 
 
 EXTRA_ALIASES = {
@@ -169,6 +171,97 @@ EXTRA_ALIASES = {
 }
 
 
+KOREA_INSTITUTION_ALIASES = {
+    "KAIST": "KAIST",
+    "KAIST(Korea Advanced Institute of Science and Technology)": "KAIST",
+    "Korea Advanced Institute of Science and Technology(KAIST)": "KAIST",
+    "DGIST": "DGIST",
+    "DGIST (Daegu Gyeongbuk Institute of Science and Technology)": "DGIST",
+    "DGIST (Daegu Gyeongbuk Institute of Science & Technology)": "DGIST",
+    "Daegu Gyeongbuk Institute of Science&Technology": "DGIST",
+    "GIST": "GIST",
+    "Gwangju Institute of Science and Technology(GIST)": "GIST",
+    "Gwangju Institue of Science and Technology (GIST)": "GIST",
+    "UNIST": "UNIST",
+    "Ulsan National Institute of Science and Technology (UNIST)": "UNIST",
+    "Department of Mechanical Engineering, Ulsan National Institute of Science and Technology (UNIST)": "UNIST",
+    "POSTECH": "POSTECH",
+    "Postech": "POSTECH",
+    "POSTECH (Pohang University of Science and Technology)": "POSTECH",
+    "POSTECH(Pohang University of Science and Technology)": "POSTECH",
+    "HEROLab (in Univ. POSTECH)": "POSTECH",
+    "Seoul National University (SNU)": "Seoul National University",
+    "Seoul National University, SNU": "Seoul National University",
+    "Seoul National Univetsity": "Seoul National University",
+    "Seoul National University, Biorobotics Laboratory": "Seoul National University",
+    "SeoulTech": "SeoulTech",
+    "Seoul National University of Science and Technology": "SeoulTech",
+    "KIST": "KIST",
+    "Korea Institute of Science and Technology": "KIST",
+    "Korea Institute of Science & Technology (KIST)": "KIST",
+    "Korea Institute of Science and Technology (KIST)": "KIST",
+    "KIMM": "KIMM",
+    "Korea Institute of Machinery & Materials (kimm)": "KIMM",
+    "Korea Institute of Machinery and Materials (KIMM)": "KIMM",
+    "Korea Institute of Machinery and Metals": "KIMM",
+    "KITECH": "KITECH",
+    "KITECH(Korea Institute of Industrial Technology)": "KITECH",
+    "KITECH(Korea Institute of Industrial Technology),": "KITECH",
+    "Korea Institute of Industrial Technology (KITECH)": "KITECH",
+    "Korea Institute of Industrial Technology(KITECH)": "KITECH",
+    "KRISO": "KRISO",
+    "Korea Research Institute of Ships & Ocean Engineering (KRISO)": "KRISO",
+    "KRISO (Korea Research Institute of Ships & Ocean Engineering)": "KRISO",
+    "KRISO(Korea Research Institute of Ships and Ocean Engineereing": "KRISO",
+    "UST-KRISO": "KRISO",
+    "ETRI": "ETRI",
+    "Electronics and Telecommunications Research Institute (ETRI)": "ETRI",
+}
+
+
+FAIR_COUNTING_ALIAS_ADDITIONS = {
+    "School of Automation Science and Electrical Engineering, Beihang University": "Beihang University",
+    "Hangzhou Innovation Institute, Beihang University": "Beihang University",
+    "Hangzhou Innovation Institute of Beihang University": "Beihang University",
+    "Hangzhou Innovation Institute of Beihanga University": "Beihang University",
+    "Tsinghua University\u200c": "Tsinghua University",
+    "Shanghai Jion Tong University": "Shanghai Jiao Tong University",
+    "Shanghai Jiao Tong Uni": "Shanghai Jiao Tong University",
+    "SHANGHAITECH UNIVERSITY": "ShanghaiTech University",
+    "University of California at Santa Cruz": "UC Santa Cruz",
+    "Massachusetts Institute of Technology": "MIT",
+    "Massachusetts Institute of Technology (MIT)": "MIT",
+    "MIT Lincoln Laboratory": "MIT Lincoln Laboratory",
+    "The National University of Singapore": "National University of Singapore",
+    "NTU Singapore": "Nanyang Technological University",
+    "Delft University of Technology (TU Delft)": "TU Delft",
+    "Tu Delft": "TU Delft",
+    "Technical University Delft": "TU Delft",
+    "Technical University of Delft": "TU Delft",
+    "KTH - Royal Institute of Technology": "KTH Royal Institute of Technology",
+    "Royal Institute of Technology (KTH)": "KTH Royal Institute of Technology",
+    "KTH Royal Institute of Technology in Stockholm": "KTH Royal Institute of Technology",
+    "KTH Royal Institute of Technology Stockholm, Traton, SCANIA CV AB": "KTH Royal Institute of Technology",
+    "NTNU": "NTNU",
+    "The University of Tokyo": "University of Tokyo",
+    "The Unversity of Tokyo": "University of Tokyo",
+    "University of Tokyo": "University of Tokyo",
+    "Institute of Science Tokyo": "Institute of Science Tokyo",
+    "Tokyo Institute of Technology": "Institute of Science Tokyo",
+    "National Inst. of AIST": "AIST",
+    "National Institute of AIST": "AIST",
+    "AIST Japan": "AIST",
+    "AIST": "AIST",
+    "JAIST": "JAIST",
+    "Oxford University": "University of Oxford",
+    "University of Toronto Mississauga": "University of Toronto",
+    "The University of Sydney: The Australian Centre for Field Robotics": "University of Sydney",
+    "University of Sydney, Australian Centre for Field Robotics": "University of Sydney",
+    "University of Technology, Sydney": "University of Technology Sydney",
+    "UNSW Sydney": "UNSW",
+}
+
+
 EXTRA_MULTIMAP = {
     "ETH Zurich & IDSIA, USI-SUPSI": ["ETH Zurich", "IDSIA, USI-SUPSI"],
     "ETH Zurich, Stanford": ["ETH Zurich", "Stanford University"],
@@ -224,6 +317,53 @@ EXTRA_MULTIMAP = {
     "University of Sydney, NVIDIA": ["University of Sydney", "NVIDIA"],
     "Carnegie Mellon University; Vanderbilt University": ["Carnegie Mellon University", "Vanderbilt University"],
     "Allen Institute for AI, University of Washington": ["Allen Institute for AI", "University of Washington"],
+    "KAIST, LG Electronics": ["KAIST", "LG Electronics"],
+    "KAIST, Roen Surgical, Inc": ["KAIST", "Roen Surgical"],
+    "Seoul National University, Karlsruhe Institute of Technology": [
+        "Seoul National University",
+        "Karlsruhe Institute of Technology",
+    ],
+    "Seoul National University, Holiday Robotics": ["Seoul National University", "Holiday Robotics"],
+    "Korea University, Korea Institute of Science and Technology (KIST)": ["Korea University", "KIST"],
+    "Korea University, KIST": ["Korea University", "KIST"],
+    "Korea Institute of Science and Technology, Korea University": ["KIST", "Korea University"],
+    "Korea University of Science and Technology, Korea Institute of Industrial Technology": [
+        "Korea University of Science and Technology",
+        "KITECH",
+    ],
+    "University of Science and Technology(UST), Korea Research Institute of Ships & Ocean Engineering(KRISO)": [
+        "University of Science and Technology",
+        "KRISO",
+    ],
+    "University of Chinese Academy of Sciences，Beihang University": [
+        "University of Chinese Academy of Sciences",
+        "Beihang University",
+    ],
+    "Beijing University of Posts and Telecommunications / Tsinghua University": [
+        "Beijing University of Posts and Telecommunications",
+        "Tsinghua University",
+    ],
+    "National University of Singapore, Shanghai Qi Zhi Institute": [
+        "National University of Singapore",
+        "Shanghai Qi Zhi Institute",
+    ],
+    "The University of Tokyo & RIKEN AIP": ["University of Tokyo", "RIKEN AIP"],
+    "The University of Tokyo & University of Alberta": ["University of Tokyo", "University of Alberta"],
+    "University of Toronto, Noah's Ark Lab": ["University of Toronto", "Noah's Ark Lab"],
+    "KTH Royal Institute of Technology & Scania AB": ["KTH Royal Institute of Technology", "Scania"],
+    "Norwegian University of Science and Technology (NTNU), Skydio": ["NTNU", "Skydio"],
+    "TNO, Delft University of Technology": ["TNO", "TU Delft"],
+    "Georgia Institute of Technology, Argo AI": ["Georgia Tech", "Argo AI"],
+    "Georgia Institute of Technology, Amazon": ["Georgia Tech", "Amazon"],
+    "MIT-WHOI Joint Program": ["MIT", "Woods Hole Oceanographic Institution"],
+    "Singapore-MIT Alliance for Research and Technology": ["Singapore-MIT Alliance for Research and Technology"],
+    "Singapore-MIT Alliance for Research and Technology (SMART)": [
+        "Singapore-MIT Alliance for Research and Technology",
+    ],
+    "Singapore-MIT Alliance for Research & Technology": ["Singapore-MIT Alliance for Research and Technology"],
+    "Singapore-MIT Alliance for Research and Technology Centre (SMART)": [
+        "Singapore-MIT Alliance for Research and Technology",
+    ],
 }
 
 
@@ -457,6 +597,41 @@ EXTRA_DO_NOT_MERGE = [
         "b": "University of California, Merced",
         "reason": "System-level name should not be automatically mapped to a specific campus.",
     },
+    {
+        "a": "Seoul National University",
+        "b": "SeoulTech",
+        "reason": "Different Korean universities; SeoulTech is Seoul National University of Science and Technology.",
+    },
+    {
+        "a": "Seoul National University",
+        "b": "Korea University",
+        "reason": "Different Korean universities.",
+    },
+    {
+        "a": "KAIST",
+        "b": "KIST",
+        "reason": "Different Korean institutions despite similar acronyms.",
+    },
+    {
+        "a": "POSTECH",
+        "b": "SeoulTech",
+        "reason": "Different Korean universities despite both using Tech-style shorthand.",
+    },
+    {
+        "a": "University of Sydney",
+        "b": "University of Technology Sydney",
+        "reason": "Different Australian universities.",
+    },
+    {
+        "a": "National Taiwan University",
+        "b": "Nanyang Technological University",
+        "reason": "Do not map bare NTU to either institution; only explicit NTU Singapore maps to Nanyang Technological University.",
+    },
+    {
+        "a": "Georgia Tech",
+        "b": "University of Georgia",
+        "reason": "Different US universities in Georgia.",
+    },
 ]
 
 
@@ -472,7 +647,7 @@ def load_prompt_json_blocks(prompt_path: Path) -> tuple[dict[str, str], dict[str
 
 
 def load_affiliation_counts() -> Counter[str]:
-    papers = json.loads((ROOT / "output" / "papers.json").read_text(encoding="utf-8"))["papers"]
+    papers = load_papers()
     counts: Counter[str] = Counter()
     for paper in papers:
         seen = set()
@@ -482,6 +657,11 @@ def load_affiliation_counts() -> Counter[str]:
                 counts[aff] += 1
                 seen.add(aff)
     return counts
+
+
+def load_papers() -> list[dict[str, object]]:
+    papers = json.loads((ROOT / "output" / "papers.json").read_text(encoding="utf-8"))["papers"]
+    return [paper for paper in papers if not LATE_BREAKING_RE.match(str(paper.get("code", "")))]
 
 
 def fold_country(country: str) -> str:
@@ -589,6 +769,37 @@ def build_ambiguous(
     return rows[:120]
 
 
+def build_institution_counts(
+    papers: list[dict[str, object]],
+    aliases: dict[str, str],
+    multimap: dict[str, list[str]],
+    institution_country: dict[str, str],
+    parent_org: dict[str, dict[str, str]],
+) -> list[dict[str, object]]:
+    counts: Counter[str] = Counter()
+
+    for paper in papers:
+        raw_affiliations = sorted({author["aff"] for author in paper["authors"]})
+        # Fair institution counting: raw strings -> canonical institutions ->
+        # paper-level deduplicated set -> +1 per institution per paper.
+        for institution in canonicalize_paper_affiliations(raw_affiliations, aliases, multimap):
+            counts[institution] += 1
+
+    rows = []
+    for institution, count in counts.most_common():
+        parent_meta = parent_org.get(institution, {})
+        rows.append(
+            {
+                "institution": institution,
+                "paper_count": count,
+                "country": institution_country.get(institution, "Other"),
+                "parent_org": parent_meta.get("parent_org"),
+                "counting_policy": "paper_level_deduplicated_canonical_institution",
+            }
+        )
+    return rows
+
+
 def table_row(values: list[object]) -> str:
     escaped = [str(v).replace("|", "\\|").replace("\n", " ") for v in values]
     return "| " + " | ".join(escaped) + " |"
@@ -609,6 +820,7 @@ def write_review_log(
     site_country_overrides: dict[str, str],
     parent_org: dict[str, dict[str, str]],
     do_not_collapse: list[dict[str, str]],
+    institution_counts: list[dict[str, object]],
 ) -> None:
     grouped: dict[str, list[str]] = defaultdict(list)
     for raw, canonical in aliases.items():
@@ -661,6 +873,8 @@ def write_review_log(
         "`classification/aff_country_table.json` remains the authoritative affiliation-to-country lookup table, but it is not a canonical institution table. Institution-level rankings are distorted when aliases, acronyms, typos, accents, inverted names, lab suffixes, company suffixes, and compound affiliations are counted as separate institutions. This audit adds a conservative layer: raw affiliation string -> canonical institution name(s) -> country.",
         "",
         "Be conservative. Merge only when identity is clear. If uncertain, send the case to manual review. Commas are not blindly split, and `X University` is not blindly rewritten as `University of X`.",
+        "",
+        "Fair-counting policy for ranking and filters: raw affiliation strings -> canonical institution names -> paper-level deduplicated institution set -> institution ranking / filter / chart. Raw affiliation strings are never counted directly for institution rankings.",
         "",
         "## 2. Canonical Merge Table",
         "",
@@ -733,6 +947,29 @@ def write_review_log(
             "",
             "Do not split commas, slashes, ampersands, semicolons, `and`, or `with` automatically. Split only when the exact raw string is in `aff_institution_multimap.json`.",
             "",
+            "## 10.0 Fair Institution Counting Output",
+            "",
+            "`classification/institution_counts.json` is generated from the same canonicalization layer and the same Late Breaking exclusion used by the explorer. It counts each canonical institution at most once per paper.",
+            "",
+            table_row(["Rank", "Canonical Institution", "Paper Count", "Country", "Parent Org"]),
+            table_row(["---", "---", "---", "---", "---"]),
+        ]
+    )
+    lines.extend(
+        table_row(
+            [
+                idx,
+                row["institution"],
+                row["paper_count"],
+                row["country"],
+                row.get("parent_org") or "",
+            ]
+        )
+        for idx, row in enumerate(institution_counts[:30], start=1)
+    )
+    lines.extend(
+        [
+            "",
             "Parent organization metadata is not a primary country-attribution source. For example, `Noah's Ark Lab` keeps Canada as the site-aware institution country while storing Huawei as parent metadata.",
             "",
             "## 10.1 Proposed aff_institution_site_country_overrides.json",
@@ -797,6 +1034,8 @@ def main() -> None:
     seed_aliases, seed_multimap, seed_do_not_merge = load_prompt_json_blocks(args.prompt)
     aliases = dict(seed_aliases)
     aliases.update(EXTRA_ALIASES)
+    aliases.update(KOREA_INSTITUTION_ALIASES)
+    aliases.update(FAIR_COUNTING_ALIAS_ADDITIONS)
     multimap = dict(seed_multimap)
     multimap.update(EXTRA_MULTIMAP)
     do_not_merge = list(seed_do_not_merge)
@@ -806,6 +1045,7 @@ def main() -> None:
             do_not_merge.append(item)
 
     aff_country = json.loads((CLASSIFICATION_DIR / "aff_country_table.json").read_text(encoding="utf-8"))
+    papers = load_papers()
     aff_counts = load_affiliation_counts()
 
     aliases = dict(sorted(aliases.items(), key=lambda kv: (kv[1].lower(), kv[0].lower())))
@@ -819,6 +1059,13 @@ def main() -> None:
         multimap,
         aff_country,
         site_country_overrides,
+        parent_org,
+    )
+    institution_counts = build_institution_counts(
+        papers,
+        aliases,
+        multimap,
+        institution_country,
         parent_org,
     )
 
@@ -855,6 +1102,10 @@ def main() -> None:
         json.dumps(do_not_collapse, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    (CLASSIFICATION_DIR / "institution_counts.json").write_text(
+        json.dumps(institution_counts, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
     write_review_log(
         aliases,
         multimap,
@@ -866,6 +1117,7 @@ def main() -> None:
         site_country_overrides,
         parent_org,
         do_not_collapse,
+        institution_counts,
     )
 
     print(f"aliases: {len(aliases)}")
@@ -875,6 +1127,7 @@ def main() -> None:
     print(f"site_country_overrides: {len(site_country_overrides)}")
     print(f"parent_org: {len(parent_org)}")
     print(f"do_not_collapse: {len(do_not_collapse)}")
+    print(f"institution_counts: {len(institution_counts)}")
 
 
 if __name__ == "__main__":

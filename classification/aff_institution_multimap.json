@@ -35,6 +35,14 @@
     "ETH Zurich",
     "Stanford University"
   ],
+  "Georgia Institute of Technology, Amazon": [
+    "Georgia Tech",
+    "Amazon"
+  ],
+  "Georgia Institute of Technology, Argo AI": [
+    "Georgia Tech",
+    "Argo AI"
+  ],
   "Idiap Research Institute and EPFL": [
     "Idiap Research Institute",
     "EPFL"
@@ -55,11 +63,43 @@
     "NASA Jet Propulsion Laboratory",
     "Caltech"
   ],
+  "KAIST, LG Electronics": [
+    "KAIST",
+    "LG Electronics"
+  ],
+  "KAIST, Roen Surgical, Inc": [
+    "KAIST",
+    "Roen Surgical"
+  ],
+  "Korea Institute of Science and Technology, Korea University": [
+    "KIST",
+    "Korea University"
+  ],
+  "Korea University of Science and Technology, Korea Institute of Industrial Technology": [
+    "Korea University of Science and Technology",
+    "KITECH"
+  ],
+  "Korea University, KIST": [
+    "Korea University",
+    "KIST"
+  ],
+  "Korea University, Korea Institute of Science and Technology (KIST)": [
+    "Korea University",
+    "KIST"
+  ],
+  "KTH Royal Institute of Technology & Scania AB": [
+    "KTH Royal Institute of Technology",
+    "Scania"
+  ],
   "LAAS-CNRS and Université De Toulouse": [
     "LAAS-CNRS",
     "Université de Toulouse"
   ],
   "MIT, Woods Hole Oceanographic Institution": [
+    "MIT",
+    "Woods Hole Oceanographic Institution"
+  ],
+  "MIT-WHOI Joint Program": [
     "MIT",
     "Woods Hole Oceanographic Institution"
   ],
@@ -79,6 +119,10 @@
     "NASA Jet Propulsion Laboratory",
     "Caltech"
   ],
+  "National University of Singapore, Shanghai Qi Zhi Institute": [
+    "National University of Singapore",
+    "Shanghai Qi Zhi Institute"
+  ],
   "National University of Singapore, the University of Hong Kong": [
     "National University of Singapore",
     "University of Hong Kong"
@@ -92,6 +136,10 @@
   "Noah's Ark Lab, Huawei Technologies Canada Inc": [
     "Noah's Ark Lab"
   ],
+  "Norwegian University of Science and Technology (NTNU), Skydio": [
+    "NTNU",
+    "Skydio"
+  ],
   "NVIDIA, UC Berkeley": [
     "NVIDIA",
     "UC Berkeley"
@@ -99,9 +147,29 @@
   "PICO, ByteDance": [
     "PICO"
   ],
+  "Seoul National University, Holiday Robotics": [
+    "Seoul National University",
+    "Holiday Robotics"
+  ],
+  "Seoul National University, Karlsruhe Institute of Technology": [
+    "Seoul National University",
+    "Karlsruhe Institute of Technology"
+  ],
   "Singapore University of Technology and Design, MIT": [
     "Singapore University of Technology and Design",
     "MIT"
+  ],
+  "Singapore-MIT Alliance for Research & Technology": [
+    "Singapore-MIT Alliance for Research and Technology"
+  ],
+  "Singapore-MIT Alliance for Research and Technology": [
+    "Singapore-MIT Alliance for Research and Technology"
+  ],
+  "Singapore-MIT Alliance for Research and Technology (SMART)": [
+    "Singapore-MIT Alliance for Research and Technology"
+  ],
+  "Singapore-MIT Alliance for Research and Technology Centre (SMART)": [
+    "Singapore-MIT Alliance for Research and Technology"
   ],
   "Stanford & UIUC": [
     "Stanford University",
@@ -119,6 +187,14 @@
     "University of Tokyo",
     "RIKEN AIP"
   ],
+  "The University of Tokyo & University of Alberta": [
+    "University of Tokyo",
+    "University of Alberta"
+  ],
+  "TNO, Delft University of Technology": [
+    "TNO",
+    "TU Delft"
+  ],
   "Tsinghua University; Shanghai Qi Zhi Institute": [
     "Tsinghua University",
     "Shanghai Qi Zhi Institute"
@@ -126,6 +202,10 @@
   "UC Berkeley / TOYOTA Motor North America": [
     "UC Berkeley",
     "Toyota Motor North America"
+  ],
+  "University of Chinese Academy of Sciences，Beihang University": [
+    "University of Chinese Academy of Sciences",
+    "Beihang University"
   ],
   "University of Illinois Urbana-Champaign & Instituto Tecnológico Autónomo de México": [
     "University of Illinois Urbana-Champaign",
@@ -143,9 +223,17 @@
     "University of Oxford",
     "NVIDIA"
   ],
+  "University of Science and Technology(UST), Korea Research Institute of Ships & Ocean Engineering(KRISO)": [
+    "University of Science and Technology",
+    "KRISO"
+  ],
   "University of Sydney, NVIDIA": [
     "University of Sydney",
     "NVIDIA"
+  ],
+  "University of Toronto, Noah's Ark Lab": [
+    "University of Toronto",
+    "Noah's Ark Lab"
   ],
   "Waabi / University of Toronto": [
     "Waabi",
