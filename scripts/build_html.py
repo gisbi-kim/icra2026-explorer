@@ -37,6 +37,9 @@ papers_json = json.dumps(data["papers"], ensure_ascii=False, separators=(",", ":
 # regex hints inside the JS.
 TABLE_PATH = ROOT / "classification" / "aff_country_table.json"
 OVERRIDES_PATH = ROOT / "classification" / "country_overrides.json"
+INSTITUTION_ALIASES_PATH = ROOT / "classification" / "aff_institution_aliases.json"
+INSTITUTION_MULTIMAP_PATH = ROOT / "classification" / "aff_institution_multimap.json"
+INSTITUTION_COUNTRY_PATH = ROOT / "classification" / "aff_institution_country_table.json"
 overrides_data: dict[str, str] = {}
 if OVERRIDES_PATH.exists():
     overrides_data.update(json.loads(OVERRIDES_PATH.read_text(encoding="utf-8")))
@@ -50,6 +53,21 @@ for k, v in list(overrides_data.items()):
     elif v == "Unknown":
         del overrides_data[k]
 country_overrides_json = json.dumps(overrides_data, ensure_ascii=False, separators=(",", ":"))
+
+institution_aliases_data = {}
+if INSTITUTION_ALIASES_PATH.exists():
+    institution_aliases_data = json.loads(INSTITUTION_ALIASES_PATH.read_text(encoding="utf-8"))
+institution_aliases_json = json.dumps(institution_aliases_data, ensure_ascii=False, separators=(",", ":"))
+
+institution_multimap_data = {}
+if INSTITUTION_MULTIMAP_PATH.exists():
+    institution_multimap_data = json.loads(INSTITUTION_MULTIMAP_PATH.read_text(encoding="utf-8"))
+institution_multimap_json = json.dumps(institution_multimap_data, ensure_ascii=False, separators=(",", ":"))
+
+institution_country_data = {}
+if INSTITUTION_COUNTRY_PATH.exists():
+    institution_country_data = json.loads(INSTITUTION_COUNTRY_PATH.read_text(encoding="utf-8"))
+institution_country_json = json.dumps(institution_country_data, ensure_ascii=False, separators=(",", ":"))
 
 # Pre-computed top-K similar-paper lookup (SPECTER2 embeddings, see scripts/embed_papers.py).
 # Optional: if the file is missing the explorer simply omits the "Similar papers" section.
@@ -585,8 +603,8 @@ HTML = r"""<!doctype html>
     <a href="#kw-trends">Author keywords</a>
     <a href="#trends">Hot topics</a>
     <h4>EDA</h4>
-    <a href="#eda-aff">Top affiliations</a>
-    <a href="#eda-country">Affiliation region</a>
+    <a href="#eda-aff">Top institutions</a>
+    <a href="#eda-country">Institution region</a>
     <a href="#eda-heatmap">Country × Topic</a>
     <a href="#eda-misc">Day · authors</a>
     <h4>Search</h4>
@@ -667,16 +685,16 @@ HTML = r"""<!doctype html>
     </section>
 
     <section id="eda-aff">
-      <h2>Affiliations · Regions</h2>
-      <div class="section-sub">Counting rule: each paper contributes at most +1 per unique affiliation and at most +1 per unique affiliation region. Bar / doughnut color is keyed to the region's overall rank, so the same region appears in the same color across both charts. Hover the <span style="display:inline-block;width:13px;height:13px;border-radius:50%;background:var(--bg-alt);color:var(--muted);font-size:9px;font-weight:700;line-height:13px;text-align:center;border:1px solid var(--border-soft);vertical-align:middle">i</span> next to a chart title for full details.</div>
+      <h2>Institutions · Regions</h2>
+      <div class="section-sub">Counting rule: each paper contributes at most +1 per canonical institution and at most +1 per canonical institution region. Raw affiliation strings are first normalized through the institution alias / multimap layer. Bar / doughnut color is keyed to the region's overall rank, so the same region appears in the same color across both charts. Hover the <span style="display:inline-block;width:13px;height:13px;border-radius:50%;background:var(--bg-alt);color:var(--muted);font-size:9px;font-weight:700;line-height:13px;text-align:center;border:1px solid var(--border-soft);vertical-align:middle">i</span> next to a chart title for full details.</div>
       <div class="two-col" style="margin-top:8px">
         <div class="card">
-          <h3>Top 20 affiliations<span class="info-tip" data-tip="Counting method: per-paper unique affiliation.&#10;Each paper contributes at most +1 to a given affiliation, even if many co-authors share it.&#10;&#10;Example: a paper with 4 Tsinghua authors + 1 MIT author counts as Tsinghua +1, MIT +1.&#10;&#10;Bar color = the affiliation's inferred region, matching the chart on the right.">i</span></h3>
+          <h3>Top 20 institutions<span class="info-tip" data-tip="Counting method: per-paper unique canonical institution.&#10;Each paper contributes at most +1 to a given institution after alias canonicalization and exact multimap splitting.&#10;&#10;Example: a paper with 4 Tsinghua authors + 1 MIT author counts as Tsinghua +1, MIT +1.&#10;&#10;Bar color = the institution's inferred region, matching the chart on the right.">i</span></h3>
           <div class="chart-box tall"><canvas id="affChart"></canvas></div>
         </div>
         <div id="eda-country" class="card">
           <div class="card-header">
-            <h3 style="margin:0">Affiliation region<span class="info-tip" data-tip="Counting method: per-paper unique affiliation region.&#10;Each paper contributes at most +1 to a given region, regardless of how many of its authors use affiliations from that region.&#10;&#10;A paper with co-authors from China + USA counts as China +1, USA +1 — interpret as 'papers with at least one affiliation from this region'.&#10;&#10;Region is inferred from the affiliation string via a hand-curated lookup table and keyword dictionary; unmatched entries fall into 'Other' (excluded from this chart).">i</span></h3>
+            <h3 style="margin:0">Institution region<span class="info-tip" data-tip="Counting method: per-paper unique canonical institution region.&#10;Each paper contributes at most +1 to a given region, regardless of how many of its authors use institutions from that region.&#10;&#10;A paper with co-authors from China + USA counts as China +1, USA +1 — interpret as 'papers with at least one institution from this region'.&#10;&#10;Region is inferred after institution canonicalization; unmatched entries fall into 'Other' (excluded from this chart).">i</span></h3>
             <div class="tabs">
               <button class="tab active" data-view="donut">Top 15 · Doughnut</button>
               <button class="tab" data-view="bar15">Top 15 · Bar</button>
@@ -717,7 +735,7 @@ HTML = r"""<!doctype html>
 
     <section id="search">
       <h2>Find papers</h2>
-      <div class="section-sub">Searches across titles, authors, affiliations, abstracts, and author-declared keywords. Use up to three search conditions with AND / OR. Click a paper title to expand the abstract.</div>
+      <div class="section-sub">Searches across titles, authors, raw affiliations, canonical institutions, abstracts, and author-declared keywords. Use up to three search conditions with AND / OR. Click a paper title to expand the abstract.</div>
       <div class="toolbar">
         <div class="toolbar-row search-row">
           <div class="search-group" role="group" aria-label="Search conditions">
@@ -746,10 +764,10 @@ HTML = r"""<!doctype html>
             <option value="">All topics</option>
           </select>
           <select id="countryFilter">
-            <option value="">Aff. region</option>
+            <option value="">Institution region</option>
           </select>
           <select id="affFilter">
-            <option value="">All affiliations</option>
+            <option value="">All institutions</option>
           </select>
         </div>
         <div class="toolbar-row view-row">
@@ -760,8 +778,8 @@ HTML = r"""<!doctype html>
             <option value="title-desc">Title Z → A</option>
             <option value="authors-desc"># Authors (most first)</option>
             <option value="authors-asc"># Authors (fewest first)</option>
-            <option value="affs-desc"># Affiliations (most first)</option>
-            <option value="affs-asc"># Affiliations (fewest first)</option>
+            <option value="affs-desc"># Institutions (most first)</option>
+            <option value="affs-asc"># Institutions (fewest first)</option>
             <option value="countries-desc"># Regions (most first)</option>
             <option value="countries-asc"># Regions (fewest first)</option>
             <option value="keywords-desc"># Keywords (most first)</option>
@@ -818,15 +836,69 @@ const COUNTRY_HINTS = __COUNTRY_HINTS_JSON__;
 // classification agents). When a paper's affiliation string matches a key here
 // EXACTLY, that country wins over the regex hints below.
 const COUNTRY_OVERRIDES = __COUNTRY_OVERRIDES_JSON__;
-function countryFor(aff) {
-  if (Object.prototype.hasOwnProperty.call(COUNTRY_OVERRIDES, aff)) {
-    return COUNTRY_OVERRIDES[aff];
+const INSTITUTION_ALIASES_RAW = __INSTITUTION_ALIASES_JSON__;
+const INSTITUTION_MULTIMAP_RAW = __INSTITUTION_MULTIMAP_JSON__;
+const INSTITUTION_COUNTRIES = __INSTITUTION_COUNTRIES_JSON__;
+
+function normalizeAffiliationText(text) {
+  let normalized = String(text || "");
+  if (typeof normalized.normalize === "function") normalized = normalized.normalize("NFKC");
+  normalized = normalized
+    .replace(/，/g, ",")
+    .replace(/；/g, ";")
+    .replace(/＆/g, "&")
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/,+$/g, "")
+    .trim();
+  return normalized;
+}
+function normalizedLookupMap(obj) {
+  const out = Object.create(null);
+  for (const [k, v] of Object.entries(obj || {})) out[normalizeAffiliationText(k)] = v;
+  return out;
+}
+const INSTITUTION_ALIASES = normalizedLookupMap(INSTITUTION_ALIASES_RAW);
+const INSTITUTION_MULTIMAP = normalizedLookupMap(INSTITUTION_MULTIMAP_RAW);
+
+function canonicalizeAffiliation(rawAff) {
+  const normalized = normalizeAffiliationText(rawAff);
+  if (Object.prototype.hasOwnProperty.call(INSTITUTION_MULTIMAP, normalized)) {
+    return [...INSTITUTION_MULTIMAP[normalized]];
   }
-  const lower = aff.toLowerCase();
+  if (Object.prototype.hasOwnProperty.call(INSTITUTION_ALIASES, normalized)) {
+    return [INSTITUTION_ALIASES[normalized]];
+  }
+  return [normalized];
+}
+function canonicalizePaperAffiliations(rawAffs) {
+  const institutions = new Set();
+  for (const rawAff of rawAffs) {
+    for (const institution of canonicalizeAffiliation(rawAff)) institutions.add(institution);
+  }
+  return Array.from(institutions).sort((a, b) => a.localeCompare(b));
+}
+function countryForRawText(text) {
+  if (Object.prototype.hasOwnProperty.call(COUNTRY_OVERRIDES, text)) {
+    return COUNTRY_OVERRIDES[text];
+  }
+  const lower = String(text || "").toLowerCase();
   for (const [c, hints] of COUNTRY_HINTS) {
     for (const h of hints) if (lower.indexOf(h.toLowerCase()) !== -1) return c;
   }
   return "Other";
+}
+function countryForInstitution(institution) {
+  if (Object.prototype.hasOwnProperty.call(INSTITUTION_COUNTRIES, institution)) {
+    return INSTITUTION_COUNTRIES[institution];
+  }
+  return countryForRawText(institution);
+}
+function countriesForAffiliation(rawAff) {
+  return Array.from(new Set(canonicalizeAffiliation(rawAff).map(countryForInstitution)));
+}
+function countryFor(aff) {
+  return countriesForAffiliation(aff)[0] || "Other";
 }
 
 // Hand-curated topic taxonomy. Multi-label: a paper can match several topics.
@@ -917,8 +989,11 @@ function sessionTypeOf(code) {
 
 PAPERS.forEach(p => {
   p.tags = topicsForTitle(p.title);
-  p.countries = Array.from(new Set(p.authors.map(a => countryFor(a.aff))));
-  p.affs = Array.from(new Set(p.authors.map(a => a.aff)));
+  p.rawAffs = Array.from(new Set(p.authors.map(a => a.aff)));
+  p.institutions = canonicalizePaperAffiliations(p.rawAffs);
+  // Keep p.affs as the existing UI/filter field, now backed by canonical institutions.
+  p.affs = p.institutions;
+  p.countries = Array.from(new Set(p.institutions.map(countryForInstitution)));
   p.keywords = p.keywords || [];
   p.abstract = p.abstract || "";
   p.sessionType = sessionTypeOf(p.code);
@@ -926,6 +1001,7 @@ PAPERS.forEach(p => {
     p.code.toLowerCase() + " " +
     p.title.toLowerCase() + " " +
     p.authors.map(a => a.name + " " + a.aff).join(" ").toLowerCase() +
+    " " + p.institutions.join(" ").toLowerCase() +
     " " + p.tags.join(" ").toLowerCase() +
     " " + p.keywords.join(" ").toLowerCase() +
     " " + p.abstract.toLowerCase()
@@ -988,7 +1064,7 @@ Chart.defaults.font.family = '-apple-system, BlinkMacSystemFont, "SF Pro Text", 
 const ACCENT = "#0066cc";
 const PALETTE = ["#0066cc","#34c759","#ff9f0a","#bf5af2","#ff375f","#5ac8fa","#ffd60a","#ac8e68","#30b0c7","#8e8e93","#ff6482","#a2845e","#64d2ff","#ffcc02","#85c5e0"];
 
-// Country ranking shared between country charts and affiliation chart
+// Country ranking shared between country charts and institution chart
 const sortedCountries = Array.from(countryCount.entries()).filter(([c])=>c!=="Other").sort((a,b)=>b[1]-a[1]);
 const top15Country = sortedCountries.slice(0,15);
 const colorForRank = i => PALETTE[i % PALETTE.length];
@@ -999,14 +1075,9 @@ const colorForCountry = name => {
 };
 
 const top20Aff = Array.from(affCount.entries()).sort((a,b)=>b[1]-a[1]).slice(0,20);
-// Resolve a representative country per affiliation by consulting paper records
+// Resolve a representative country per canonical institution.
 const affCountry = new Map();
-for (const p of PAPERS) {
-  for (const a of p.authors) {
-    if (affCountry.has(a.aff)) continue;
-    affCountry.set(a.aff, countryFor(a.aff));
-  }
-}
+for (const [institution] of top20Aff) affCountry.set(institution, countryForInstitution(institution));
 
 new Chart(document.getElementById("affChart"), {
   type: "bar",
@@ -1478,7 +1549,7 @@ document.querySelectorAll("#kw-trends .tab").forEach(btn => {
   });
 });
 
-// Country and affiliation filter selects
+// Country and institution filter selects
 const countrySel = document.getElementById("countryFilter");
 sortedCountries.forEach(([c]) => {
   const o = document.createElement("option");
@@ -1559,10 +1630,13 @@ function render() {
       return `<span class="${cls}" data-kwsearch="${escapeHTML(k)}" title="Search by keyword: ${escapeHTML(k)}">${escapeHTML(k)}</span>`;
     }).join("");
     const authorList = p.authors.map(a => {
-      const affMatched = (fAff && a.aff === fAff) || (fCountry && countryFor(a.aff) === fCountry);
+      const authorInstitutions = canonicalizeAffiliation(a.aff);
+      const authorCountries = new Set(authorInstitutions.map(countryForInstitution));
+      const primaryInstitution = authorInstitutions[0] || a.aff;
+      const affMatched = (fAff && authorInstitutions.includes(fAff)) || (fCountry && authorCountries.has(fCountry));
       const affCls = "aff clickable" + (affMatched ? " matched" : "");
       return `<b class="clickable" data-author="${escapeHTML(a.name)}" title="Search by author: ${escapeHTML(a.name)}">${hl(a.name, terms)}</b> `
-        + `<span class="${affCls}" data-aff="${escapeHTML(a.aff)}" title="Filter by affiliation: ${escapeHTML(a.aff)}">· ${hl(a.aff, terms)}</span>`;
+        + `<span class="${affCls}" data-aff="${escapeHTML(primaryInstitution)}" title="Filter by institution: ${escapeHTML(authorInstitutions.join("; "))}">· ${hl(a.aff, terms)}</span>`;
     }).join('<span class="sep">|</span>');
     const kws = (p.keywords || []);
     const kwHTML = kws.length
@@ -1644,8 +1718,8 @@ function render() {
       maybeScrollToSearch();
     });
   });
-  // affiliation click → toggle. If currently matched (because of aff or country
-  // filter), remove the matching filter. Otherwise set the aff filter.
+  // Raw affiliation click → toggle the corresponding canonical institution.
+  // If currently matched because of country filter, remove the country filter.
   wrap.querySelectorAll(".paper .authors .aff[data-aff]").forEach(el => {
     el.addEventListener("click", (e) => {
       e.stopPropagation();
@@ -1806,7 +1880,7 @@ function filterByAuthorCount(n) {
   maybeScrollToSearch();
 }
 function filterByAffiliation(aff) {
-  // If aff isn't in the select (only top 100 are), set it to ""+ use q instead
+  // If institution isn't in the select (only top 100 are), append it dynamically.
   const sel = document.getElementById("affFilter");
   let found = false;
   for (const opt of sel.options) if (opt.value === aff) { found = true; break; }
@@ -1913,7 +1987,7 @@ function renderActiveFilters() {
   if (stype)   items.push(["type",    stype,                () => { document.getElementById("sessionTypeFilter").value = ""; }]);
   if (topic)   items.push(["topic",   "topic: " + topic,    () => { document.getElementById("topicFilter").value = ""; }]);
   if (country) items.push(["country", country,              () => { document.getElementById("countryFilter").value = ""; }]);
-  if (aff)     items.push(["aff",     aff,                  () => { document.getElementById("affFilter").value = ""; }]);
+  if (aff)     items.push(["aff",     "institution: " + aff, () => { document.getElementById("affFilter").value = ""; }]);
   if (authorCountFilter !== null) items.push(["authors", `${authorCountFilter} authors`, () => { authorCountFilter = null; }]);
   wrap.innerHTML = items.map(([k,label]) => `<span class="active-chip" data-k="${k}">${escapeHTML(label)}<span class="x">×</span></span>`).join("");
   wrap.querySelectorAll(".active-chip").forEach((el, i) => {
@@ -2030,6 +2104,9 @@ html_filled = (HTML
     .replace("__PAPERS_JSON__", papers_json)
     .replace("__SIMILAR_JSON__", similar_json)
     .replace("__COUNTRY_HINTS_JSON__", country_hints_json)
-    .replace("__COUNTRY_OVERRIDES_JSON__", country_overrides_json))
+    .replace("__COUNTRY_OVERRIDES_JSON__", country_overrides_json)
+    .replace("__INSTITUTION_ALIASES_JSON__", institution_aliases_json)
+    .replace("__INSTITUTION_MULTIMAP_JSON__", institution_multimap_json)
+    .replace("__INSTITUTION_COUNTRIES_JSON__", institution_country_json))
 OUT.write_text(html_filled, encoding="utf-8")
 print(f"Wrote {OUT} ({OUT.stat().st_size/1024:.0f} KB)")

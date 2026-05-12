@@ -1,0 +1,117 @@
+[
+  {
+    "a": "ETH Zurich",
+    "b": "University of Zurich",
+    "reason": "Different institutions in Zurich."
+  },
+  {
+    "a": "The University of Queensland",
+    "b": "Queensland University of Technology",
+    "reason": "Different Australian universities."
+  },
+  {
+    "a": "University of Washington",
+    "b": "Washington University in St. Louis",
+    "reason": "Different US universities."
+  },
+  {
+    "a": "ShanghaiTech University",
+    "b": "Shanghai University",
+    "reason": "Different Chinese universities."
+  },
+  {
+    "a": "Zhejiang University",
+    "b": "Zhejiang University of Technology",
+    "reason": "Different Chinese universities."
+  },
+  {
+    "a": "Zhejiang University",
+    "b": "Zhejiang Sci-Tech University",
+    "reason": "Different Chinese universities."
+  },
+  {
+    "a": "University of California",
+    "b": "UC Berkeley",
+    "reason": "System-level name should not be automatically mapped to a specific campus."
+  },
+  {
+    "a": "University of California",
+    "b": "UC San Diego",
+    "reason": "System-level name should not be automatically mapped to a specific campus."
+  },
+  {
+    "a": "University of California",
+    "b": "UCLA",
+    "reason": "System-level name should not be automatically mapped to a specific campus."
+  },
+  {
+    "a": "HKUST",
+    "b": "HKUST Guangzhou",
+    "reason": "Same university brand but potentially different campus/entity."
+  },
+  {
+    "a": "CUHK",
+    "b": "CUHK Shenzhen",
+    "reason": "Same university brand but potentially different campus/entity."
+  },
+  {
+    "a": "Northeastern University",
+    "b": "Northeastern University, China",
+    "reason": "Potentially different institutions; requires manual verification."
+  },
+  {
+    "a": "Northwestern University",
+    "b": "Northwestern Polytechnical University",
+    "reason": "Different institutions in different countries."
+  },
+  {
+    "a": "University of Technology Sydney",
+    "b": "Singapore University of Technology and Design",
+    "reason": "Different institutions."
+  },
+  {
+    "a": "Technical University of Munich",
+    "b": "LMU Munich",
+    "reason": "Different Munich universities."
+  },
+  {
+    "a": "Vrije Universiteit Brussel",
+    "b": "Vrije Universiteit Amsterdam",
+    "reason": "Different institutions in different countries."
+  },
+  {
+    "a": "University of Electronic Science and Technology of China",
+    "b": "University of Science and Technology of China",
+    "reason": "Different Chinese universities."
+  },
+  {
+    "a": "Beijing Institute of Technology",
+    "b": "Beijing University of Technology",
+    "reason": "Different Chinese universities."
+  },
+  {
+    "a": "South China University of Technology",
+    "b": "South China Normal University",
+    "reason": "Different Chinese universities."
+  },
+  {
+    "a": "University of York",
+    "b": "York University",
+    "reason": "Different possible institutions depending on country/context."
+  },
+  {
+    "a": "University of Oxford",
+    "b": "Oxford Brookes University",
+    "reason": "Different UK universities despite shared city name."
+  },
+  {
+    "a": "MIT",
+    "b": "Mitsubishi Electric Research Laboratories",
+    "reason": "Substring MIT appears inside unrelated institution/company names."
+  },
+  {
+    "a": "University of California",
+    "b": "University of California, Merced",
+    "reason": "System-level name should not be automatically mapped to a specific campus."
+  }
+]

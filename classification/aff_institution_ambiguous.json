@@ -1,0 +1,722 @@
+[
+  {
+    "affiliation": "Huazhong University of Science and Technology",
+    "count": 31,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of Science and Technology of China",
+    "count": 26,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Beijing University of Posts and Telecommunications",
+    "count": 21,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Harbin Institute of Technology, Shenzhen",
+    "count": 18,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Korea Institute of Science and Technology",
+    "count": 14,
+    "country": "South Korea",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Texas A&M University",
+    "count": 13,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Robotics and AI Institute",
+    "count": 12,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of Electronic Science and Technology of China",
+    "count": 11,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Institute of Computing Technology, Chinese Academy of Sciences",
+    "count": 10,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Japan Advanced Institute of Science and Technology",
+    "count": 9,
+    "country": "Japan",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of Maryland, College Park",
+    "count": 9,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of California, Riverside",
+    "count": 9,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Singapore University of Technology and Design",
+    "count": 8,
+    "country": "Singapore",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Nanjing University of Science and Technology",
+    "count": 7,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of Science and Technology Beijing",
+    "count": 7,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Agency for Science, Technology and Research (A*STAR)",
+    "count": 6,
+    "country": "Singapore",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Shenyang Institute of Automation, Chinese Academy of Sciences",
+    "count": 6,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Nanjing University of Aeronautics and Astronautics",
+    "count": 5,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of Minnesota, Twin Cities",
+    "count": 5,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of Nevada, Reno",
+    "count": 5,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Beijing Galbot Co., Ltd",
+    "count": 4,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Nara Institute of Science and Technology",
+    "count": 4,
+    "country": "Japan",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of California, Irvine",
+    "count": 4,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "School of Artificial Intelligence, University of Chinese Academy of Sciences",
+    "count": 4,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Mechanical Eng., Sogang University",
+    "count": 4,
+    "country": "South Korea",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "China University of Mining and Technology",
+    "count": 4,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Hefei Institutes of Physical Science, Chinese Academy of Sciences",
+    "count": 4,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Institute of Software, Chinese Academy of Sciences",
+    "count": 3,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences",
+    "count": 3,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Wuhan University of Science and Technology",
+    "count": 3,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of Electronic Science and Technology",
+    "count": 3,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "East China University of Science and Technology",
+    "count": 3,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Shenzhen Institute of Artificial Intelligence and Robotics for Society",
+    "count": 3,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Beijing Information Science and Technology University",
+    "count": 3,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of Zagreb, Faculty of Electrical Engineering and Computing",
+    "count": 3,
+    "country": "Croatia",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "School of Information Engineering, Chang 'an University",
+    "count": 3,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "IIIT, Hyderabad",
+    "count": 3,
+    "country": "India",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ)",
+    "count": 3,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Hong Kong Institute of Science & Innovation, Chinese Academy of Sciences",
+    "count": 3,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of Technology, Sydney",
+    "count": 3,
+    "country": "Australia",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Korea Research Institute of Ships & Ocean Engineering (KRISO)",
+    "count": 3,
+    "country": "South Korea",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of Twente / Sapienza University of Rome",
+    "count": 3,
+    "country": "Netherlands",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Seoul National University of Science and Technology",
+    "count": 3,
+    "country": "South Korea",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of Washington, Seattle",
+    "count": 3,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Institute for Infocomm Research, A*STAR",
+    "count": 3,
+    "country": "Singapore",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Singapore-MIT Alliance for Research and Technology",
+    "count": 3,
+    "country": "Singapore",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "PERCRO Laboratory, TeCIP Institute, Sant’Anna School of Advanced Studies, Pisa",
+    "count": 3,
+    "country": "Italy",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "CTU, CIIRC",
+    "count": 2,
+    "country": "Czech",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Nat. Inst. of Advanced Industrial Science and Technology",
+    "count": 2,
+    "country": "Japan",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Eastern Institute of Technology, Ningbo",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Gwangju Institue of Science and Technology (GIST)",
+    "count": 2,
+    "country": "South Korea",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Chongqing Afari Intelligent Drive Co., Ltd",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Field AI, Inc",
+    "count": 2,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Macau University of Science and Technology",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "CNRS, Lab-STICC",
+    "count": 2,
+    "country": "France",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Technology and Engineering Center for Space Utilization, Chinese Academy of Sciences",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "TU Wien, Austrian Institute of Technology",
+    "count": 2,
+    "country": "Austria",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of Pennsylvania, Honda Research Institute USA",
+    "count": 2,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Honda Research Institute USA, Inc",
+    "count": 2,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Beijing University of Aeronautics and Astronautics",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Skolkovo Institute of Science and Technology",
+    "count": 2,
+    "country": "Russia",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Bielefeld University / Fraunhofer IOSB-INA",
+    "count": 2,
+    "country": "Germany",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of Macau, Xiaomi EV",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Shanghai Key Laboratory of Flexible Medical Robotics, Tongren Hospital, Institute of Medical Robotics, Shanghai Jiao Tong Univer",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Shenzhen University,",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Institute of Computing Technology, Chinese Academy",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Ruijin Hospital, Shanghai Jiao Tong University School of Medicine",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of Trento, Politecnico Di Bari",
+    "count": 2,
+    "country": "Italy",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Indian Institute of Science, Bangalore",
+    "count": 2,
+    "country": "India",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Galaxy General Robot Co., Ltd",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Poznan University of Technology, IDEAS Research Institute, IDEAS NCBR",
+    "count": 2,
+    "country": "Poland",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of California, Santa Barbara",
+    "count": 2,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Honda R&D Co., Ltd",
+    "count": 2,
+    "country": "Japan",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Gyeongsang National University, South Korea",
+    "count": 2,
+    "country": "South Korea",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Sirius University of Science and Technology",
+    "count": 2,
+    "country": "Russia",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Shanghai Flexiv Robotics Technology CO., LTD",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "TU Munich, Institute for Robotics and Systems Intelligence",
+    "count": 2,
+    "country": "Germany",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Leonardo, Innovation Hub",
+    "count": 2,
+    "country": "Italy",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Universität Konstanz & Max Planck Institute of Animal Behavior",
+    "count": 2,
+    "country": "Germany",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Institut De Robòtica I Informàtica Industrial, CSIC-UPC",
+    "count": 2,
+    "country": "Spain",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Guangming Laboratory, Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ)",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "DGIST (Daegu Gyeongbuk Institute of Science and Technology)",
+    "count": 2,
+    "country": "South Korea",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Nanjing University of Posts and Telecommunications",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "The University of Tennessee, Knoxville",
+    "count": 2,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Korea Institute of Machinery and Materials (KIMM)",
+    "count": 2,
+    "country": "South Korea",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of Science and Technology(UST), Korea Research Institute of Ships & Ocean Engineering(KRISO)",
+    "count": 2,
+    "country": "South Korea",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of Science and Technology",
+    "count": 2,
+    "country": "South Korea",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "KRISO(Korea Research Institute of Ships and Ocean Engineereing",
+    "count": 2,
+    "country": "South Korea",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Korea Hydro & Nuclear Power Co., Ltd",
+    "count": 2,
+    "country": "South Korea",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Institute of AI for Industries, Chinese Academy of Sciences",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "KITECH(Korea Institute of Industrial Technology),",
+    "count": 2,
+    "country": "South Korea",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Hanoi University of Science and Technology",
+    "count": 2,
+    "country": "Vietnam",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Toyota Motor North America R&D",
+    "count": 2,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "China Ship Development &design Center",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Huawei, Autonomous University of Barcelona,",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Carnegie Mellon University, Robotics Institute",
+    "count": 2,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Singapore-MIT Alliance for Research and Technology (SMART)",
+    "count": 2,
+    "country": "Singapore",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "H.U. Group Research Inst. G. K., Japan",
+    "count": 2,
+    "country": "Japan",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Robotics Research Center, IIIT Hyderabad",
+    "count": 2,
+    "country": "India",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Beijing Univerisity of Aeronautics and Astronautics",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Ceske vysoke uceni technicke v Praze, FEL",
+    "count": 2,
+    "country": "Czech",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "NVIDIA, Carnegie Mellon University",
+    "count": 2,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Interdisciplinary Centre for Security, Reliability and Trust - University of Luxembourg",
+    "count": 2,
+    "country": "Luxembourg",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "N/A",
+    "count": 2,
+    "country": "Unknown",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Université Grenoble Alpes, CEA, Leti",
+    "count": 2,
+    "country": "France",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Université Paris-Saclay, CEA, List",
+    "count": 2,
+    "country": "France",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "USI and SUPSI",
+    "count": 2,
+    "country": "Switzerland",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Honda Research Institute Japan Co., Ltd",
+    "count": 2,
+    "country": "Japan",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "William & Mary",
+    "count": 2,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Northwest A&F University",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Suzhou University of Science and Technology",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Ulsan National Institute of Science and Technology (UNIST)",
+    "count": 2,
+    "country": "South Korea",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Seoul National University, Karlsruhe Institute of Technology",
+    "count": 2,
+    "country": "South Korea",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Toyota Motor North America, InfoTech Labs",
+    "count": 2,
+    "country": "USA",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "University of Modena and Reggio Emilia",
+    "count": 2,
+    "country": "Italy",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Imperial College, London, UK",
+    "count": 2,
+    "country": "UK",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Federal University of Minas Gerais, UFMG, Brazil",
+    "count": 2,
+    "country": "Brazil",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Khalifa University of Science and Technology",
+    "count": 2,
+    "country": "UAE",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "Shanghai Aopeng Medical Technology Co., Ltd",
+    "count": 2,
+    "country": "China",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  },
+  {
+    "affiliation": "TeCIP Institute, Scuola Superiore Sant'Anna",
+    "count": 2,
+    "country": "Italy",
+    "reason": "Contains a separator or subunit phrase and is not covered by alias/multimap."
+  }
+]
